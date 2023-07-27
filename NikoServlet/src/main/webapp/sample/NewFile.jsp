@@ -9,6 +9,7 @@
 <body>
 	<h2>Hello Niko</h2>
 	<p>현재날짜와 시간은 : <%=new java.util.Date()%></p>
-	<p>니코니코니</p>
+	<p>니코니코니코</p>
+	<p>니코니코니코</p>
 </body>
 </html>
