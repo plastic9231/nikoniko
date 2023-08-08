@@ -6,6 +6,7 @@ public class forth {
 		System.out.println("adfasf");
 		System.out.println("dsfdafasdf");
 		System.out.println("adfasef");
+		System.out.println("asdf");
 
 	}
 
