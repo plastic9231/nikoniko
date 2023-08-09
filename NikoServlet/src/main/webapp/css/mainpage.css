@@ -1,0 +1,64 @@
+.allmap{
+    position: relative; 
+    width: 800px; 
+    height: 800px;
+    transform: translateX(30%);
+}
+
+.map, .map1 {
+    position: absolute; /* 이미지를 포함하는 요소를 absolute로 설정 */
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.section input[id*="slide"] {display:none;}
+.section .slidewrap {max-width:500px; margin: 0%; transform:translateX(40%); margin-top:5%;}
+.section .slidelist {white-space:nowrap;font-size:0;overflow:hidden;position:relative;}
+.section .slidelist > li {display:inline-block;vertical-align:middle;width:100%;transition:all .5s;}
+.section .slidelist > li > a {display:block;position:relative;}
+.section .slidelist > li > a img {width:100%;}
+.section .slidelist label {position:absolute;z-index:10;top:50%;transform:translateY(-50%);padding:50px;cursor:pointer;}
+.section .slidelist .textbox {position:absolute;z-index:1;top:50%;left:50%;transform:translate(-50%,-50%);line-height:1.6;text-align:center;}
+.section .slidelist .textbox h3 {font-size:36px;color:#fff;;transform:translateY(30px);transition:all .5s;}
+.section .slidelist .textbox p {font-size:16px;color:#fff;opacity:0;transform:translateY(30px);transition:all .5s;}
+
+/* input에 체크되면 슬라이드 효과 */
+.section input[id="slide01"]:checked ~ .slidewrap .slidelist > li {transform:translateX(0%);}
+.section input[id="slide02"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-100%);}
+.section input[id="slide03"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-200%);}
+
+/* 좌,우 슬라이드 버튼 */
+.slide-control > div {display:none;}
+.section .left {left:10px;background:url('../img/left.png') center center / 100% no-repeat;}
+.section .right {right:10px;background:url('../img/right.png') center center / 100% no-repeat;}
+.section input[id="slide01"]:checked ~ .slidewrap .slide-control > div:nth-child(1) {display:block;}
+.section input[id="slide02"]:checked ~ .slidewrap .slide-control > div:nth-child(2) {display:block;}
+.section input[id="slide03"]:checked ~ .slidewrap .slide-control > div:nth-child(3) {display:block;}
+
+.section-first{
+    display: flex;
+}
+
+.userec{
+    margin: 0%;
+    transform: translateX(50%);
+    flex: 1;
+}
+
+.slidelist{
+    flex: 1;
+    padding-inline-start: 0;
+}
+
+.famous-search-line{
+    transform: translateX(40%);
+}
+
+.famous-search{
+    transform: translateX(40%);
+}
