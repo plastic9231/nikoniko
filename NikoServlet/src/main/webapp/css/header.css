@@ -85,7 +85,7 @@ body {
     opacity:0.5;
     color: aliceblue;
     text-align: center;
-    translate: 10%;
+    transform: translateX(-2%);
 }
 
 .tip:hover .tip-sub {
@@ -124,7 +124,7 @@ body {
     opacity:0.5;
     color: aliceblue;
     text-align: center;
-    translate: 10%;
+    transform: translateX(-2%);
 }
 
 .comm:hover .comm-sub {
@@ -163,7 +163,7 @@ body {
     opacity:0.5;
     color: aliceblue;
     text-align: center;
-    translate: 10%;
+    transform: translateX(-2%);
 }
 
 .more:hover .more-sub {
@@ -203,7 +203,7 @@ body {
     grid-template-columns: repeat(5, 2fr);
     gap: 10px;
     background-color: rgb(62, 60, 60);
-    min-width: 400px;
+    min-width: 300px;
     box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.2);
     opacity:0.5;
     color: aliceblue;
