@@ -11,11 +11,11 @@
         <div class="user">
            <span><a href="#">로그인</a> |</span>
             <span><a href="#">마이페이지</a></span>
-            <span><a href="#"><img src="../img/markgreen.png"></a></span>
+            <span><a href="#"><img src="http://localhost:9090/NikoServlet/img/markgreen.png"></a></span>
         </div>
         <div class="menu">    
             <div class="logo">
-                <span><img src="../img/logo.png"></span>
+                <span><img src="http://localhost:9090/NikoServlet/img/logo.png"></span>
             </div>
             <div class="rec" align="center">지역별 추천
                 <div class="submenu" align="center">
@@ -138,7 +138,7 @@
             </div>
 
             <div class="search" align="right">
-                <span><a href="#"><img src="../img/search.png"></a></span>
+                <span><a href="#"><img src="http://localhost:9090/NikoServlet/img/search.png"></a></span>
             </div>
         </div>
     </header>
