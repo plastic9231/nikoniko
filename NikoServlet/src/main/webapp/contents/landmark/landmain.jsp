@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="../side/sidebar.css">
 <link rel="stylesheet" href="../../css/footer.css">
 </head>
-<body>
+<body width="100%">
 	<div style="z-index: 999"><%@ include file="../../common/header.jsp"%></div>
 	<main>
 	<div id="main_img" style="z-index: 999">
@@ -24,12 +24,7 @@
 	<div width="700px" height="1400px" background-color="red">
     <%-- <%@ include file="landmain_con.jsp"%> --%>
     </div>
-	
-	
-	
-	
-	
-	
+
 	</main>
 <%@ include file="../../common/footer.jsp" %>
 </body>
