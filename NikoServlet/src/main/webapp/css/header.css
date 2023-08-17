@@ -1,3 +1,7 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+* { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
+
 body {
     margin-right: 20%;
     margin-left: 20%;
@@ -81,8 +85,8 @@ body {
     position: absolute;
     gap: 10px;
     box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.2);
-    background-color: rgb(62, 60, 60);
-    opacity:0.5;
+    background-color: rgb(128, 128, 128);
+    opacity: 0.9;
     color: aliceblue;
     text-align: center;
     transform: translateX(-2%);
@@ -120,8 +124,8 @@ body {
     position: absolute;
     gap: 10px;
     box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.2);
-    background-color: rgb(62, 60, 60);
-    opacity:0.5;
+    background-color: rgb(128, 128, 128);
+    opacity: 0.9;
     color: aliceblue;
     text-align: center;
     transform: translateX(-2%);
@@ -151,7 +155,6 @@ body {
     flex: 1;
     font-size: 25px;
     transform: translateX(60px);
-
 }
 
 .more-sub {
@@ -159,8 +162,8 @@ body {
     position: absolute;
     gap: 10px;
     box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.2);
-    background-color: rgb(62, 60, 60);
-    opacity:0.5;
+    background-color: rgb(128, 128, 128);
+    opacity: 0.9;
     color: aliceblue;
     text-align: center;
     transform: translateX(-2%);
@@ -186,10 +189,6 @@ body {
     color: aliceblue;
 }
 
-.search{
-    flex: 1;
-} 
-
 .search img{
     width: 30px;
     height: 30px;
@@ -202,10 +201,10 @@ body {
     display: grid;
     grid-template-columns: repeat(5, 2fr);
     gap: 10px;
-    background-color: rgb(62, 60, 60);
     min-width: 300px;
     box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.2);
-    opacity:0.5;
+    background-color: rgb(128, 128, 128);
+    opacity: 0.9;
     color: aliceblue;
     text-align: center;
 }
@@ -263,3 +262,27 @@ a {
         min-width: 100px;
     }
 }
+
+.search {
+	text-align: right;
+	margin-top: 30px;
+	transform: translateX(+65px);
+}
+
+.search_bar {
+	margin-top: 13px;
+	margin-bottom: 40px;
+}
+
+.img_button {
+	margin-left: 15px;
+	margin-top: 0;
+	margin-bottom: 5px;
+	transform: translateX(+65px);
+}
+
+/* .hr_bar {
+	background-color: rgb(224, 224, 224);
+	height: 10px;
+	border: 0px;
+} */

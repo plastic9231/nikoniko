@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title></title>
+   <link rel="stylesheet" href="../css/header.css">
 </head>
 <body>
 <header>
@@ -136,11 +137,13 @@
                     </ul>
                 </div>
             </div>
-
+            	
             <div class="search" align="right">
-                <span><a href="#"><img src="http://localhost:9090/NikoServlet/img/search.png"></a></span>
+            	<input type="text" id = "search" class="search_bar" autocomplete="off">
             </div>
+            <input type="image" src="http://localhost:9090/NikoServlet/img/search.png" id="submit_button" class="img_button" style="width: 40px; height: 40px;">
         </div>
+        <!-- <hr class="hr_bar"> -->
     </header>
 </body>
 </html>

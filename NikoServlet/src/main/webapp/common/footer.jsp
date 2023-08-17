@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title></title>
+   <link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
 <footer>
