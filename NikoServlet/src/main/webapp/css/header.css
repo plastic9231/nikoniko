@@ -81,6 +81,7 @@ body {
 }
 
 .tip-sub {
+	z-index: 999;
     display: none;
     position: absolute;
     gap: 10px;
@@ -120,6 +121,7 @@ body {
 }
 
 .comm-sub {
+	z-index: 999;
     display: none;
     position: absolute;
     gap: 10px;
@@ -158,6 +160,7 @@ body {
 }
 
 .more-sub {
+	z-index: 999;
     display: none;
     position: absolute;
     gap: 10px;
@@ -189,13 +192,14 @@ body {
     color: aliceblue;
 }
 
-.search img{
+/* .search img{
     width: 30px;
     height: 30px;
     transform: translateX(60px);
-}
+} */
 
 .region-wrapper {
+	z-index: 999;
     width: 235%;
     position: relative;
     display: grid;
@@ -264,25 +268,43 @@ a {
 }
 
 .search {
-	text-align: right;
-	margin-top: 30px;
-	transform: translateX(+65px);
+	z-index: 1;
+	position: relative;
+	width: 200px;
+	transform: translateX(+16%);
 }
 
 .search_bar {
-	margin-top: 13px;
-	margin-bottom: 40px;
+	width: 100%;
+	border: 1px solid #bbb;
+	border-radius: 8px;
+	padding: 10px 12px;
+	padding-right: 0px;
+	font-size: 14px;
+	transform: translateX(+5%);
 }
 
 .img_button {
-	margin-left: 15px;
-	margin-top: 0;
-	margin-bottom: 5px;
-	transform: translateX(+65px);
+	position : absolute;
+	width: 25px;
+	top: 10px;
+	right: -5px;
+	margin: 0;
 }
 
-/* .hr_bar {
+.hr_bar {
 	background-color: rgb(224, 224, 224);
-	height: 10px;
-	border: 0px;
-} */
+	height: 50px;
+	width: 100%;
+	border: 0;
+}
+
+.hr_bar_p {
+	transform: translateY(-230%);
+	text-align: left;
+	position: absolute;
+	padding-left: 10px;
+	padding-bottom: 3px;
+	font-weight: 450;
+}
+
