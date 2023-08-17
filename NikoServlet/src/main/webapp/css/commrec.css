@@ -1,0 +1,234 @@
+.bestrev-text {
+ 	display: inline-block;
+   	transform: translateX(40%);
+  	font-size: 30px;
+}
+
+.bestrev-text hr {
+   	margin-top: -30px;   /* hr 선의 기본 여백을 제거하여 텍스트에 가깝게 만듭니다 */
+    border-top: 4px solid black;  /* hr 선의 스타일을 설정 */
+    width : 130%; 
+}
+   		
+.rev-slider{
+  	height: 250px;
+  	margin: auto;
+  	position:relative;
+  	width: 80%;
+  	display:grid;
+  	place-items:center;
+  	overflow:hidden;
+}
+
+.rev-slide-track{
+  	display:flex;
+  	width: calc(300px * 12);
+  	animation: scroll 40s linear infinite;
+}
+
+.rev-slide-track:hover{
+  	animation-play-state:paused;
+}
+
+@keyframes scroll{
+  	0% {
+    	transform: translateX(0);
+  	}
+  	100%{
+    	transform: translateX(calc(-300px * 6));
+  	}
+}
+
+.rev-slide{
+  	height: 250px;
+  	width: 300px;
+  	display: flex;
+  	align-items:center;
+  	padding: 15px;
+  	perspective:100px;
+}
+
+.train-card{
+  width:100%;
+  transition:transform 1s;
+  border-radius:10px;
+  overflow:hidden;
+}
+
+.train-card:hover{
+  transform:translateZ(18px);
+}
+
+/* 슬라이더 그라데이션 그림자 */
+
+.rev-slider::before,
+.rev-slider::after {
+  background:linear-gradient(to right, #f6f4f2 0%,
+  rgba(255,255,255,0) 100%);
+  content:'';
+  height:100%;
+  position:absolute;
+  width:15%;
+  z-index:2;
+}
+
+.rev-slider::before{
+  left:0;
+  top:0;
+}
+
+.rev-slider::after{
+  right:0;
+  top:0;
+  transform: rotateZ(180deg);
+}
+ 
+.bestrev {
+	margin-bottom: 10%;
+}
+ 
+.board-container {
+    max-width: 80%;
+    padding: 20px;
+}
+        
+.board-top {
+    position: relative; /* 추가 */
+    display: flex;
+    flex-direction: column; /* 수직 방향으로 아이템들을 정렬 */
+    align-items: center;
+}
+  
+.board-top {
+   	text-align: center;
+    width: 100%;
+}
+
+.board-top {
+    margin-bottom: 3px; /* 테이블을 수평 중앙에 배치 */
+}
+
+.board-top td {
+    vertical-align: middle; /* 각 td 내용을 수직 중앙에 배치 */
+}
+        
+
+.newContentWrite {
+ 	transform: translateX(200%);
+}
+ 	
+.searchListTop {
+ 	transform: translateX(50%);
+}
+ 	
+.searchListText {
+ 	transform: translateX(20%);
+}
+ 	 
+.searchButton {
+ 	transform: translateX(130%);
+}
+ 	
+/* 공통 스타일 */
+.board-top table {
+    border-collapse: separate;
+    border-spacing: 10px;  /* 각 요소 간의 간격 */
+    margin: 0 auto;  /* 테이블을 수평 중앙에 배치 */
+}
+
+/* 검색창 스타일 */
+input[name="searchText"] {
+    padding: 10px 15px;  /* 내부 패딩 */
+    border: none;  /* 테두리 제거 */
+    border-radius: 20px;  /* 둥근 모서리 */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);  /* 그림자 효과 */
+    outline: none;  /* 포커스 시 테두리 제거 */
+    width: 300px;  /* 너비를 더 늘림 */
+}
+
+/* 드롭다운 스타일 */
+select[name="searchField"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 검색 버튼 스타일 */
+button[type="submit"] {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;  /* 버튼 배경색 */
+    color: white;  /* 글자색 */
+    border-radius: 5px;
+    cursor: pointer;  /* 마우스 커서를 손가락 모양으로 변경 */
+    transition: background-color 0.3s;  /* 부드러운 색상 전환 효과 */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;  /* 마우스 오버 시의 배경색 */
+}
+
+
+/* 새글쓰기 버튼 스타일 */
+a[href="writeForm.jsp"] {
+    padding: 10px 15px; /* 패딩 */
+    border: none; /* 테두리 없애기 */
+    background-color:#FFB6C1; /* 버튼의 배경색 */
+    color: white; /* 글자색 */
+    border-radius: 5px; /* 둥근 모서리 */
+    text-decoration: none; /* 밑줄 제거 */
+    transition: background-color 0.3s; /* 부드러운 색상 전환 효과 */
+}
+
+/* 새글쓰기 버튼 마우스 오버 스타일 */
+a[href="writeForm.jsp"]:hover {
+    background-color: #FFC0CB; /* 마우스 오버 시의 배경색 */
+}
+
+
+
+.board-table {
+    width: 100%;
+    transform: translateX(10.5%);
+    text-align: center;
+}
+        
+.board-table th, .board-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.board-table th {
+    background-color: #f2f2f2;
+} 
+ 
+.board-pagination {
+	margin-top: 5%;
+	transform: translateX(8%);
+}
+
+.left-lt, .right-rt {
+    display: inline-block;  /* inline 요소와 block 요소의 특징을 모두 가진다. */
+    padding: 10px 15px;     /* 내부 여백을 설정한다. */
+    background-color: #f5f5f5;  /* 배경색을 설정한다. */
+    border: 1px solid #ddd; /* 테두리를 설정한다. */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* 그림자 효과를 추가한다. */
+    text-decoration: none; /* 밑줄을 제거한다. */
+    color: #333;           /* 글자색을 설정한다. */
+    font-size: 18px;       /* 글자 크기를 설정한다. */
+    border-radius: 4px;    /* 둥근 모서리를 만든다. */
+    transition: background-color 0.3s; /* 배경색 변경 시 애니메이션 효과를 추가한다. */
+}
+
+.left-lt {
+	margin-right: 2%;
+}
+
+.right-rt {
+	margin-left: 2%;
+}
+
+.left-lt:hover, .right-rt:hover {
+    background-color: #e0e0e0;  /* 마우스를 올렸을 때의 배경색 */
+}
+ 
