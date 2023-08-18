@@ -4,28 +4,32 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title>명소</title>
 <link rel="stylesheet" href="../../css/header.css">
+<link rel="stylesheet" href="../../css/content_main.css">
 <link rel="stylesheet" href="../../css/content.css">
 <link rel="stylesheet" href="../side/sidebar.css">
 <link rel="stylesheet" href="../../css/footer.css">
 </head>
-<body width="100%">
-	<div style="z-index: 999"><%@ include file="../../common/header.jsp"%></div>
+<body>
+	<div style="z-index: 999">
+	<%@ include file="../../common/header.jsp"%>
+	</div>
 	<main>
-	<div id="main_img" style="z-index: 999">
-	<img alt="people" src="http://localhost:9090/NikoServlet/img/contentmain.png">
-	</div>
-	
-	<div>
-	<%@ include file="../side/sidebar.jsp"%>
-	</div>
-	
-	<div width="700px" height="1400px" background-color="red">
-    <%-- <%@ include file="landmain_con.jsp"%> --%>
-    </div>
+		<div id="img_block">
+			<img id="main_img" alt="people"
+				src="http://localhost:9090/NikoServlet/img/contentmain.png">
+		</div>
+
+		<div id="con_sidebar">
+			<%@ include file="../side/sidebar.jsp"%>
+		</div>
+
+		<div id="landmain_list">
+			<%@ include file="landmain_con.jsp"%>
+		</div>
 
 	</main>
-<%@ include file="../../common/footer.jsp" %>
+	<%@ include file="../../common/footer.jsp"%>
 </body>
 </html>
