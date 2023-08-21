@@ -20,7 +20,7 @@
 			
 				<div class="findkeep">
 					<div class="findid">
-						<a ref="#" class="find"> 아이디/비밀번호 찾기&nbsp;&nbsp; </a>
+						<a ref="#" class="find"> 아이디\비밀번호 찾기 &nbsp;&nbsp; </a>
 					</div>
 					
 					<div class="keepid">
