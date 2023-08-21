@@ -20,7 +20,7 @@
 			
 				<div class="findkeep">
 					<div class="findid">
-						<a ref="#" class="find"> 아이디/비밀번호 찾기&nbsp;&nbsp; </a>
+						<a ref="#" class="find"> 아이디\비밀번호 찾기 &nbsp;&nbsp; </a>
 					</div>
 					
 					<div class="keepid">
@@ -43,7 +43,7 @@
 			
 			<div class="joinsubmit">
 			
-				<input type="submit" value="회원가입" id="join-submit" class="joinSubmit">
+				<input type="submit" value="íìê°ì" id="join-submit" class="joinSubmit">
 			
 			</div>
 	
