@@ -142,7 +142,7 @@
 	  			<img class="img_button" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
 			</div>
         </div>
-        <hr class="hr_bar">
+        <hr class="hr_bar2">
         <!-- <p class="hr_bar_p">일본여행 초심자에게는 니코니코니!</p> -->
     </header>
 </body>
