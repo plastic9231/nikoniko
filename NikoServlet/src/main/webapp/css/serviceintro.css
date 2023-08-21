@@ -1,0 +1,45 @@
+.serviceInfo {
+	margin: 10%;
+}
+
+.serviceLogo img {	
+
+    width: 50%;
+    height: 50%;
+}
+
+.serviceText {
+    font-family: 'Noto Sans KR', sans-serif; /* 한글 폰트 */
+    color: #333;
+    line-height: 1.6;
+    padding: 1.5em;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.serviceText h1,
+.serviceText h2 {
+    color: #2c2c2c;
+    margin-bottom: 0.5em;
+}
+
+.serviceText p {
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
+
+.serviceText ul {
+    margin-left: 2em;
+    list-style-type: disc;
+}
+
+.serviceText li {
+    margin-bottom: 0.5em;
+    color: #555;
+}
+
+.serviceText br {
+    margin-bottom: 0.5em;
+    display: block;
+}

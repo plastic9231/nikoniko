@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title></title>
+   <link rel="stylesheet" href="../css/header.css">
 </head>
 <body>
 <header>
@@ -17,10 +18,9 @@
             <div class="logo">
                 <span><img src="http://localhost:9090/NikoServlet/img/logo.png"></span>
             </div>
-            <div class="rec" align="center">지역별 추천
+            <div class="rec" align="center" style="z-index: 999;">지역별 추천
                 <div class="submenu" align="center">
                     <div class="region-wrapper">
-
                         <div class="region">
                             <h4>주부</h4>
                             <ul>          
@@ -106,7 +106,7 @@
                 </div>
             </div>  
             
-            <div class="tip"align="center">여행TIP
+            <div class="tip"align="center" style="z-index: 999;">여행TIP
                 <div class="tip-sub">
                     <ul align="left">
                        <li><a href="#">대중 교통</a></li>
@@ -118,7 +118,7 @@
                 </div>
             </div>
 
-            <div class="comm"align="center">커뮤니티
+            <div class="comm"align="center" style="z-index: 999;">커뮤니티
                 <div class="comm-sub">
                     <ul align="left">
                        <li><a href="#">추천 게시판</a></li>
@@ -128,7 +128,7 @@
                 </div>
             </div>
 
-            <div class="more"align="center">더보기
+            <div class="more"align="center" style="z-index: 999;">더보기
                 <div class="more-sub">
                     <ul align="left">
                        <li> <a href="#">서비스 소개</a></li>
@@ -136,11 +136,14 @@
                     </ul>
                 </div>
             </div>
-
-            <div class="search" align="right">
-                <span><a href="#"><img src="http://localhost:9090/NikoServlet/img/search.png"></a></span>
-            </div>
+            	
+            <div class="search" style="z-index: 10;">
+	  			<input type="text" placeholder="검색어 입력" class="search_bar" onclick="#">
+	  			<img class="img_button" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
+			</div>
         </div>
+        <hr class="hr_bar">
+        <p class="hr_bar_p">일본여행 초심자에게는 니코니코니!</p>
     </header>
 </body>
 </html>

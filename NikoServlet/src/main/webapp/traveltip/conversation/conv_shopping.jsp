@@ -7,8 +7,6 @@
 <title></title>
 </head>
 <body>
-<h2>Hello Jsp</h2>
-<p>현재날짜와 시간은 : <%=new java.util.Date()%></p>
 
 </body>
 </html>

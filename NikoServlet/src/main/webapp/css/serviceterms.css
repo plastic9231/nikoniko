@@ -1,0 +1,35 @@
+.terms {
+    font-family: 'Noto Sans KR', sans-serif; /* 한글 폰트 */
+    color: #333;
+    line-height: 1.6;
+    padding: 1.5em;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 2em auto;
+}
+
+.terms h1,
+.terms h2 {
+    color: #2c2c2c;
+    font-size: 1.4em;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+.terms p {
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
+
+.terms ul {
+    margin-left: 2em;
+    list-style-type: disc;
+}
+
+.terms li {
+    margin-bottom: 0.5em;
+    color: #555;
+}
