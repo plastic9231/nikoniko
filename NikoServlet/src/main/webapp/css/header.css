@@ -299,7 +299,18 @@ a {
 	border: 0;
 }
 
+.hr_bar2 {
+	background-color: rgb(224, 224, 224);
+	height: 16px;
+	width: 100%;
+	border: 0;
+}
+
 .hr_bar_p {
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
 	transform: translateY(-230%);
 	text-align: left;
 	position: absolute;
