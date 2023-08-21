@@ -43,7 +43,7 @@
 			
 			<div class="joinsubmit">
 			
-				<input type="submit" value="íìê°ì" id="join-submit" class="joinSubmit">
+				<input type="submit" value="회원가입" id="join-submit" class="joinSubmit">
 			
 			</div>
 	
