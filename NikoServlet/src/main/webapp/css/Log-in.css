@@ -1,0 +1,218 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	display:flex; /* 기본값 가로 배열 */
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+	width:100vw;
+}
+
+
+#login-header {
+	display:flex; /* 기본값 가로 배열 */
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	width: 450px;
+    height: 250px;
+}
+
+.Login-page {
+	TRANSFORM: TRANSLATEX(-50%) !IMPORTANT;
+	justify-content: flex-start;
+	text-align: left;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+#login-form {
+	display:flex; /* 기본값 가로 배열 */
+	justify-content:center;
+	align-items:center;
+	margin: 15px 0px 5px 0px;
+}
+
+.idpass {
+	display:flex; /* 기본값 가로 배열 */
+	flex-direction: column;
+	justify-content:left;
+	align-items:left;
+	margin: 15px 20px 8px 0px;
+}
+
+.findjoin {
+	display:flex; /* 기본값 가로 배열 */
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+}
+
+.usernameform {
+	padding: 5px 0px 5px 0px;
+	border: none;
+    border: 1px solid #78777790;
+    border-radius: 5px;
+    float: left;
+    padding: 6px 12px;
+    width: 300px;
+    height: 25px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+.passwordform {
+	padding: 5px 0px 5px 0px;
+	border: none;
+    border: 1px solid #78777790;
+    border-radius: 5px;
+    float: left;
+    padding: 6px 12px;
+    width: 300px;
+    height: 25px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+.join {
+	justify-content:center;
+}
+
+.findkeep {
+	font-size: 13px;
+	display:flex; /* 기본값 가로 배열 */
+	justify-content:space-between;
+	align-items:center;
+	margin-top: 5px;
+	text-align: left;
+}
+
+.find {
+	margin-left: 5px;
+}
+
+#loginEnter {
+	background-color: blue;
+	margin-right: 10px;
+}
+
+#login-Enter {
+	font-size: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 6.2em;
+    border-radius: 4px;
+    border: rgb(255, 255, 255);
+    background-color: rgb(252, 208, 208);
+    text-align: center;
+    width: 100px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+.joinSubmit {
+	width: 450px;
+	height: 37px;
+	border-radius: 4px;
+	border: #5D5D5D;
+	background-color:#5D5D5D;
+	font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+/* @charset "UTF-8";
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#login-header {
+    width: 70%;
+    background: pink;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+}
+
+#login-form {
+    display: grid;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: 100px;
+}
+
+.login-form-field:placeholder {
+    color: #303030;
+}
+
+.login-form-field {
+    width: 150px;
+    height: 20px;
+    margin: 3px;
+    border: none;
+    border: 1px solid #78777790;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px 20px 5px 20px;
+}
+
+#login-form-Enter {
+    width: 100px;
+    height: 100px;
+    bottom: 100px;
+    position: relative;
+    margin-left: 205px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    background-color: rgb(252, 208, 208);
+    outline: none;
+    text-align: center;
+}
+
+#login-form-submit {
+    width: 100px;
+    height: 100px;
+    margin: 0%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    background-color: rgb(252, 208, 208);
+    outline: none;
+    text-align: center;
+}
+
+#join-form-submit {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    position : relative;
+    bottom : 90px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    background-color: #3a3a3a;
+    cursor: pointer;
+    outline: none;
+} */
