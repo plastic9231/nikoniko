@@ -1,0 +1,42 @@
+@charset "UTF-8";@charset "UTF-8";
+
+#img_block {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#main_img {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+#main_box {
+	width: auto;
+}
+
+#con_sidebar {
+    display: block;
+    float: left;
+    margin-right: 8px;
+}
+
+/* #landmain_list {
+    transform: translateX(3%);
+} */
+
+#con_headline {
+    font-size: 2em;
+    width: 72%;
+}
+#con_headline > #headline {
+	display: block;
+}
+
+#con_headline > #con_hr {
+	height: 3px;
+	width: 50%;
+	float: left;
+	color: darkgrey;
+	background-color: darkgrey;
+	margin-bottom: 25px;
+}
