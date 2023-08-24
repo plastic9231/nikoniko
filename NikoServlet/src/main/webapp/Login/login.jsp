@@ -1,12 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Login-page</title>
-<link rel="stylesheet" href="Log-in.css">
+<link type = "text/css" rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
+<div style="z-index: 999"><%@ include file="../common/header.jsp"%></div>
 	<div id="login-header">
 		
 		<div class="Login-page">
@@ -20,7 +24,7 @@
 			
 				<div class="findkeep">
 					<div class="findid">
-						<a ref="#" class="find"> 아이디\비밀번호 찾기 &nbsp;&nbsp; </a>
+						<a href="#" class="find"> 아이디/비밀번호 찾기 &nbsp;&nbsp; </a>
 					</div>
 					
 					<div class="keepid">
@@ -43,10 +47,12 @@
 			
 			<div class="joinsubmit">
 			
-				<input type="submit" value="회원가입" id="join-submit" class="joinSubmit">
+				<input type="button" value="회원가입" id="join-submit" class="joinSubmit" onclick="location.href='../join/join.jsp'">
 			
 			</div>
-	
+			
+			</div>
+<%@ include file="../common/footer.jsp" %>
 </body>
 
 </html>
