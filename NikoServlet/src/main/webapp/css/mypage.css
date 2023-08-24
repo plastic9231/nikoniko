@@ -1,0 +1,198 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	display:flex; /* 기본값 가로 배열 */
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+	width:100vw;
+}
+
+.mpbox {
+	width: 800px;
+	height: 500px;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+}
+
+
+.infobox {
+	display:flex;
+	justify-content:space-between;
+	align-content: center;
+	align-items:center;
+	width: 800px;
+	height: 400px;
+}
+
+.img {
+	width: 370px;
+	height: 350px;
+	display:flex;
+	align-content: center;
+
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	align-content: space-around;
+	background-color: white;
+	width: 370px;
+	height: 300px;
+	padding-top: 50px;
+}
+
+.name {
+	display: flex;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.name1 {
+	font-size: 20px;
+	font-weight: bold;
+	width: 140px;
+}
+
+.name2 {
+	border: none;
+}
+
+.username {
+	font-size: 20px;
+	border: none;
+	padding-top: 3px;
+}
+
+.id {
+	display: flex;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.id1 {
+	font-size: 20px;
+	width: 140px;
+	font-weight: bold;
+}
+
+.id2 {
+	border: none;
+}
+
+.userid {
+	font-size: 20px;
+	border: none;
+	padding-top: 3px;
+}
+
+.birth {
+	display: flex;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.birth1 {
+	font-size: 20px;
+	width: 140px;
+	font-weight: bold;
+}
+
+.birth2 {
+	border: none;
+}
+
+.userbirth {
+	font-size: 20px;
+	border: none;
+	padding-top: 3px;
+}
+
+.number {
+	display: flex;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.number1 {
+	font-size: 20px;
+	width: 140px;
+	font-weight: bold;
+}
+
+.number2 {
+	border: none;
+}
+
+.usernum {
+	font-size: 20px;
+	border: none;
+	padding-top: 3px;
+}
+
+.email {
+	display: flex;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.email1 {
+	font-size: 20px;
+	width: 140px;
+	font-weight: bold;
+}
+
+.email2 {
+	border: none;
+}
+
+.useremail {
+	font-size: 20px;
+	border: none;
+	padding-top: 3px;
+}
+
+.tra {
+	display: flex;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.tra1 {
+	font-size: 20px;
+	width: 140px;
+	font-weight: bold;
+}
+
+.tra2 {
+	border: none;
+}
+
+.usertag {
+	font-size: 20px;
+	border: none;
+	padding-top: 3px;
+}
+
+.bottonbox {
+	box-sizing: content-box;
+}
+
+.MpCheck {
+	font-size: 20px;
+	color: #333333;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(252, 208, 208);
+    text-align: center;
+    display: block;
+    width: 350px;
+    height: 60px;
+}
