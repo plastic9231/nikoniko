@@ -71,7 +71,7 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Controller</servlet-name>
-		<url-pattern>*.bdo</url-pattern>
+		<url-pattern>*.ndo</url-pattern>
 	</servlet-mapping>
   	
 <session-config>

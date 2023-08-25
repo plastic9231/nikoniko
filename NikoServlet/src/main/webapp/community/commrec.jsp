@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>    
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>   
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,7 +50,7 @@
 		
 	<div class="board-container">
    		<div class="board-top">
-         <form method="post" name="search" action="searchList.jsp">
+         <form method="post" name="search" action="searchList.jsp">	
 			<table>
 				<tr>
 					<td class="searchListTop">
@@ -71,10 +73,11 @@
 					</td>
 					
 					<td class="newContentWrite">
-    					<a href="writeForm.jsp">새글쓰기</a>
+    					<a href="/community/commrecwriteForm.ndo">새글쓰기</a>
 					</td>
 				</tr>
 			</table>
+		
 		</form>
 		
 
@@ -84,6 +87,7 @@
   
          
         <table class="board-table" width="700">
+        <c:if test="${count>0}">
             <thead>
                 <tr>
                     <th>번호</th>
@@ -94,24 +98,37 @@
                 </tr>
             </thead>
             <tbody>
-           	 	<tr>
-               		<td align="center" width="50">
-						<a href="#">001</a>
-					</td>
-					<td align="center" width="300">
-						안녕하세요
-					</td>
-					<td align="center" width="100">
-						홍길동
-					</td>
-					<td align="center" width="150">
-						2023-08-15
-					</td>
-					<td align="center" width="100">
-						33
-					</td>
-				</tr>
+ 		<c:forEach var="article" items="${articleList}">		
+		<tr height="30">
+			<td width="50" align="center">
+			<c:out value="${number }"/>
+			<c:set var="number" value="${number - 1}"/>
+			</td>
+			
+			<td width="250">
+			
+			<a href="/community/commreccontent.ndo?num=${article.br_num}&pageNum=${currentPage}">
+				${article.br_subject}
+			</a>
+			
+			<c:if test="${article.br_readcount>=5}">
+				<img alt="" src="img/hot.gif" border="0" height="16">
+			</c:if>
+			</td>
+			
+			<td align="center" width="100">
+			<a href="#">${article.br_writer}</a>
+			</td>
+			<td align="center" width="150">
+				${article.br_regdate}
+			</td>
+			<td align="center" width="50">
+				${article.br_readcount}
+			</td>
+		</tr>
+		</c:forEach> <%--end forEach --%>
             </tbody>
+	    </c:if>        
         </table>
         <div class="board-pagination" align="center">
             <!-- 페이지 번호 및 네비게이션 버튼이 여기에 들어갑니다. -->

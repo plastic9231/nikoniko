@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/commrecwriteForm.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <script type="text/javascript" src=commscript.js></script>
 </head>
 
 <body>
@@ -14,11 +15,11 @@
 
 	<main>
 		<div align="center"><b>추천 게시판 글쓰기</b></div><br><br>
-		<form action="writeProc.jsp" name="writeForm" method="post" onsubmit="return writeSave()">
-			<input type="hidden" name="num">
-			<input type="hidden" name="ref">
-			<input type="hidden" name="step">
-			<input type="hidden" name="depth">
+		<form action="/community/commrecwritePro.ndo" name="writeForm" method="post" enctype="multipart/form-data" onsubmit="return writeSave()">
+		<input type="hidden" name="num" value="${num}">
+		<input type="hidden" name="ref" value="${ref}">
+		<input type="hidden" name="step" value="${step}">
+		<input type="hidden" name="depth" value="${depth}">
 			
 		<table width="1000" border="1" cellpadding="0" cellspacing="0" align="center" class="commrecwrite">
 
@@ -41,7 +42,7 @@
 				<td width="100" align="center">내용</td>
 				<td width="300">
 					<textarea rows="13" cols="50" name="content"></textarea>
-					 <input type="file" name="photo" accept="image/*" class="imageplus">
+					 <input type="file" name="filename" accept="image/*" class="imageplus">
 				</td>
 			</tr>
 
@@ -56,7 +57,7 @@
 				<td colspan="2" align="center">
 					<input type="submit" value="글쓰기">
 					<input type="reset" value="다시작성">
-					<input type="button" value="글목록" onclick="window.location='list.jsp'">
+					<input type="button" value="글목록" onclick="window.location='/community/commrec.ndo'">
 				</td>
 			</tr>
 
