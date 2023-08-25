@@ -69,7 +69,7 @@
 		</div>
 		<div class="sidebar_ul">
 			<div id="spreadBtn06" class="btn01">
-				<div>훗카이도</div>
+				<div>홋카이도</div>
 				<div class="material-symbols-outlined">expand_more</div>
 			</div>
 			<ul id="hiddenList05" class="ul_list">
@@ -109,20 +109,34 @@
 					class="list_a">음식</a></li>
 			</ul>
 		</div>
-		<div class="sidebar_ul_last">
+		<div class="sidebar_ul">
 			<div id="spreadBtn09" class="btn01">
-				<div>오키나와</div>
+				<div>큐슈</div>
 				<div class="material-symbols-outlined">expand_more</div>
 			</div>
 			<ul id="hiddenList08" class="ul_list">
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="../landmark/landmain.jsp"
 					class="list_a">명소</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="../festival/fesmain.jsp"
 					class="list_a">축제</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="../food/foodmain.jsp"
 					class="list_a">음식</a></li>
 			</ul>
 		</div>
+		<div class="sidebar_ul_last">
+            <div id="spreadBtn10" class="btn01">
+                <div>오키나와</div>
+                <div class="material-symbols-outlined">expand_more</div>
+            </div>
+            <ul id="hiddenList09" class="ul_list">
+                <li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+                    class="list_a">명소</a></li>
+                <li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+                    class="list_a">축제</a></li>
+                <li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+                    class="list_a">음식</a></li>
+            </ul>
+        </div>
 	</div>
 	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
 	<script>
@@ -211,6 +225,17 @@
                 } else {
                     $("#spreadBtn09").toggleClass("");
                     $("#hiddenList08").slideDown();
+                }
+            });
+        });
+		$(document).ready(function() {
+            $('#spreadBtn10').click(function() {
+                if ($("#hiddenList09").is(":visible")) {
+                    $("#spreadBtn10").toggleClass("");
+                    $("#hiddenList09").slideUp();
+                } else {
+                    $("#spreadBtn10").toggleClass("");
+                    $("#hiddenList09").slideDown();
                 }
             });
         });

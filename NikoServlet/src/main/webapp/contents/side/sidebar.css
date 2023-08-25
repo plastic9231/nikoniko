@@ -2,7 +2,7 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
 #spreadBtn02, #spreadBtn03, #spreadBtn04, #spreadBtn05, 
-#spreadBtn06, #spreadBtn07, #spreadBtn08, #spreadBtn09 {
+#spreadBtn06, #spreadBtn07, #spreadBtn08, #spreadBtn09, #spreadBtn10 {
 	width : 100%;
 	display : flex;
 	justify-content: space-between;
@@ -35,7 +35,7 @@
 }
 
 #hiddenList01, #hiddenList02, #hiddenList03, #hiddenList04, 
-#hiddenList05, #hiddenList06, #hiddenList07, #hiddenList08 {
+#hiddenList05, #hiddenList06, #hiddenList07, #hiddenList08, #hiddenList09 {
 	background-color: rgb(255, 225, 225);
 	margin-top: 3px;
 	margin-bottom: 3px;

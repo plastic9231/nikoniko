@@ -89,7 +89,7 @@
                             <ul>
                                 <li><a href="#">명소</a></li>
                                 <li><a href="#">축제</a></li>
-                               	<li><a href="#">음식</a></li>
+                                <li><a href="#">음식</a></li>
                             </ul>
                         </div>
 
