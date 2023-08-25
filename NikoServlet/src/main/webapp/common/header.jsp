@@ -10,13 +10,13 @@
 <body>
 <header>
         <div class="user">
-           <span><a href="#">로그인</a> |</span>
+           <span><a href="#">로그인&nbsp;</a> |</span>
             <span><a href="#">마이페이지</a></span>
-            <span><a href="#"><img src="http://localhost:9090/NikoServlet/img/markgreen.png"></a></span>
+            <span><a href="#"><!-- <img src="http://localhost:9090/NikoServlet/img/markgreen.png"> --> <img src="../img/markgreen.png"></a></span>
         </div>
         <div class="menu">
             <div class="logo">
-                <span><a href="http://localhost:9090/NikoServlet/main/main.jsp"><img src="http://localhost:9090/NikoServlet/img/logo.png"></a></span>
+                <span><a href="http://localhost:9090/NikoServlet/main/main.jsp"><img src="../img/logo.png"></a></span>
             </div>
             <div class="rec" align="center" style="z-index: 999;">지역별 추천
                 <div class="submenu" align="center">
@@ -89,7 +89,7 @@
                             <ul>
                                 <li><a href="#">명소</a></li>
                                 <li><a href="#">축제</a></li>
-                               	<li><a href="#">음식</a></li>
+                                <li><a href="#">음식</a></li>
                             </ul>
                         </div>
 

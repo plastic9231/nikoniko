@@ -83,7 +83,7 @@ select[name="searchField"] {
 button[type="submit"] {
     padding: 10px 15px;
     border: none;
-    background-color: #007BFF;  /* 버튼 배경색 */
+    background-color:rgb(170, 170, 170);  /* 버튼 배경색 */
     color: white;  /* 글자색 */
     border-radius: 5px;
     cursor: pointer;  /* 마우스 커서를 손가락 모양으로 변경 */
@@ -91,7 +91,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3;  /* 마우스 오버 시의 배경색 */
+    background-color:rgb(190, 190, 190);  /* 마우스 오버 시의 배경색 */
 }
 
 
