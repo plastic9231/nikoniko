@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title>메인 페이지</title>
    <link rel="stylesheet" href="../css/header.css">
    <link rel="stylesheet" href="../css/mainpage.css">
    <link rel="stylesheet" href="../css/footer.css">

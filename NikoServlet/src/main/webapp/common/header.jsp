@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title></title>
    <link rel="stylesheet" href="../css/header.css">
-</head>
+</head>	
 <body>
 <header>
         <div class="user">
@@ -14,9 +14,9 @@
             <span><a href="#">마이페이지</a></span>
             <span><a href="#"><img src="http://localhost:9090/NikoServlet/img/markgreen.png"></a></span>
         </div>
-        <div class="menu">    
+        <div class="menu">
             <div class="logo">
-                <span><img src="http://localhost:9090/NikoServlet/img/logo.png"></span>
+                <span><a href="http://localhost:9090/NikoServlet/main/main.jsp"><img src="http://localhost:9090/NikoServlet/img/logo.png"></a></span>
             </div>
             <div class="rec" align="center" style="z-index: 999;">지역별 추천
                 <div class="submenu" align="center">
@@ -112,7 +112,7 @@
                        <li><a href="#">대중 교통</a></li>
                        <li><a href="#">환율 정보</a></li>
                        <li><a href="#">지역 쿠폰</a></li>
-                       <li><a href="#">여행 필수회화</a></li>
+                       <li><a href="http://localhost:9090/NikoServlet/traveltip/conversation/conv_checkin.jsp">여행 필수회화</a></li>
                     </ul>
 
                 </div>
