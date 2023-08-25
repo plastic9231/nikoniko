@@ -18,7 +18,7 @@
 				<%@ include file="../sidebar/sidebar.jsp"%>
 			</div>
 			<div class="contents_img">
-				<img class="img_tip" alt="askway" src="http://localhost:9090/NikoServlet/img/askway.png">
+				<img class="img_tip" alt="askway" src="../../img/askway.png">
 			</div>
 		</div>
 	</main>
