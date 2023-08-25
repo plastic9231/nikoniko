@@ -17,12 +17,14 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufuin_main.jpg">
+				src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/hana_main1.jpg">
 			<div class="text-block">
-				<h4>유후인 온천</h4><br>
+				<h4>하나미야마 공원</h4>
+				<br>
 				<p>
-					큐슈 오이타현 중앙부에 위치한 시 <br> 인구는 3만명 수준으로 우리나라의 평범한 읍정도이다. <br>
-					온천으로 유명하여 연간 4백만명이 넘는 관광객이 찾을 정도로 유명한 관광 도시이다.
+					후쿠시마의 무릉도원이라 불리는 하나미야마 공원은 <br> 매화, 여러 종류의 벚꽃, 개나 리, 산당화, 산수유,
+					목련, 꽃복숭아 등의 꽃들이 일제히 앞 다퉈 핍니다 <br> 그야말로 '무릉도원' 이라는 말이 어울리는
+					명소입니다.
 				</p>
 			</div>
 		</div>
@@ -32,18 +34,18 @@
 		<div id="con_subject">
 			<div id="subject_li">
 				<ul>
-					<li><b>공항으로부터 거리</b> : <br>후쿠오카 공항으로부터 <br>차량 1시간 반,
-						고속버스 2시간 반</li>
-					<li><b>추천 관광 시간</b> : 1박</li>
-					<li><b>입장료</b> : 온천마다 상이</li>
-					<li><b>운영 시간</b> : 온천마다 상이</li>
-					<li><b>명소의 포인트</b> <br> - 유후인 산 아래에 위치한 온천마을 <br> -
-						소규모의 마을단위로 구성되어 있음 <br> - 휴식을 위해 떠나는 근교</li>
+					<li><b>오시는 길</b> : JR 후쿠시마역에서 버스로 <br> 하나미야마 공원 입구 하차,
+						도보로 약 20분, <br> 개화 기간 중에는 JR 후쿠시마역에서 임시 버스 운행 실시</li>
+					<li><b>주소</b> : 후쿠시마현 후쿠시마시 와타리</li>
+					<li><b>입장료</b> : 무료</li>
+					<li><b>운영 시간</b> : 6:00 ~ 18:00</li>
+					<li><b>명소의 포인트</b> <br> - 걸으면서 즐기는 산책형 꽃놀이 <br> -
+						봄뿐만 아니라 여름과 가을에도 즐길 수 있음</li>
 				</ul>
 			</div>
 			<div id="con_map">
 				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13344.172205112101!2d131.35393842514!3d33.26536522629576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546adda3e1a84cb%3A0x8a840ebe489bd3d9!2z7Jyg7ZuE7J247Jet!5e0!3m2!1sko!2skr!4v1692338942389!5m2!1sko!2skr"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25242.300435527515!2d140.4734534256633!3d37.73639763945084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a841105535735%3A0x914a839d1ca63417!2sHanamiyama%20Park!5e0!3m2!1sko!2skr!4v1692930035933!5m2!1sko!2skr"
 					width="400px" height="400px" style="border: 0;" allowfullscreen=""
 					loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
@@ -52,25 +54,19 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufu3.jpg"
+							src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/hana3.png"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufu2.jpg"
+							src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/hana2.png"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufu1.jpg"
-							style="width: 900px">
-					</div>
-
-					<div class="mySlides fade">
-						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufu4.jpg"
+							src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/hana1.png"
 							style="width: 900px">
 					</div>
 
@@ -118,27 +114,27 @@
 					<hr id="con_hr">
 				</div>
 
-				<div id="con_box01" class="con_box">
-					<div id="con_img">
-						<img alt="place1" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/fukutower.PNG">
-						<div id="con_name">후쿠오카 타워</div>
-					</div>
-				</div>
-
 				<div id="con_box02" class="con_box">
 					<div id="con_img">
 						<img alt="place2" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufuin.jpg">
-						<div id="con_name">유후인 온천</div>
+							src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/tohoku_land2.png">
+						<div id="con_name">오우치 쥬쿠</div>
 					</div>
 
 				</div>
 				<div id="con_box03" class="con_box">
 					<div id="con_img">
 						<img alt="place3" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/sumiyoshi.PNG">
-						<div id="con_name">스미요시 신사</div>
+							src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/tohoku_land3.png">
+						<div id="con_name">엔쓰인 사원</div>
+					</div>
+				</div>
+
+				<div id="con_box05" class="con_box">
+					<div id="con_img">
+						<img alt="place5" onclick="location.href='land_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/tohoku_land5.png">
+						<div id="con_name">혼야 미술관</div>
 					</div>
 				</div>
 			</section>
