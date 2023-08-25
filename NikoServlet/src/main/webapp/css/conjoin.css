@@ -1,0 +1,72 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	display:flex; /* 기본값 가로 배열 */
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+	width:100vw;
+}
+
+.conbox{
+	display:flex; /* 기본값 가로 배열 */
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	width: 400px;
+    height: 200px;
+}
+
+.con {
+	display:flex;
+	justify-content: center;
+	font-size: 24px;
+	font-weight: bold;
+	color: #333333;
+}
+
+.conheader {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: space-around;
+	width: 400px;
+    height: 90px;
+}
+
+.buttons {
+	width: 400px;
+    height: 90px;
+}
+
+.bottons2 {
+	display: flex;
+	justify-content: center;
+}
+
+.Tologin{
+	font-size: 20px;
+	color: #333333;
+	background-color: #FCD0D0;
+	border: #FCD0D0 2px solid;
+	border-radius: 5px;
+	width: 200px;
+	height: 60px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.Tomain{
+	font-size: 20px;
+	color: #333333;
+	background-color: #CFCFCF;
+	border: #CFCFCF 2px solid;
+	border-radius: 5px;
+	width: 200px;
+	height: 60px;
+	margin-left: 5px;
+	margin-right: 5px;
+}

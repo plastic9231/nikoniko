@@ -1,0 +1,410 @@
+* {
+	justify-content:center;
+	align-items:center;
+	align-content: center;
+}
+
+body {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+	width:100vw;
+}
+
+.JoinBox {
+	background-color: rgb(233, 233, 233);
+	/* flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	align-content: center; */
+	width: 1000px;
+	height: 900px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.joinheader {
+	font-size: 24px;
+	display:flex;
+	flex-direction: column;
+	/* TRANSFORM: TRANSLATEX(-50%) !IMPORTANT; */
+	align-items: flex-start;
+	font-weight: bold;
+	margin-top: 6px;
+	margin-bottom: 3px;
+	color: #333333;
+	width: 600px;
+	height: 80px;
+}
+
+.smallbox {
+	justify-content:center;
+	align-items:center;
+	align-content: center;
+}
+
+.IDForm {
+	/* justify-content: center; */
+	display:flex;
+	flex-direction: column;
+	align-items:flex-start;
+	align-content: space-around;
+	border: 1px solid rgb(243, 243, 243);
+	border-radius: 3px;
+	width: 600px;
+	height: 90px;
+	background-color: white;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.idform {
+	background-color: white;
+	border: rgb(158, 158, 158) 2px solid;
+	border-radius: 3px;
+	margin-right: 5px;
+	font-size: 15px;
+	width: 450px;
+	height: 30px;
+	padding-left: 15px;
+}
+
+.id1 {
+	font-size: 15px;
+	padding-left: 30px;
+	margin-top: 3.5px;
+	margin-bottom: 3.5px;
+}
+
+.id2 {
+	padding-left: 30px;
+	margin-top: 3.5px;
+	margin-bottom: 3.5px;
+}
+
+
+.PasswordForm {
+	/* align-items:center;
+	border: 1px solid rgb(243, 243, 243);
+	border-radius: 3px;
+	width: 500px;
+	height: 50px;
+	background-color: white;
+    margin: 12px 249px 12px 249px; */
+    display:flex;
+	flex-direction: column;
+	align-items:flex-start;
+	align-content: space-around;
+	border: 1px solid rgb(243, 243, 243);
+	border-radius: 3px;
+	width: 600px;
+	height: 90px;
+	background-color: white;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.pass1 {
+	font-size: 15px;
+	padding-left: 30px;
+	margin-top: 3.5px;
+	margin-bottom: 3.5px;
+}
+
+.pass2 {
+	padding-left: 30px;
+	margin-top: 3.5px;
+	margin-bottom: 3.5px;
+}
+
+.passform {
+	background-color: white;
+	border: rgb(158, 158, 158) 2px solid;
+	border-radius: 3px;
+	margin-right: 5px;
+	font-size: 15px;
+	width: 450px;
+	height: 30px;
+	padding-left: 15px;
+	
+}
+
+.PasswordcheckForm {
+	display:flex;
+	flex-direction: column;
+	align-items:flex-start;
+	align-content: space-around;
+	border: 1px solid rgb(243, 243, 243);
+	border-radius: 3px;
+	width: 600px;
+	height: 90px;
+	background-color: white;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.Passcheck1 {
+	font-size: 15px;
+	padding-left: 30px;
+	margin-top: 3.5px;
+	margin-bottom: 3.5px;
+}
+
+.Passcheck2 {
+	padding-left: 30px;
+	margin-top: 3.5px;
+	margin-bottom: 3.5px;
+}
+
+.passCheckform {
+	background-color: white;
+	border: rgb(158, 158, 158) 2px solid;
+	border-radius: 3px;
+	margin-right: 5px;
+	font-size: 15px;
+	width: 450px;
+	height: 30px;
+	padding-left: 15px;
+}
+
+.EMailForm {
+	display:flex;
+	flex-direction: column;
+	align-items:flex-start;
+	align-content: space-around;
+	border: 1px solid rgb(243, 243, 243);
+	border-radius: 3px;
+	width: 600px;
+	height: 90px;
+	background-color: white;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.email1 {
+	font-size: 15px;
+	padding-left: 30px;
+	margin-top: 3.5px;
+	margin-bottom: 3.5px;
+}
+
+.email2 {
+	padding-left: 30px;
+	margin-top: 3.5px;
+	margin-bottom: 3.5px;
+}
+
+.emailform {
+	background-color: white;
+	border: rgb(158, 158, 158) 2px solid;
+	border-radius: 3px;
+	margin-right: 5px;
+	font-size: 15px;
+	width: 450px;
+	height: 30px;
+	padding-left: 15px;
+}
+
+.BirthForm {
+	display:flex;
+	flex-direction: column;
+	align-items:flex-start;
+	align-content: space-around;
+	border: 1px solid rgb(243, 243, 243);
+	border-radius: 3px;
+	width: 600px;
+	height: 90px;
+	background-color: white;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.birth1 {
+	font-size: 15px;
+	padding-left: 30px;
+	margin-top: 3.5px;
+	margin-bottom: 3.5px;
+}
+
+.birth2 {
+	padding-left: 30px;
+	margin-top: 3.5px;
+	margin-bottom: 3.5px;
+}
+
+.calform {
+	background-color: white;
+	border: rgb(158, 158, 158) 2px solid;
+	border-radius: 3px;
+	margin-right: 5px;
+	font-size: 15px;
+	width: 450px;
+	height: 30px;
+	padding-left: 15px;
+}
+
+.calcheck {
+	background-color: rgb(158, 158, 158);
+	border: rgb(158, 158, 158) 2px solid;
+	border-radius: 3px;
+	width: 50px;
+	height: 35px;
+	color: white;
+	font-size: 15px;
+}
+
+.PhoneForm {
+	display:flex;
+	flex-direction: column;
+	align-items:flex-start;
+	align-content: space-around;
+	border: 1px solid rgb(243, 243, 243);
+	border-radius: 3px;
+	width: 600px;
+	height: 90px;
+	background-color: white;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.phoneform1 {
+	font-size: 15px;
+	padding-left: 30px;
+	margin-top: 3.5px;
+	margin-bottom: 3.5px;
+}
+
+.phoneform2 {
+	padding-left: 30px;
+	margin-top: 3.5px;
+	margin-bottom: 3.5px;
+}
+
+.phone {
+	background-color: white;
+	border: rgb(158, 158, 158) 2px solid;
+	border-radius: 3px;
+	margin-right: 5px;
+	font-size: 15px;
+	width: 450px;
+	height: 30px;
+	padding-left: 15px;
+}
+
+.GenderForm {
+	display:flex;
+	flex-direction: column;
+	align-items:flex-start;
+	align-content: space-around;
+	border: 1px solid rgb(243, 243, 243);
+	border-radius: 3px;
+	width: 600px;
+	height: 90px;
+	background-color: white;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.gender1 {
+	font-size: 15px;
+	padding-left: 30px;
+	margin-top: 3.5px;
+	margin-bottom: 3.5px;
+}
+
+.gender2 {
+	padding-left: 30px;
+	margin-top: 3.5px;
+	margin-bottom: 3.5px;
+}
+
+.genderbox {
+	background-color: white;
+	border: rgb(158, 158, 158) 2px solid;
+	border-radius: 3px;
+	margin-right: 5px;
+	font-size: 15px;
+	width: 450px;
+	height: 30px;
+	padding-left: 15px;
+	padding-top: 5px;
+}
+
+.RecommForm {
+	display:flex;
+	flex-direction: column;
+	align-items:flex-start;
+	align-content: space-around;
+	border: 1px solid rgb(243, 243, 243);
+	border-radius: 3px;
+	width: 600px;
+	height: 90px;
+	background-color: white;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.rec1 {
+	font-size: 15px;
+	padding-left: 30px;
+	margin-top: 3.5px;
+	margin-bottom: 3.5px;
+}
+
+.rec2 {
+	padding-left: 30px;
+	margin-top: 3.5px;
+	margin-bottom: 3.5px;
+}
+
+.recbox {
+	background-color: white;
+	border: rgb(158, 158, 158) 2px solid;
+	border-radius: 3px;
+	margin-right: 5px;
+	font-size: 15px;
+	width: 450px;
+	height: 30px;
+	padding-left: 15px;
+	padding-top: 5px;
+}
+
+.CommitForm {
+	display:flex;
+	justify-content: space-around;
+	border: 1px solid rgb(243, 243, 243);
+	border-radius: 3px;
+	width: 600px;
+	height: 50px;
+	background-color: white;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.Buttons {
+	background-color: white;
+}
+
+.Cancel {
+	background-color: rgb(158, 158, 158);
+	border: rgb(158, 158, 158) 2px solid;
+	border-radius: 3px;
+	width: 270px;
+	height: 35px;
+	color: white;
+	font-size: 15px;
+}
+
+.joinus {
+	background-color: #FCD0D0;
+	border: #FCD0D0 2px solid;
+	border-radius: 3px;
+	width: 270px;
+	height: 35px;
+	color: white;
+	font-size: 15px;
+}
+
