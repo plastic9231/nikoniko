@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/comminfodeleteForm.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <script type="text/javascript">
+
+function deleteSave() {
+	if(document.delForm.pass.value==""){
+		alert("비밀번호를 입력해 주세요.");
+		document.delForm.pass.focus();
+		return false;
+	}
+}
+</script>
 </head>
 
 <body>
@@ -16,7 +26,7 @@
 		<div align="center">
 		<b>공지사항 글 삭제</b>
 		<br><br>
-		<form action="#" method="post" name="delForm" onsubmit="return deleteSave()">
+		<form action="/community/comminfodeletePro.ndo?pageNum=${pageNum}" method="post" name="delForm" onsubmit="return deleteSave()">
 			<table border="1" align="center" cellpadding="0" cellspacing="0" width="360" class="commrecdelete">
 				<tr height="30">
 					<td align="center">
@@ -28,14 +38,14 @@
 					<td align="center">
 						비밀번호 :
 						<input type="password" name="pass" size="10" maxlength="12">
-						<input type="hidden" name="num">
+						<input type="hidden" name="num" value="${num}">
 					</td>
 				</tr>
 		
 				<tr height="30">
 					<td align="center">
 						<input type="submit" value="글삭제">
-						<input type="button" value="글목록" onclick="#">
+						<input type="button" value="글목록" onclick="document.location.href='/community/comminfo.ndo?pageNum=${pageNum}'">
 					</td>
 				</tr>
 			</table>

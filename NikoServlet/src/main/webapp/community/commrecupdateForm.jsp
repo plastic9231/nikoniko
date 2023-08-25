@@ -41,6 +41,7 @@
 				<td width="100" align="center">내용</td>
 				<td width="300">
 					<textarea rows="13" cols="50" name="content"></textarea>
+					 <input type="file" name="photo" accept="image/*" class="imageplus">
 				</td>
 			</tr>
 

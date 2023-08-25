@@ -63,7 +63,7 @@
 }
 
 /* 검색창 스타일 */
-input[name="searchText"] {
+input[name="find_box"] {
     padding: 10px 15px;  /* 내부 패딩 */
     border: none;  /* 테두리 제거 */
     border-radius: 20px;  /* 둥근 모서리 */
@@ -73,7 +73,7 @@ input[name="searchText"] {
 }
 
 /* 드롭다운 스타일 */
-select[name="searchField"] {
+select[name="find"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -83,7 +83,7 @@ select[name="searchField"] {
 button[type="submit"] {
     padding: 10px 15px;
     border: none;
-    background-color: #007BFF;  /* 버튼 배경색 */
+    background-color:rgb(170, 170, 170);  /* 버튼 배경색 */
     color: white;  /* 글자색 */
     border-radius: 5px;
     cursor: pointer;  /* 마우스 커서를 손가락 모양으로 변경 */
@@ -91,12 +91,12 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3;  /* 마우스 오버 시의 배경색 */
+    background-color:rgb(190, 190, 190);  /* 마우스 오버 시의 배경색 */
 }
 
 
 /* 새글쓰기 버튼 스타일 */
-a[href="writeForm.jsp"] {
+a[href="/community/comminfowriteForm.ndo"] {
     padding: 10px 15px; /* 패딩 */
     border: none; /* 테두리 없애기 */
     background-color: #FFB6C1; /* 버튼의 배경색 */
@@ -107,7 +107,7 @@ a[href="writeForm.jsp"] {
 }
 
 /* 새글쓰기 버튼 마우스 오버 스타일 */
-a[href="writeForm.jsp"]:hover {
+a[href="/community/comminfowriteForm.ndo"]:hover {
     background-color: #FFC0CB; /* 마우스 오버 시의 배경색 */
 }
 

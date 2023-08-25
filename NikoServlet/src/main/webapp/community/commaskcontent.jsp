@@ -131,7 +131,7 @@
 			</div>
 			
 			<div align="center" style="margin-top: 20px;" class="commrec-post-btn">
-    			<button class="commrec-post-btn list">글 목록으로</button>
+    			<button class="commrec-post-btn list" onclick="document.location.href='/community/commask.ndo?pageNum=${pageNum}'">글 목록으로</button>
     			<button class="commrec-post-btn edit">글 수정</button>
     			<button class="commrec-post-btn delete">글 삭제</button>
 			</div>
