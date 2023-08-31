@@ -17,7 +17,7 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu3.jpg">
+				src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu_fesmain.jpg">
 			<div class="text-block">
 				<h4>하카타 기온 야마카사</h4>
 				<br>

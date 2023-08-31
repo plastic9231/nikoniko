@@ -17,7 +17,7 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufuin_main.jpg">
+				src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/kyushu_landmain.jpg">
 			<div class="text-block">
 				<h4>유후인 온천</h4><br>
 				<p>
@@ -32,9 +32,9 @@
 		<div id="con_subject">
 			<div id="subject_li">
 				<ul>
-					<li><b>공항으로부터 거리</b> : <br>후쿠오카 공항으로부터 <br>차량 1시간 반,
+					<li><b>오시는 길</b> : 하카타 역에서 <br>JR 1시간 반,
 						고속버스 2시간 반</li>
-					<li><b>추천 관광 시간</b> : 1박</li>
+					<li><b>주소</b> : 일본 오이타현 유후시 유후인초 가와키타 유후인역</li>
 					<li><b>입장료</b> : 온천마다 상이</li>
 					<li><b>운영 시간</b> : 온천마다 상이</li>
 					<li><b>명소의 포인트</b> <br> - 유후인 산 아래에 위치한 온천마을 <br> -
