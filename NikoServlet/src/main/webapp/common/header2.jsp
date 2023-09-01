@@ -10,7 +10,7 @@
 <body>
 <header>
         <div class="user">
-           	<span><a href="#">로그인&nbsp;</a> |</span>
+           	<span><a href="#">로그인&nbsp;</a> |</span> 
             <span><a href="#">회원가입</a></span>
             <span><a href="#"><img src="http://localhost:9090/NikoServlet/img/markgreen.png"></a></span>
         </div>
