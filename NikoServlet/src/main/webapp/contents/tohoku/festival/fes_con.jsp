@@ -17,12 +17,12 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu3.jpg">
+				src="http://localhost:9090/NikoServlet/contents/tohoku/festival/img/tohoku_fesmain.png">
 			<div class="text-block">
-				<h4>하카타 기온 야마카사</h4>
+				<h4>사쿠라 야부사메</h4>
 				<br>
 				<p>
-					후쿠오카현의 여름 축제 <br> 개최시기 : 매년 7월 1일, 9~15일
+				아오모리현 도와다시 니시 산반초 3 <br> 개최시기 : 매년 4월 하순
 				</p>
 			</div>
 		</div>
@@ -31,16 +31,16 @@
 		</div>
 		<div id="con_subject">
 			<div id="subject_li">
-				<p>개최 시기에 하카타를 방문했다면 꼭 봐야할 마츠리 중 하나 </p>
-				<p>2016년 유네스코 무형 문화유산에 등록</p>
-				<p>하카타의 소친주, 구시다 신사의 봉납 제사</p> 
-				<p>액운을 막는 기온 신앙으로 야마카사 제사로서 발전</p>
-				<p>770년 이상 지역 주민에게 사랑받으며 </p>
-				<p>하카타의 여름 명물로서 매년 열리고있다.</p>
+			 <p>'일본의 거리 100선'과 '신일본 100경'에도 선정된 </p>
+			 <p>아오모리현 도와다시의 명승,</p> 
+			 <p>관청 거리 고마 가도. 4월 하순에는 벚꽃이 만개한다.</p>
+			 <p>사쿠라 야부사메는 이 고마 가도에 면 한 공원에서 개최되는 </p>
+			 <p>여류 기사 한정 야부사메 경기 이벤트이다. </p>
+			 <p>만개한 벚꽃 가로수 아래 약 200m의 야부사메 주로를 말이 질주한다. </p>
 			</div>
 			<div id="con_map">
 				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13293.922739881742!2d130.4105598!3d33.5928304!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191955375b9ed%3A0x1b512d5d3fcc9591!2z7ZWY7Lm07YOAIOq4sOyYqCDslbzrp4jsubTsgqw!5e0!3m2!1sko!2skr!4v1692845749750!5m2!1sko!2skr"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387988.1445518141!2d140.45408979896047!3d40.56020170132758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9b3f99612f3763%3A0x7f4ca9ac462c6a78!2z7J2867O4IOyVhOyYpOuqqOumrO2YhCDrj4TsmYDri6Tsi5w!5e0!3m2!1sko!2skr!4v1692953600250!5m2!1sko!2skr"
 					width="400px" height="400px" style="border: 0;" allowfullscreen=""
 					loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
@@ -49,19 +49,19 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu1.jpg"
+							src="http://localhost:9090/NikoServlet/contents/tohoku/festival/img/sakura1.png"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu2.jpg"
+							src="http://localhost:9090/NikoServlet/contents/tohoku/festival/img/sakura2.png"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu3.jpg"
+							src="http://localhost:9090/NikoServlet/contents/tohoku/festival/img/sakura3.png"
 							style="width: 900px">
 					</div>
 
@@ -111,25 +111,25 @@
 
 				<div id="con_box01" class="con_box">
 					<div id="con_img">
-						<img alt="place1" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/fukutower.PNG">
-						<div id="con_name">후쿠오카 타워</div>
+						<img alt="place1" onclick="location.href='fes_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/tohoku/festival/img/tohoku_fes1.png">
+						<div id="con_name">니혼마쓰 제등 축제</div>
 					</div>
 				</div>
 
 				<div id="con_box02" class="con_box">
 					<div id="con_img">
-						<img alt="place2" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufuin.jpg">
-						<div id="con_name">유후인 온천</div>
+						<img alt="place2" onclick="location.href='fes_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/tohoku/festival/img/tohoku_fes2.png">
+						<div id="con_name">센다이 칠석 축제</div>
 					</div>
 
 				</div>
 				<div id="con_box03" class="con_box">
 					<div id="con_img">
-						<img alt="place3" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/sumiyoshi.PNG">
-						<div id="con_name">스미요시 신사</div>
+						<img alt="place3" onclick="location.href='fes_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/tohoku/festival/img/tohoku_fes3.png">
+						<div id="con_name">간토 축제</div>
 					</div>
 				</div>
 			</section>
