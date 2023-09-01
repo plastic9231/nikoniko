@@ -11,7 +11,7 @@
 <header>
         <div class="user">
            <span><a href="#">로그인&nbsp;</a> |</span>
-            <span><a href="#">마이페이지</a></span>
+            <span><a href="#">회원가입</a></span>
             <span><a href="#"><!-- <img src="http://localhost:9090/NikoServlet/img/markgreen.png"> --> <img src="../img/markgreen.png"></a></span>
         </div>
         <div class="menu">
