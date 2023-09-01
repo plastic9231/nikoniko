@@ -17,12 +17,12 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu3.jpg">
+				src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_fesmain.jpg">
 			<div class="text-block">
-				<h4>하카타 기온 야마카사</h4>
+				<h4>키부네 마츠리</h4>
 				<br>
 				<p>
-					후쿠오카현의 여름 축제 <br> 개최시기 : 매년 7월 1일, 9~15일
+					일본의 3대 항구 마츠리 중 하나 <br> 개최시기 : 매년 7월 마지막 주 금요일과 토요일
 				</p>
 			</div>
 		</div>
@@ -31,16 +31,16 @@
 		</div>
 		<div id="con_subject">
 			<div id="subject_li">
-				<p>개최 시기에 하카타를 방문했다면 꼭 봐야할 마츠리 중 하나 </p>
-				<p>2016년 유네스코 무형 문화유산에 등록</p>
-				<p>하카타의 소친주, 구시다 신사의 봉납 제사</p> 
-				<p>액운을 막는 기온 신앙으로 야마카사 제사로서 발전</p>
-				<p>770년 이상 지역 주민에게 사랑받으며 </p>
-				<p>하카타의 여름 명물로서 매년 열리고있다.</p>
+				<p>일본의 국가 지정 중요 무형 민속 문화재인 유서깊은 축제</p>
+				<p>전국적으로 유명한 일본의 배 축제</p>
+				<p>키부네 신사의 예대 축제로</p>
+				<p>화려한 꽃 장식이나 송풍기로 장식된 코하야선과</p>
+				<p>가마선등이 쿠덴마에 예언되어 항상 도어를 하는 배 축제</p>
+				<p>일본의 3대 선 축제 중 하나</p>
 			</div>
 			<div id="con_map">
 				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13293.922739881742!2d130.4105598!3d33.5928304!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191955375b9ed%3A0x1b512d5d3fcc9591!2z7ZWY7Lm07YOAIOq4sOyYqCDslbzrp4jsubTsgqw!5e0!3m2!1sko!2skr!4v1692845749750!5m2!1sko!2skr"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.335009658788!2d139.73327164721474!3d35.570122212322865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601861aebd7494c9%3A0xaa2d22c4bc643014!2z7YKk7ZuE64SkIOyLoOyCrCAo7Jik66qo66asKQ!5e0!3m2!1sko!2skr!4v1693536499341!5m2!1sko!2skr"
 					width="400px" height="400px" style="border: 0;" allowfullscreen=""
 					loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
@@ -49,19 +49,19 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu1.jpg"
+							src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_kibu1.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu2.jpg"
+							src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_kibu2.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu3.jpg"
+							src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_kibu3.jpg"
 							style="width: 900px">
 					</div>
 
@@ -109,27 +109,27 @@
 					<hr id="con_hr">
 				</div>
 
-				<div id="con_box01" class="con_box">
-					<div id="con_img">
-						<img alt="place1" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/fukutower.PNG">
-						<div id="con_name">후쿠오카 타워</div>
-					</div>
-				</div>
-
 				<div id="con_box02" class="con_box">
 					<div id="con_img">
-						<img alt="place2" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufuin.jpg">
-						<div id="con_name">유후인 온천</div>
+						<img alt="place2" onclick="location.href='fes_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_fes2.jpg">
+						<div id="con_name">카츠우라 빅 히나마츠리</div>
 					</div>
 
 				</div>
 				<div id="con_box03" class="con_box">
 					<div id="con_img">
-						<img alt="place3" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/sumiyoshi.PNG">
-						<div id="con_name">스미요시 신사</div>
+						<img alt="place3" onclick="location.href='fes_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_fes3.jpg">
+						<div id="con_name">사와라 대제 여름축제</div>
+					</div>
+				</div>
+
+				<div id="con_box04" class="con_box">
+					<div id="con_img">
+						<img alt="place4" onclick="location.href='fes_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_fes4.png">
+						<div id="con_name">마츠리 츠쿠바</div>
 					</div>
 				</div>
 			</section>

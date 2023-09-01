@@ -12,73 +12,66 @@
 	<div id="main_box">
 
 		<div id="con_headline">
-			<div id="headline"><strong>큐슈의 축제</strong></div>
+			<div id="headline"><strong>간토의 축제</strong></div>
 			<hr id="con_hr">
 		</div>
 
 		<div id="con_box01" class="con_box">
 			<div id="con_img">
 				<img alt="place1" onclick="location.href='fes_con.jsp'"
-					src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu_main1.jpg">
-				<div id="con_name">하카타 기온 야마카사</div>
+					src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_fes1.jpg">
+				<div id="con_name">키부네 마츠리</div><img id="book" src="../../mark/markblack.png">
 			</div>
 		</div>
 
 		<div id="con_box02" class="con_box">
 			<div id="con_img">
 				<img alt="place2" onclick="location.href='fes_con.jsp'"
-					src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu_main2.jpg">
-				<div id="con_name">히타 기온</div>
+					src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_fes2.jpg">
+				<div id="con_name">카츠우라 빅 히나마츠리</div><img id="book" src="../../mark/markblack.png">
 			</div>
 
 		</div>
 		<div id="con_box03" class="con_box">
 			<div id="con_img">
 				<img alt="place3" onclick="location.href='fes_con.jsp'"
-					src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu_main3.jpg">
-				<div id="con_name">도바타 기온 오야마카사</div>
+					src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_fes3.jpg">
+				<div id="con_name">사와라 대제 여름축제</div><img id="book" src="../../mark/markblack.png">
 			</div>
 		</div>
 
 		<div id="con_box04" class="con_box">
 			<div id="con_img">
 				<img alt="place4" onclick="location.href='fes_con.jsp'"
-					src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu_main4.jpg">
-				<div id="con_name">오무타 다이자야마</div>
+					src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_fes4.png">
+				<div id="con_name">마츠리 츠쿠바</div><img id="book" src="../../mark/markblack.png">
 			</div>
 		</div>
 
 		<div id="con_box05" class="con_box">
 			<div id="con_img">
 				<img alt="place1" onclick="location.href='fes_con.jsp'"
-					src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu_main5.jpg">
-				<div id="con_name">휴가 횻토코</div>
+					src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_fes5.jpg">
+				<div id="con_name">카와고에 마츠리</div><img id="book" src="../../mark/markblack.png">
 			</div>
 		</div>
 
 		<div id="con_box06" class="con_box">
 			<div id="con_img">
 				<img alt="place2" onclick="location.href='fes_con.jsp'"
-					src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu_main6.jpg">
-				<div id="con_name">히노쿠니</div>
+					src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_fes6.png">
+				<div id="con_name">치치부 밤 축제</div><img id="book" src="../../mark/markblack.png">
 			</div>
-
+			
 		</div>
 		<div id="con_box07" class="con_box">
 			<div id="con_img">
 				<img alt="place3" onclick="location.href='fes_con.jsp'"
-					src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu_main7.jpg">
-				<div id="con_name">사세보</div>
+					src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_fes7.jpg">
+				<div id="con_name">토치키 아키마츠리</div><img id="book" src="../../mark/markblack.png">
 			</div>
 		</div>
 
-		<div id="con_box08" class="con_box">
-			<div id="con_img">
-				<img alt="place4" onclick="location.href='fes_con.jsp'"
-					src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu_main8.jpg">
-				<div id="con_name">아리타사라야마</div>
-			</div>
-		</div>
 	</div>
 </body>
 </html>

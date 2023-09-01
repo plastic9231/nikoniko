@@ -17,14 +17,13 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/hana_main1.jpg">
+				src="http://localhost:9090/NikoServlet/contents/okinawa/landmark/img/okinawa_landmain.PNG">
 			<div class="text-block">
-				<h4>하나미야마 공원</h4>
+				<h4>추라우미 수족관</h4>
 				<br>
 				<p>
-					후쿠시마의 무릉도원이라 불리는 하나미야마 공원은 <br> 매화, 여러 종류의 벚꽃, 개나 리, 산당화, 산수유,
-					목련, 꽃복숭아 등의 꽃들이 일제히 앞 다퉈 핍니다 <br> 그야말로 '무릉도원' 이라는 말이 어울리는
-					명소입니다.
+					오키나와의 신비를 있는 그대로 <br> 수족관에서는 신비로 가득 찬 오키나와 생물들의 웅장한 세계가
+					펼쳐집니다.
 				</p>
 			</div>
 		</div>
@@ -34,18 +33,19 @@
 		<div id="con_subject">
 			<div id="subject_li">
 				<ul>
-					<li><b>오시는 길</b> : JR 후쿠시마역에서 버스로 <br> 하나미야마 공원 입구 하차,
+					<li><b>오시는 길</b> : 나하공항에서 자가용 혹은 <br> 고속버스를 이용해서 방문
 						도보로 약 20분, <br> 개화 기간 중에는 JR 후쿠시마역에서 임시 버스 운행 실시</li>
-					<li><b>주소</b> : 후쿠시마현 후쿠시마시 와타리</li>
+					<li><b>주소</b> : 오키나와현 구니가미군 모토부쵸 이시카와 424번지</li>
 					<li><b>입장료</b> : 무료</li>
-					<li><b>운영 시간</b> : 6:00 ~ 18:00</li>
-					<li><b>명소의 포인트</b> <br> - 걸으면서 즐기는 산책형 꽃놀이 <br> -
-						봄뿐만 아니라 여름과 가을에도 즐길 수 있음</li>
+					<li><b>운영 시간</b> : 8:30 ~ 21:00</li>
+					<li><b>명소의 포인트</b> <br> - 대규모 산호의 사육전시를 볼 수 있음 <br> 
+					- 고래상어와 난요만타를 관찰할 수 있는 거대수조 '쿠로시오의 바다'<br>
+					- '심층의 바다' 수조 등 오키나와의 바다를 그대로 체감할 수 있음</li>
 				</ul>
 			</div>
 			<div id="con_map">
 				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25242.300435527515!2d140.4734534256633!3d37.73639763945084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a841105535735%3A0x914a839d1ca63417!2sHanamiyama%20Park!5e0!3m2!1sko!2skr!4v1692930035933!5m2!1sko!2skr"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3564.5665211189416!2d127.87543817600303!3d26.694342769439793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34e4fa3152619e3d%3A0xea08a6700fdd9ffe!2z7LaU65287Jqw66-4IOyImOyhseq0gA!5e0!3m2!1sko!2skr!4v1693379509945!5m2!1sko!2skr"
 					width="400px" height="400px" style="border: 0;" allowfullscreen=""
 					loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
@@ -54,25 +54,25 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/hana1.jpg"
+							src="http://localhost:9090/NikoServlet/contents/okinawa/landmark/img/okinawa_chu1.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/hana2.jpg"
+							src="http://localhost:9090/NikoServlet/contents/okinawa/landmark/img/okinawa_chu2.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/hana3.jpg"
+							src="http://localhost:9090/NikoServlet/contents/okinawa/landmark/img/okinawa_chu3.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/hana4.jpg"
+							src="http://localhost:9090/NikoServlet/contents/okinawa/landmark/img/okinawa_chu4.PNG"
 							style="width: 900px">
 					</div>
 

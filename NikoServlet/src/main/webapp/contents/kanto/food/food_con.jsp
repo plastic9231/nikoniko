@@ -17,12 +17,12 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu_foodmain.PNG">
+				src="http://localhost:9090/NikoServlet/contents/kanto/food/img/kanto_foodmain.jpg">
 			<div class="text-block">
-				<h4>돈코츠 라멘</h4>
+				<h4>몬자야키</h4>
 				<br>
 				<p>
-					라멘의 한 종류로 <br> 돼지뼈를 우려 만드는 라멘
+					간사이에 오코노미야키가 있다면 <br> 간토에는 몬자야키가 있다
 				</p>
 			</div>
 		</div>
@@ -31,12 +31,11 @@
 		</div>
 		<div id="con_subject">
 			<div id="subject_li">
-				<p>후쿠오카 현 구루메시에서 1947년 창업한 포장마차 삼구(三九)에서</p>
-				<p>우연히 돼지뼈로 만든 라멘 국물이 만들어져</p>
-				<p>이 스프로 라멘을 팔았다는 설이 있다.</p>
-				<p>이로 인해 구루메 라멘이 생기고,</p>
-				<p>이윽고 가고시마현을 제외한 규슈 각지에 영향을 미치고,</p>
-				<p>이 스타일이 전해져 하카타 라멘이 되었다는 설 등이 있다.</p>
+				<p>여러가지 채소와 기타 해물등을 넣고</p>
+				<p>철판에 반죽형태로 볶는 일본 요리이다.</p>
+				<p>오코노미야키가 유사하나 주로 간토지방에서 유행하며</p>
+				<p>오코노미야키보다 수분이 훨씬 많다.</p>
+				<p>유명 몬자야키 음식점은 도쿄도 쓰키시마 지구에 몰려있다.</p>
 			</div>
 			<div id="con_map">
 				<iframe
@@ -49,25 +48,25 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu1.jpg"
+							src="http://localhost:9090/NikoServlet/contents/kanto/food/img/kanto_mon1.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu2.jpg"
+							src="http://localhost:9090/NikoServlet/contents/kanto/food/img/kanto_mon2.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu3.jpg"
+							src="http://localhost:9090/NikoServlet/contents/kanto/food/img/kanto_mon3.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu4.jpg"
+							src="http://localhost:9090/NikoServlet/contents/kanto/food/img/kanto_mon4.jpg"
 							style="width: 900px">
 					</div>
 
@@ -115,26 +114,27 @@
 					<hr id="con_hr">
 				</div>
 
-				<div id="con_box07" class="con_box">
+				<div id="con_box02" class="con_box">
 					<div id="con_img">
-						<img alt="place7" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu_food7.PNG">
-						<div id="con_name">우메가에모치</div>
+						<img alt="place2" onclick="location.href='food_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/kanto/food/img/kanto_food2.jpg">
+						<div id="con_name">요코스카 해군카레</div>
+					</div>
+
+				</div>
+				<div id="con_box03" class="con_box">
+					<div id="con_img">
+						<img alt="place3" onclick="location.href='land_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/kanto/food/img/kanto_food3.jpg">
+						<div id="con_name">미즈사와 우동</div>
 					</div>
 				</div>
 
-				<div id="con_box08" class="con_box">
+				<div id="con_box04" class="con_box">
 					<div id="con_img">
-						<img alt="place8" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu_food8.PNG">
-						<div id="con_name">하카타 와규</div>
-					</div>
-				</div>
-				<div id="con_box08" class="con_box">
-					<div id="con_img">
-						<img alt="place9" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu_food9.jpg">
-						<div id="con_name">부젠 게</div>
+						<img alt="place4" onclick="location.href='food_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/kanto/food/img/kanto_food4.jpg">
+						<div id="con_name">우츠노미야 교자</div>
 					</div>
 				</div>
 			</section>

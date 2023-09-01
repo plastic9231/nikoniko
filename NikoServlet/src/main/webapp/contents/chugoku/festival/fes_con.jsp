@@ -17,12 +17,12 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu3.jpg">
+				src="http://localhost:9090/NikoServlet/contents/chubu/festival/img/chubu_fesmain.png">
 			<div class="text-block">
-				<h4>하카타 기온 야마카사</h4>
+				<h4>타카야마 마츠리</h4>
 				<br>
 				<p>
-					후쿠오카현의 여름 축제 <br> 개최시기 : 매년 7월 1일, 9~15일
+					봄의 산노마츠리 : 4월 14~15일 <br> 가을의 하치만마츠리 : 10월 9~10일
 				</p>
 			</div>
 		</div>
@@ -31,12 +31,12 @@
 		</div>
 		<div id="con_subject">
 			<div id="subject_li">
-				<p>개최 시기에 하카타를 방문했다면 꼭 봐야할 마츠리 중 하나 </p>
-				<p>2016년 유네스코 무형 문화유산에 등록</p>
-				<p>하카타의 소친주, 구시다 신사의 봉납 제사</p> 
-				<p>액운을 막는 기온 신앙으로 야마카사 제사로서 발전</p>
-				<p>770년 이상 지역 주민에게 사랑받으며 </p>
-				<p>하카타의 여름 명물로서 매년 열리고있다.</p>
+				<p>봄의 산노마츠리, 가을의 하치만마츠리를 아울러</p>
+				<p>타카야마 마츠리라고 한다.</p>
+				<p>일본의 아름다운 3대 축제 중 하나</p>
+				<p>100개의 축제용 수레가 마을을 도는 야간 행사는</p>
+				<p>유네스코 문화유산으로 지정되어 있다.</p>
+				<p>지역: 기후현 타카야마시 시로야마 156</p>
 			</div>
 			<div id="con_map">
 				<iframe
@@ -49,19 +49,25 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu1.jpg"
+							src="http://localhost:9090/NikoServlet/contents/chubu/festival/img/chubu_taka1.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu2.jpg"
+							src="http://localhost:9090/NikoServlet/contents/chubu/festival/img/chubu_taka2.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu3.jpg"
+							src="http://localhost:9090/NikoServlet/contents/chubu/festival/img/chubu_taka3.PNG"
+							style="width: 900px">
+					</div>
+
+					<div class="mySlides fade">
+						<img
+							src="http://localhost:9090/NikoServlet/contents/chubu/festival/img/chubu_taka4.PNG"
 							style="width: 900px">
 					</div>
 
@@ -109,27 +115,27 @@
 					<hr id="con_hr">
 				</div>
 
-				<div id="con_box01" class="con_box">
+				<div id="con_box06" class="con_box">
 					<div id="con_img">
-						<img alt="place1" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/fukutower.PNG">
-						<div id="con_name">후쿠오카 타워</div>
+						<img alt="place2" onclick="location.href='fes_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/chubu/festival/img/chubu_fes6.jpg">
+						<div id="con_name">아타미 마츠리</div>
 					</div>
 				</div>
 
-				<div id="con_box02" class="con_box">
+				<div id="con_box07" class="con_box">
 					<div id="con_img">
-						<img alt="place2" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufuin.jpg">
-						<div id="con_name">유후인 온천</div>
+						<img alt="place3" onclick="location.href='fes_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/chubu/festival/img/chubu_fes7.jpg">
+						<div id="con_name">시미즈 미나토 마츠리</div>
 					</div>
-
 				</div>
-				<div id="con_box03" class="con_box">
+
+				<div id="con_box08" class="con_box">
 					<div id="con_img">
-						<img alt="place3" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/sumiyoshi.PNG">
-						<div id="con_name">스미요시 신사</div>
+						<img alt="place3" onclick="location.href='fes_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/chubu/festival/img/chubu_fes8.jpg">
+						<div id="con_name">카타카이 마츠리</div>
 					</div>
 				</div>
 			</section>

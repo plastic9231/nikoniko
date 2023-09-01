@@ -17,12 +17,12 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/tohoku/festival/img/kyushu3.jpg">
+				src="http://localhost:9090/NikoServlet/contents/okinawa/festival/img/okinawa_fesmain.PNG">
 			<div class="text-block">
-				<h4>하카타 기온 야마카사</h4>
+				<h4>류큐 불꽃 축제</h4>
 				<br>
 				<p>
-					후쿠오카현의 여름 축제 <br> 개최시기 : 매년 7월 1일, 9~15일
+					일본에서 가장 빠른 여름 불꽃 축제 <br> 개최시기 : 매년 4월
 				</p>
 			</div>
 		</div>
@@ -31,16 +31,15 @@
 		</div>
 		<div id="con_subject">
 			<div id="subject_li">
-				<p>개최 시기에 하카타를 방문했다면 꼭 봐야할 마츠리 중 하나 </p>
-				<p>2016년 유네스코 무형 문화유산에 등록</p>
-				<p>하카타의 소친주, 구시다 신사의 봉납 제사</p> 
-				<p>액운을 막는 기온 신앙으로 야마카사 제사로서 발전</p>
-				<p>770년 이상 지역 주민에게 사랑받으며 </p>
-				<p>하카타의 여름 명물로서 매년 열리고있다.</p>
+				<p>1시간동안 만 여 발의 불꽃을 쏘아 올리는 큰 규모의 축제</p>
+				<p>음악에 싱크로를 맞춘 불꽃을 볼 수 있다는 특징</p>
+				<p>처음부터 마지막까지 불꽃 일루젼을 충분히 즐길 수 있다</p>
+				<p>· 입장료 (일반) : 어른 4,500엔 / 어린이 2,000엔</p>
+				<p>티켓은 당일 요금이 더 비싸니 미리 구매하는 것을 추천</p>
 			</div>
 			<div id="con_map">
 				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13293.922739881742!2d130.4105598!3d33.5928304!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191955375b9ed%3A0x1b512d5d3fcc9591!2z7ZWY7Lm07YOAIOq4sOyYqCDslbzrp4jsubTsgqw!5e0!3m2!1sko!2skr!4v1692845749750!5m2!1sko!2skr"
+					src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14309.562116375459!2d127.73181300000002!3d26.281437!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34e56ca56f87675f%3A0x90efe07a51ab735d!2sTropical%20Beach!5e0!3m2!1sko!2sus!4v1693365754363!5m2!1sko!2sus"
 					width="400px" height="400px" style="border: 0;" allowfullscreen=""
 					loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
@@ -49,19 +48,25 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/tohoku/festival/img/tohoku1.jpg"
+							src="http://localhost:9090/NikoServlet/contents/okinawa/festival/img/oki1.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/tohoku/festival/img/tohoku2.jpg"
+							src="http://localhost:9090/NikoServlet/contents/okinawa/festival/img/oki2.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/tohoku/festival/img/tohoku3.jpg"
+							src="http://localhost:9090/NikoServlet/contents/okinawa/festival/img/oki3.PNG"
+							style="width: 900px">
+					</div>
+
+					<div class="mySlides fade">
+						<img
+							src="http://localhost:9090/NikoServlet/contents/okinawa/festival/img/oki4.PNG"
 							style="width: 900px">
 					</div>
 
@@ -109,27 +114,27 @@
 					<hr id="con_hr">
 				</div>
 
-				<div id="con_box01" class="con_box">
+				<div id="con_box05" class="con_box">
 					<div id="con_img">
-						<img alt="place1" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/tohoku_fes2.PNG">
-						<div id="con_name">후쿠오카 타워</div>
+						<img alt="place1" onclick="location.href='fes_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/okinawa/festival/img/okinawa_fes5.PNG">
+						<div id="con_name">이에 섬 백합 축제</div>
 					</div>
 				</div>
 
-				<div id="con_box02" class="con_box">
+				<div id="con_box06" class="con_box">
 					<div id="con_img">
-						<img alt="place2" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/tohoku_fes3.jpg">
-						<div id="con_name">유후인 온천</div>
+						<img alt="place2" onclick="location.href='fes_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/okinawa/festival/img/okinawa_fes6.PNG">
+						<div id="con_name">나하 하리</div>
 					</div>
 
 				</div>
-				<div id="con_box03" class="con_box">
+				<div id="con_box07" class="con_box">
 					<div id="con_img">
-						<img alt="place3" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/tohoku_fes4.PNG">
-						<div id="con_name">스미요시 신사</div>
+						<img alt="place3" onclick="location.href='fes_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/okinawa/festival/img/okinawa_fes7.PNG">
+						<div id="con_name">오키나와 전도 에이사 축제</div>
 					</div>
 				</div>
 			</section>
