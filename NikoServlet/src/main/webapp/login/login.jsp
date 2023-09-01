@@ -37,7 +37,7 @@
 			</div>
 			
 				<div>
-					<input type="submit" value="Enter" id="login-Enter">
+					<input type="button" value="Enter" id="login-Enter" onclick="location.href='../main/main.jsp'" >
 				</div>
 			
 
