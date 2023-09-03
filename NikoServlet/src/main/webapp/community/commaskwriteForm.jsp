@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/commaskwriteForm.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <script type="text/javascript" src=commscript.js></script>
 </head>
 
 <body>
@@ -14,13 +15,13 @@
 
 	<main>
 		<div align="center"><b>문의 글쓰기</b></div><br><br>
-		<form action="writeProc.jsp" name="writeForm" method="post" onsubmit="return writeSave()">
-			<input type="hidden" name="num">
-			<input type="hidden" name="ref">
-			<input type="hidden" name="step">
-			<input type="hidden" name="depth">
+		<form action="/community/commaskwritePro.ndo" name="writeForm" method="post" onsubmit="return writeSave()">
+		<input type="hidden" name="num" value="${num}">
+		<input type="hidden" name="ref" value="${ref}">
+		<input type="hidden" name="step" value="${step}">
+		<input type="hidden" name="depth" value="${depth}">
 			
-		<table width="1000" border="1" cellpadding="0" cellspacing="0" align="center" class="commrecwrite">
+		<table width="1000" border="1" cellpadding="0" cellspacing="0" align="center" class="commaskwrite">
 
 			
 			<tr>
@@ -55,7 +56,7 @@
 				<td colspan="2" align="center">
 					<input type="submit" value="글쓰기">
 					<input type="reset" value="다시작성">
-					<input type="button" value="글목록" onclick="window.location='list.jsp'">
+					<input type="button" value="글목록" onclick="window.location='/community/commask.ndo'">
 				</td>
 			</tr>
 

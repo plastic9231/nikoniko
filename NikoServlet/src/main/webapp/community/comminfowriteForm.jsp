@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/comminfowriteForm.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <script type="text/javascript" src=commscript.js></script>
 </head>
 
 <body>

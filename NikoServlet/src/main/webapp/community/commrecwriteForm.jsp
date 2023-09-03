@@ -14,7 +14,7 @@
 <div style="z-index: 999"><%@ include file="../common/header.jsp"%></div>
 
 	<main>
-		<div align="center"><b>추천 게시판 글쓰기</b></div><br><br>
+		<div align="center"><b>추천 글쓰기</b></div><br><br>
 		<form action="/community/commrecwritePro.ndo" name="writeForm" method="post" enctype="multipart/form-data" onsubmit="return writeSave()">
 		<input type="hidden" name="num" value="${num}">
 		<input type="hidden" name="ref" value="${ref}">
@@ -42,7 +42,7 @@
 				<td width="100" align="center">내용</td>
 				<td width="300">
 					<textarea rows="13" cols="50" name="content"></textarea>
-					 <input type="file" name="filename" accept="image/*" class="imageplus">
+					<input type="file" accept="png" name="filename" accept="image/*" class="imageplus" onchange="checkFileExtension(event)" required>
 				</td>
 			</tr>
 
