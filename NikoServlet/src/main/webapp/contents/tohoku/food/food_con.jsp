@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>음식 상세보기</title>
+<title>하라코메시</title>
 <link rel="stylesheet" href="../../../css/header.css">
 <link rel="stylesheet" href="../../../css/content_main.css">
 <link rel="stylesheet" href="../../../css/content.css">
@@ -17,7 +17,7 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/tohoku/food/img/tohoku_haramain.jpg">
+				src="http://localhost:9090/contents/tohoku/food/img/tohoku_haramain.jpg">
 			<div class="text-block">
 				<h4>하라코메시</h4>
 				<br>
@@ -52,19 +52,19 @@
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/tohoku/food/img/hara1.png"
+							src="http://localhost:9090/contents/tohoku/food/img/hara1.png"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/tohoku/food/img/hara2.png"
+							src="http://localhost:9090/contents/tohoku/food/img/hara2.png"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/tohoku/food/img/hara3.png"
+							src="http://localhost:9090/contents/tohoku/food/img/hara3.png"
 							style="width: 900px">
 					</div>
 
@@ -115,7 +115,7 @@
 				<div id="con_box01" class="con_box">
 					<div id="con_img">
 						<img alt="place1" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/tohoku/food/img/tohoku_food1.png">
+							src="http://localhost:9090/contents/tohoku/food/img/tohoku_food1.png">
 						<div id="con_name">놋케돈</div>
 					</div>
 				</div>
@@ -123,7 +123,7 @@
 				<div id="con_box02" class="con_box">
 					<div id="con_img">
 						<img alt="place2" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/tohoku/food/img/tohoku_food2.png">
+							src="http://localhost:9090/contents/tohoku/food/img/tohoku_food2.png">
 						<div id="con_name">사카타의 술</div>
 					</div>
 				</div>
@@ -132,7 +132,7 @@
 				<div id="con_box04" class="con_box">
 					<div id="con_img">
 						<img alt="place4" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/tohoku/food/img/tohoku_food4.png">
+							src="http://localhost:9090/contents/tohoku/food/img/tohoku_food4.png">
 						<div id="con_name">훗케메시</div>
 					</div>
 				</div>

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>음식 상세보기</title>
+<title>돈코츠 라멘</title>
 <link rel="stylesheet" href="../../../css/header.css">
 <link rel="stylesheet" href="../../../css/content_main.css">
 <link rel="stylesheet" href="../../../css/content.css">
@@ -17,7 +17,7 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu_foodmain.PNG">
+				src="http://localhost:9090/contents/kyushu/food/img/kyushu_foodmain.PNG">
 			<div class="text-block">
 				<h4>돈코츠 라멘</h4>
 				<br>
@@ -49,25 +49,25 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu1.jpg"
+							src="http://localhost:9090/contents/kyushu/food/img/kyushu1.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu2.jpg"
+							src="http://localhost:9090/contents/kyushu/food/img/kyushu2.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu3.jpg"
+							src="http://localhost:9090/contents/kyushu/food/img/kyushu3.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu4.jpg"
+							src="http://localhost:9090/contents/kyushu/food/img/kyushu4.jpg"
 							style="width: 900px">
 					</div>
 
@@ -118,7 +118,7 @@
 				<div id="con_box07" class="con_box">
 					<div id="con_img">
 						<img alt="place7" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu_food7.PNG">
+							src="http://localhost:9090/contents/kyushu/food/img/kyushu_food7.PNG">
 						<div id="con_name">우메가에모치</div>
 					</div>
 				</div>
@@ -126,14 +126,14 @@
 				<div id="con_box08" class="con_box">
 					<div id="con_img">
 						<img alt="place8" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu_food8.PNG">
+							src="http://localhost:9090/contents/kyushu/food/img/kyushu_food8.PNG">
 						<div id="con_name">하카타 와규</div>
 					</div>
 				</div>
 				<div id="con_box08" class="con_box">
 					<div id="con_img">
 						<img alt="place9" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu_food9.jpg">
+							src="http://localhost:9090/contents/kyushu/food/img/kyushu_food9.jpg">
 						<div id="con_name">부젠 게</div>
 					</div>
 				</div>

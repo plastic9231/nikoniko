@@ -17,7 +17,7 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/kansai/landmark/img/kansai_landmain.png">
+				src="http://localhost:9090/contents/kansai/landmark/img/kansai_landmain.png">
 			<div class="text-block">
 				<h4>헤이안 신궁</h4>
 				<br>
@@ -55,19 +55,19 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kansai/landmark/img/kansai_hei1.png"
+							src="http://localhost:9090/contents/kansai/landmark/img/kansai_hei1.png"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kansai/landmark/img/kansai_hei2.png"
+							src="http://localhost:9090/contents/kansai/landmark/img/kansai_hei2.png"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kansai/landmark/img/kansai_hei3.png"
+							src="http://localhost:9090/contents/kansai/landmark/img/kansai_hei3.png"
 							style="width: 900px">
 					</div>
 
@@ -118,7 +118,7 @@
 				<div id="con_box03" class="con_box">
 					<div id="con_img">
 						<img alt="place3" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kansai/landmark/img/kansai_land3.png">
+							src="http://localhost:9090/contents/kansai/landmark/img/kansai_land3.png">
 						<div id="con_name">후시미 이나리 신사</div>
 					</div>
 				</div>
@@ -126,7 +126,7 @@
 				<div id="con_box04" class="con_box">
 					<div id="con_img">
 						<img alt="place4" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kansai/landmark/img/kansai_land4.png">
+							src="http://localhost:9090/contents/kansai/landmark/img/kansai_land4.png">
 						<div id="con_name">만국박람회 기념공원</div>
 					</div>
 				</div>
@@ -134,7 +134,7 @@
 				<div id="con_box05" class="con_box">
 					<div id="con_img">
 						<img alt="place5" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kansai/landmark/img/kansai_land5.png">
+							src="http://localhost:9090/contents/kansai/landmark/img/kansai_land5.png">
 						<div id="con_name">오사카 시립 주택박물관</div>
 					</div>
 				</div>

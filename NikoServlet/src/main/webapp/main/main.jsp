@@ -8,13 +8,6 @@
    <link rel="stylesheet" href="../css/header.css">
    <link rel="stylesheet" href="../css/mainpage.css">
    <link rel="stylesheet" href="../css/footer.css">
-   <script>
-	    document.querySelectorAll('.region').forEach(region => {
-	        region.addEventListener('mouseover', function() {
-	            alert(this.id + '에 호버하셨습니다.');
-	        });
-	    });
-	</script>
 </head>
 <body>
 <div style="z-index: 999"><%@ include file="../common/header.jsp"%></div>

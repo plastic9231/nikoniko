@@ -18,7 +18,7 @@
 	<main>
 		<div id="img_block">
 			<img id="main_img" alt="people"
-				src="http://localhost:9090/NikoServlet/img/contentmain.png">
+				src="http://localhost:9090/img/contentmain.png">
 		</div>
 
 		<div id="con_sidebar">

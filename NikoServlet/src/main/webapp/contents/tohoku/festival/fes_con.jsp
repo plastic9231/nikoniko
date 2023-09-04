@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>축제 상세보기</title>
+<title>사쿠라 야부사메</title>
 <link rel="stylesheet" href="../../../css/header.css">
 <link rel="stylesheet" href="../../../css/content_main.css">
 <link rel="stylesheet" href="../../../css/content.css">
@@ -17,7 +17,7 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/tohoku/festival/img/tohoku_fesmain.png">
+				src="http://localhost:9090/contents/tohoku/festival/img/tohoku_fesmain.png">
 			<div class="text-block">
 				<h4>사쿠라 야부사메</h4>
 				<br>
@@ -49,19 +49,19 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/tohoku/festival/img/sakura1.png"
+							src="http://localhost:9090/contents/tohoku/festival/img/sakura1.png"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/tohoku/festival/img/sakura2.png"
+							src="http://localhost:9090/contents/tohoku/festival/img/sakura2.png"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/tohoku/festival/img/sakura3.png"
+							src="http://localhost:9090/contents/tohoku/festival/img/sakura3.png"
 							style="width: 900px">
 					</div>
 
@@ -112,7 +112,7 @@
 				<div id="con_box01" class="con_box">
 					<div id="con_img">
 						<img alt="place1" onclick="location.href='fes_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/tohoku/festival/img/tohoku_fes1.png">
+							src="http://localhost:9090/contents/tohoku/festival/img/tohoku_fes1.png">
 						<div id="con_name">니혼마쓰 제등 축제</div>
 					</div>
 				</div>
@@ -120,7 +120,7 @@
 				<div id="con_box02" class="con_box">
 					<div id="con_img">
 						<img alt="place2" onclick="location.href='fes_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/tohoku/festival/img/tohoku_fes2.png">
+							src="http://localhost:9090/contents/tohoku/festival/img/tohoku_fes2.png">
 						<div id="con_name">센다이 칠석 축제</div>
 					</div>
 
@@ -128,7 +128,7 @@
 				<div id="con_box03" class="con_box">
 					<div id="con_img">
 						<img alt="place3" onclick="location.href='fes_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/tohoku/festival/img/tohoku_fes3.png">
+							src="http://localhost:9090/contents/tohoku/festival/img/tohoku_fes3.png">
 						<div id="con_name">간토 축제</div>
 					</div>
 				</div>
