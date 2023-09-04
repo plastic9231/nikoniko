@@ -17,12 +17,12 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu_foodmain.PNG">
+				src="http://localhost:9090/NikoServlet/contents/chubu/food/img/chubu_foodmain.PNG">
 			<div class="text-block">
-				<h4>돈코츠 라멘</h4>
+				<h4>에치젠 오로시 소바</h4>
 				<br>
 				<p>
-					라멘의 한 종류로 <br> 돼지뼈를 우려 만드는 라멘
+					후쿠이의 옛 지명인 에치젠 <br> 400년 이상의 전통을 가진 후쿠이의 진미
 				</p>
 			</div>
 		</div>
@@ -31,16 +31,16 @@
 		</div>
 		<div id="con_subject">
 			<div id="subject_li">
-				<p>후쿠오카 현 구루메시에서 1947년 창업한 포장마차 삼구(三九)에서</p>
-				<p>우연히 돼지뼈로 만든 라멘 국물이 만들어져</p>
-				<p>이 스프로 라멘을 팔았다는 설이 있다.</p>
-				<p>이로 인해 구루메 라멘이 생기고,</p>
-				<p>이윽고 가고시마현을 제외한 규슈 각지에 영향을 미치고,</p>
-				<p>이 스타일이 전해져 하카타 라멘이 되었다는 설 등이 있다.</p>
+				<p>재배에 완벽한 기후를 갖춘 후쿠이현은</p>
+				<p>특히 소바로 유명</p>
+				<p>그 중에서도 에치젠 오로시 소바는</p>
+				<p>국물에 무즙을 넣어 먹는 소바</p>
+				<p>일본에서 평균수명이 가장 높은 현으로 유명한 </p>
+				<p>후쿠이 현에서 먹는 건강식으로 전국적인 주목을 받고 있다.</p>
 			</div>
 			<div id="con_map">
 				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13293.859537520357!2d130.38657295541992!3d33.5932405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191937523cf49%3A0x686cca1ac34ca0bb!2z7J207LmY656AIOuzuOygkA!5e0!3m2!1sko!2skr!4v1692863797424!5m2!1sko!2skr"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51692.86474208052!2d136.14799997106434!3d35.92729613195925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8afca583be1b7%3A0xbc10ea4ae7f1a4d5!2sKamezo!5e0!3m2!1sko!2skr!4v1693530512879!5m2!1sko!2skr"
 					width="400px" height="400px" style="border: 0;" allowfullscreen=""
 					loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
@@ -49,25 +49,25 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu1.jpg"
+							src="http://localhost:9090/NikoServlet/contents/chubu/food/img/chubu_soba1.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu2.jpg"
+							src="http://localhost:9090/NikoServlet/contents/chubu/food/img/chubu_soba2.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu3.jpg"
+							src="http://localhost:9090/NikoServlet/contents/chubu/food/img/chubu_soba3.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu4.jpg"
+							src="http://localhost:9090/NikoServlet/contents/chubu/food/img/chubu_soba4.PNG"
 							style="width: 900px">
 					</div>
 
@@ -115,26 +115,27 @@
 					<hr id="con_hr">
 				</div>
 
-				<div id="con_box07" class="con_box">
+				<div id="con_box05" class="con_box">
 					<div id="con_img">
-						<img alt="place7" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu_food7.PNG">
-						<div id="con_name">우메가에모치</div>
+						<img alt="place5" onclick="location.href='food_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/chubu/food/img/chubu_food5.jpg">
+						<div id="con_name">오시즈시</div>
 					</div>
 				</div>
 
-				<div id="con_box08" class="con_box">
+				<div id="con_box06" class="con_box">
 					<div id="con_img">
-						<img alt="place8" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu_food8.PNG">
-						<div id="con_name">하카타 와규</div>
+						<img alt="place6" onclick="location.href='food_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/chubu/food/img/chubu_food6.jpg">
+						<div id="con_name">우나쥬</div>
 					</div>
+
 				</div>
-				<div id="con_box08" class="con_box">
+				<div id="con_box07" class="con_box">
 					<div id="con_img">
-						<img alt="place9" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/food/img/kyushu_food9.jpg">
-						<div id="con_name">부젠 게</div>
+						<img alt="place7" onclick="location.href='food_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/chubu/food/img/chubu_food7.png">
+						<div id="con_name">미소니코미우동</div>
 					</div>
 				</div>
 			</section>

@@ -40,3 +40,16 @@
 	background-color: darkgrey;
 	margin-bottom: 25px;
 }
+
+#con_img {
+	position : relative;
+}
+
+
+#con_img > #book {
+	z-index: 30;
+    position: absolute;
+    left : 65%;
+    top: 5px;
+    width : 15%;
+}

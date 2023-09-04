@@ -20,7 +20,7 @@
 			<div id="con_img">
 				<img alt="place1" onclick="location.href='fes_con.jsp'"
 					src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu_main1.jpg">
-				<div id="con_name">하카타 기온 야마카사</div>
+				<div id="con_name">하카타 기온 야마카사</div><img id="book" src="../../mark/markblack.png">
 			</div>
 		</div>
 
@@ -28,7 +28,7 @@
 			<div id="con_img">
 				<img alt="place2" onclick="location.href='fes_con.jsp'"
 					src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu_main2.jpg">
-				<div id="con_name">히타 기온</div>
+				<div id="con_name">히타 기온</div><img id="book" src="../../mark/markblack.png">
 			</div>
 
 		</div>
@@ -36,7 +36,7 @@
 			<div id="con_img">
 				<img alt="place3" onclick="location.href='fes_con.jsp'"
 					src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu_main3.jpg">
-				<div id="con_name">도바타 기온 오야마카사</div>
+				<div id="con_name">도바타 기온 오야마카사</div><img id="book" src="../../mark/markblack.png">
 			</div>
 		</div>
 
@@ -44,7 +44,7 @@
 			<div id="con_img">
 				<img alt="place4" onclick="location.href='fes_con.jsp'"
 					src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu_main4.jpg">
-				<div id="con_name">오무타 다이자야마</div>
+				<div id="con_name">오무타 다이자야마</div><img id="book" src="../../mark/markblack.png">
 			</div>
 		</div>
 
@@ -52,7 +52,7 @@
 			<div id="con_img">
 				<img alt="place1" onclick="location.href='fes_con.jsp'"
 					src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu_main5.jpg">
-				<div id="con_name">휴가 횻토코</div>
+				<div id="con_name">휴가 횻토코</div><img id="book" src="../../mark/markblack.png">
 			</div>
 		</div>
 
@@ -60,7 +60,7 @@
 			<div id="con_img">
 				<img alt="place2" onclick="location.href='fes_con.jsp'"
 					src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu_main6.jpg">
-				<div id="con_name">히노쿠니</div>
+				<div id="con_name">히노쿠니</div><img id="book" src="../../mark/markblack.png">
 			</div>
 
 		</div>
@@ -68,7 +68,7 @@
 			<div id="con_img">
 				<img alt="place3" onclick="location.href='fes_con.jsp'"
 					src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu_main7.jpg">
-				<div id="con_name">사세보</div>
+				<div id="con_name">사세보</div><img id="book" src="../../mark/markblack.png">
 			</div>
 		</div>
 
@@ -76,7 +76,7 @@
 			<div id="con_img">
 				<img alt="place4" onclick="location.href='fes_con.jsp'"
 					src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu_main8.jpg">
-				<div id="con_name">아리타사라야마</div>
+				<div id="con_name">아리타사라야마</div><img id="book" src="../../mark/markblack.png">
 			</div>
 		</div>
 	</div>
