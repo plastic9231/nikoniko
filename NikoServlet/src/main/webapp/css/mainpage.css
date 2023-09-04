@@ -59,10 +59,15 @@
     padding-inline-start: 0;
 }
 
-.famous-search-line{
+.famous-search-line {
     transform: translateX(40%);
 }
 
-.famous-search{
+.famous-search {
     transform: translateX(40%);
 }
+
+ .region:hover {
+    fill: #ff5722;
+ }
+

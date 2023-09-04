@@ -17,12 +17,13 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufuin_main.jpg">
+				src="http://localhost:9090/NikoServlet/contents/chubu/landmark/img/chubu_landmain.PNG">
 			<div class="text-block">
-				<h4>유후인 온천</h4><br>
+				<h4>게로 온천</h4>
+				<br>
 				<p>
-					큐슈 오이타현 중앙부에 위치한 시 <br> 인구는 3만명 수준으로 우리나라의 평범한 읍정도이다. <br>
-					온천으로 유명하여 연간 4백만명이 넘는 관광객이 찾을 정도로 유명한 관광 도시이다.
+					기후현에 위치한 일본의 3대 온천 중 하나 <br> 하다 강을 중심으로 번화가와 산림의 운치를 동시에 즐길 수
+					있다 <br> 온천의 매끈한 느낌이 유명하다.
 				</p>
 			</div>
 		</div>
@@ -32,18 +33,19 @@
 		<div id="con_subject">
 			<div id="subject_li">
 				<ul>
-					<li><b>공항으로부터 거리</b> : <br>후쿠오카 공항으로부터 <br>차량 1시간 반,
-						고속버스 2시간 반</li>
-					<li><b>추천 관광 시간</b> : 1박</li>
-					<li><b>입장료</b> : 온천마다 상이</li>
-					<li><b>운영 시간</b> : 온천마다 상이</li>
-					<li><b>명소의 포인트</b> <br> - 유후인 산 아래에 위치한 온천마을 <br> -
-						소규모의 마을단위로 구성되어 있음 <br> - 휴식을 위해 떠나는 근교</li>
+					<li><b>오시는 길</b> : 나리타공항에서 온천까지 약 4시간 30분 <br> 간사이공항에서
+						온천까지 약 3시간 20분<br> 주부공항에서 온천까지 약 2시간</li>
+					<li><b>주소</b> : 기후현 게로시 고덴</li>
+					<li><b>입장료</b> : 무료</li>
+					<li><b>운영 시간</b> : 따로없으나 전철은 10시정도가 마지막</li>
+					<li><b>명소의 포인트</b> <br> - 여행으로 지쳐있을 때 휴식을 취하러 가기
+						좋은 곳 <br> - 료칸에 머물며 온천을 자유롭게 즐겨도 좋지만,<br> &nbsp;부담없이
+						거리에서 즐길 수 있는 족탕이나 연못 이용가능 <br>- 게로 온천의 토속주나 히다규가 별미</li>
 				</ul>
 			</div>
 			<div id="con_map">
 				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13344.172205112101!2d131.35393842514!3d33.26536522629576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546adda3e1a84cb%3A0x8a840ebe489bd3d9!2z7Jyg7ZuE7J247Jet!5e0!3m2!1sko!2skr!4v1692338942389!5m2!1sko!2skr"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207028.49607331865!2d137.10235673425657!3d35.82888563359171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6002dbca7bee52b1%3A0x15ceb1c533f5a12a!2z6rKM66GcIOqwk-yHvOuniOydhA!5e0!3m2!1sko!2skr!4v1693382488634!5m2!1sko!2skr"
 					width="400px" height="400px" style="border: 0;" allowfullscreen=""
 					loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
@@ -52,25 +54,19 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufu3.jpg"
+							src="http://localhost:9090/NikoServlet/contents/chubu/landmark/img/chubu_gero1.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufu2.jpg"
+							src="http://localhost:9090/NikoServlet/contents/chubu/landmark/img/chubu_gero2.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufu1.jpg"
-							style="width: 900px">
-					</div>
-
-					<div class="mySlides fade">
-						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufu4.jpg"
+							src="http://localhost:9090/NikoServlet/contents/chubu/landmark/img/chubu_gero3.PNG"
 							style="width: 900px">
 					</div>
 
@@ -118,27 +114,27 @@
 					<hr id="con_hr">
 				</div>
 
-				<div id="con_box01" class="con_box">
-					<div id="con_img">
-						<img alt="place1" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/fukutower.PNG">
-						<div id="con_name">후쿠오카 타워</div>
-					</div>
-				</div>
-
 				<div id="con_box02" class="con_box">
 					<div id="con_img">
 						<img alt="place2" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufuin.jpg">
-						<div id="con_name">유후인 온천</div>
+							src="http://localhost:9090/NikoServlet/contents/chubu/landmark/img/chubu_land2.jpg">
+						<div id="con_name">마츠모토 성</div>
 					</div>
 
 				</div>
 				<div id="con_box03" class="con_box">
 					<div id="con_img">
 						<img alt="place3" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/sumiyoshi.PNG">
-						<div id="con_name">스미요시 신사</div>
+							src="http://localhost:9090/NikoServlet/contents/chubu/landmark/img/chubu_land3.jpg">
+						<div id="con_name">쿠로베 협곡열차</div>
+					</div>
+				</div>
+
+				<div id="con_box04" class="con_box">
+					<div id="con_img">
+						<img alt="place4" onclick="location.href='land_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/chubu/landmark/img/chubu_land4.jpg">
+						<div id="con_name">후지산</div>
 					</div>
 				</div>
 			</section>

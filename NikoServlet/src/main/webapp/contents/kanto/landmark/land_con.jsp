@@ -17,12 +17,13 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufuin_main.jpg">
+				src="http://localhost:9090/NikoServlet/contents/kanto/landmark/img/kanto_landmain.PNG">
 			<div class="text-block">
-				<h4>유후인 온천</h4><br>
+				<h4>미츠미네 신사</h4>
+				<br>
 				<p>
-					큐슈 오이타현 중앙부에 위치한 시 <br> 인구는 3만명 수준으로 우리나라의 평범한 읍정도이다. <br>
-					온천으로 유명하여 연간 4백만명이 넘는 관광객이 찾을 정도로 유명한 관광 도시이다.
+					일본 신화 속 신인 이자나기노미코노와 이자나미노미코토가 있는 신사 <br> 사시사철 여러행사가 개최되고 있다 <br>
+					가마쿠라 막부 당시 무장이 봉현한 800년 정도 된 신목도 볼거리
 				</p>
 			</div>
 		</div>
@@ -32,18 +33,20 @@
 		<div id="con_subject">
 			<div id="subject_li">
 				<ul>
-					<li><b>공항으로부터 거리</b> : <br>후쿠오카 공항으로부터 <br>차량 1시간 반,
-						고속버스 2시간 반</li>
-					<li><b>추천 관광 시간</b> : 1박</li>
-					<li><b>입장료</b> : 온천마다 상이</li>
-					<li><b>운영 시간</b> : 온천마다 상이</li>
-					<li><b>명소의 포인트</b> <br> - 유후인 산 아래에 위치한 온천마을 <br> -
-						소규모의 마을단위로 구성되어 있음 <br> - 휴식을 위해 떠나는 근교</li>
+					<li><b>오시는 길</b> : <br>나리타 공항으로부터 약 2시간 <br> 하네다
+						공항으로부터 약 1시간 반</li>
+					<li><b>주소</b> : 사이타마현 치치부시 미츠미네 298-1</li>
+					<li><b>입장료</b> : 없음</li>
+					<li><b>운영 시간</b> : 9:00 ~ 17:00</li>
+					<li><b>명소의 포인트</b> <br> - 일본 신화에 관심은 사람들에게 추천 <br> -
+						여름에는 미츠미네 사자무라는 사슴을 형상화한 연을 붙여 <br> &nbsp;하카마를 입고 춤추는 것을 구경할
+						수 있다. <br> - 겨울에는 이노리노토모시바라는 행사에서 <br> &nbsp;참배객들의 염원을
+						담은 동명을 봉납할 수 있다.</li>
 				</ul>
 			</div>
 			<div id="con_map">
 				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13344.172205112101!2d131.35393842514!3d33.26536522629576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546adda3e1a84cb%3A0x8a840ebe489bd3d9!2z7Jyg7ZuE7J247Jet!5e0!3m2!1sko!2skr!4v1692338942389!5m2!1sko!2skr"
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207204.3539517447!2d139.6089894741021!3d35.76142073178109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ec1a4f7423d%3A0x2cbc4b594c448d5e!2z66-47JOw66-464SkIOyLoOyCrA!5e0!3m2!1sko!2skr!4v1693534116476!5m2!1sko!2skr"
 					width="400px" height="400px" style="border: 0;" allowfullscreen=""
 					loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
@@ -52,25 +55,25 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufu3.jpg"
+							src="http://localhost:9090/NikoServlet/contents/kanto/landmark/img/kanto_mitu3.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufu2.jpg"
+							src="http://localhost:9090/NikoServlet/contents/kanto/landmark/img/kanto_mitu2.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufu1.jpg"
+							src="http://localhost:9090/NikoServlet/contents/kanto/landmark/img/kanto_mitu1.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufu4.jpg"
+							src="http://localhost:9090/NikoServlet/contents/kanto/landmark/img/kanto_mitu4.PNG"
 							style="width: 900px">
 					</div>
 
@@ -118,27 +121,27 @@
 					<hr id="con_hr">
 				</div>
 
-				<div id="con_box01" class="con_box">
+				<div id="con_box05" class="con_box">
 					<div id="con_img">
 						<img alt="place1" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/fukutower.PNG">
-						<div id="con_name">후쿠오카 타워</div>
+							src="http://localhost:9090/NikoServlet/contents/kanto/landmark/img/kanto_land5.jpg">
+						<div id="con_name">스카이트리</div>
 					</div>
 				</div>
 
-				<div id="con_box02" class="con_box">
+				<div id="con_box06" class="con_box">
 					<div id="con_img">
 						<img alt="place2" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufuin.jpg">
-						<div id="con_name">유후인 온천</div>
+							src="http://localhost:9090/NikoServlet/contents/kanto/landmark/img/kanto_land6.jpg">
+						<div id="con_name">국영 히타치해변공원</div>
 					</div>
-
 				</div>
-				<div id="con_box03" class="con_box">
+
+				<div id="con_box07" class="con_box">
 					<div id="con_img">
-						<img alt="place3" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/sumiyoshi.PNG">
-						<div id="con_name">스미요시 신사</div>
+						<img alt="place7" onclick="location.href='land_con.jsp'"
+							src="http://localhost:9090/NikoServlet/contents/kanto/landmark/img/kanto_land7.jpg">
+						<div id="con_name">디즈니랜드</div>
 					</div>
 				</div>
 			</section>

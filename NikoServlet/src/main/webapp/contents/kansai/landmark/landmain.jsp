@@ -13,7 +13,7 @@
 </head>
 <body>
 	<div style="z-index: 999">
-	<%@ include file="../../../common/header.jsp"%>
+	<%@ include file="../../../common/header2.jsp"%>
 	</div>
 	<main>
 		<div id="img_block">

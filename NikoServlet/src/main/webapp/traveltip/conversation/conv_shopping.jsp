@@ -6,12 +6,12 @@
 <meta charset="UTF-8">
 <title>쇼핑할 때</title>
 	<link rel="stylesheet" href="../../css/header.css">
-	<link rel="stylesheet" href="../../css/conversation.css">
+	<link rel="stylesheet" href="../../css/traveltip.css">
 	<link rel="stylesheet" href="../sidebar/sidebar.css">
 	<link rel="stylesheet" href="../../css/footer.css">
 </head>
 <body>
-	<div style="z-index: 999"><%@ include file="../../common/header.jsp"%></div>
+	<div style="z-index: 999"><%@ include file="../../common/header2.jsp"%></div>
 	<main>
 		<div class="contents">
 			<div class="contents_sidebar">

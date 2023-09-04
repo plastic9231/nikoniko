@@ -95,7 +95,6 @@
     <servlet-name>Controller</servlet-name>
     <url-pattern>*.ndo</url-pattern>
 </servlet-mapping>
-
   	
 <session-config>
 <session-timeout>

@@ -15,7 +15,7 @@
 			<span class="material-symbols-outlined">expand_more</span></button>
 			<ul id="hiddenList01" class="ul_list">
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#" class="list_a">버스</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#" class="list_a">지하철</a></li>
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="http://localhost:9090/NikoServlet/traveltip/traffic/subway.jsp#" class="list_a">지하철</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#" class="list_a">택시</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#" class="list_a">교통패스</a></li>
 			</ul>

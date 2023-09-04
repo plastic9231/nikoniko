@@ -17,11 +17,14 @@
 				<div class="material-symbols-outlined">expand_more</div>
 			</div>
 			<ul id="hiddenList01" class="ul_list">
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/kanto/landmark/landmain.jsp"
 					class="list_a">명소</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/kanto/festival/fesmain.jsp"
 					class="list_a">축제</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/kanto/food/foodmain.jsp"
 					class="list_a">음식</a></li>
 			</ul>
 		</div>
@@ -31,112 +34,141 @@
 				<div class="material-symbols-outlined">expand_more</div>
 			</div>
 			<ul id="hiddenList02" class="ul_list">
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/chubu/landmark/landmain.jsp"
 					class="list_a">명소</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/chubu/festival/fesmain.jsp"
 					class="list_a">축제</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/chubu/food/foodmain.jsp"
 					class="list_a">음식</a></li>
 			</ul>
 		</div>
+
 		<div class="sidebar_ul">
 			<div id="spreadBtn04" class="btn01">
-				<div>긴키</div>
+				<div>도호쿠</div>
 				<div class="material-symbols-outlined">expand_more</div>
 			</div>
 			<ul id="hiddenList03" class="ul_list">
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
-                    class="list_a">명소</a></li>
-                <li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
-                    class="list_a">축제</a></li>
-                <li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
-                    class="list_a">음식</a></li>
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/tohoku/landmark/landmain.jsp"
+					class="list_a">명소</a></li>
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/tohoku/festival/fesmain.jsp"
+					class="list_a">축제</a></li>
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/tohoku/food/foodmain.jsp"
+					class="list_a">음식</a></li>
 			</ul>
 		</div>
+
 		<div class="sidebar_ul">
 			<div id="spreadBtn05" class="btn01">
-				<div>주고쿠</div>
+				<div>큐슈</div>
 				<div class="material-symbols-outlined">expand_more</div>
 			</div>
 			<ul id="hiddenList04" class="ul_list">
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
-                    class="list_a">명소</a></li>
-                <li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
-                    class="list_a">축제</a></li>
-                <li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
-                    class="list_a">음식</a></li>
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/kyushu/landmark/landmain.jsp"
+					class="list_a">명소</a></li>
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/kyushu/festival/fesmain.jsp"
+					class="list_a">축제</a></li>
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/kyushu/food/foodmain.jsp"
+					class="list_a">음식</a></li>
 			</ul>
 		</div>
 		<div class="sidebar_ul">
 			<div id="spreadBtn06" class="btn01">
-				<div>홋카이도</div>
+				<div>오키나와</div>
 				<div class="material-symbols-outlined">expand_more</div>
 			</div>
 			<ul id="hiddenList05" class="ul_list">
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/okinawa/landmark/landmain.jsp"
 					class="list_a">명소</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/okinawa/festival/fesmain.jsp"
 					class="list_a">축제</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/okinawa/food/foodmain.jsp"
 					class="list_a">음식</a></li>
 			</ul>
 		</div>
+
 		<div class="sidebar_ul">
 			<div id="spreadBtn07" class="btn01">
-				<div>도호쿠</div>
+				<div>긴키</div>
 				<div class="material-symbols-outlined">expand_more</div>
 			</div>
 			<ul id="hiddenList06" class="ul_list">
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/kansai/landmark/landmain.jsp"
 					class="list_a">명소</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/kansai/festival/fesmain.jsp"
 					class="list_a">축제</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/kansai/food/foodmain.jsp"
 					class="list_a">음식</a></li>
 			</ul>
 		</div>
 		<div class="sidebar_ul">
 			<div id="spreadBtn08" class="btn01">
-				<div>시고쿠</div>
+				<div>주고쿠</div>
 				<div class="material-symbols-outlined">expand_more</div>
 			</div>
 			<ul id="hiddenList07" class="ul_list">
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/chugoku/landmark/landmain.jsp"
 					class="list_a">명소</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/chugoku/festival/fesmain.jsp"
 					class="list_a">축제</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/chugoku/food/foodmain.jsp"
 					class="list_a">음식</a></li>
 			</ul>
 		</div>
 		<div class="sidebar_ul">
 			<div id="spreadBtn09" class="btn01">
-				<div>큐슈</div>
+				<div>홋카이도</div>
 				<div class="material-symbols-outlined">expand_more</div>
 			</div>
 			<ul id="hiddenList08" class="ul_list">
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="../landmark/landmain.jsp"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/hokkaido/landmark/landmain.jsp"
 					class="list_a">명소</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="../festival/fesmain.jsp"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/hokkaido/festival/fesmain.jsp"
 					class="list_a">축제</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="../food/foodmain.jsp"
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/hokkaido/food/foodmain.jsp"
 					class="list_a">음식</a></li>
 			</ul>
 		</div>
+
 		<div class="sidebar_ul_last">
-            <div id="spreadBtn10" class="btn01">
-                <div>오키나와</div>
-                <div class="material-symbols-outlined">expand_more</div>
-            </div>
-            <ul id="hiddenList09" class="ul_list">
-                <li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
-                    class="list_a">명소</a></li>
-                <li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
-                    class="list_a">축제</a></li>
-                <li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#"
-                    class="list_a">음식</a></li>
-            </ul>
-        </div>
+			<div id="spreadBtn10" class="btn01">
+				<div>시고쿠</div>
+				<div class="material-symbols-outlined">expand_more</div>
+			</div>
+			<ul id="hiddenList09" class="ul_list">
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/shikoku/landmark/landmain.jsp"
+					class="list_a">명소</a></li>
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/shikoku/festival/fesmain.jsp"
+					class="list_a">축제</a></li>
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
+					href="http://localhost:9090/NikoServlet/contents/shikoku/food/foodmain.jsp"
+					class="list_a">음식</a></li>
+			</ul>
+		</div>
+
 	</div>
 	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
 	<script>
@@ -185,60 +217,60 @@
 			});
 		});
 		$(document).ready(function() {
-            $('#spreadBtn06').click(function() {
-                if ($("#hiddenList05").is(":visible")) {
-                    $("#spreadBtn06").toggleClass("");
-                    $("#hiddenList05").slideUp();
-                } else {
-                    $("#spreadBtn06").toggleClass("");
-                    $("#hiddenList05").slideDown();
-                }
-            });
-        });
+			$('#spreadBtn06').click(function() {
+				if ($("#hiddenList05").is(":visible")) {
+					$("#spreadBtn06").toggleClass("");
+					$("#hiddenList05").slideUp();
+				} else {
+					$("#spreadBtn06").toggleClass("");
+					$("#hiddenList05").slideDown();
+				}
+			});
+		});
 		$(document).ready(function() {
-            $('#spreadBtn07').click(function() {
-                if ($("#hiddenList06").is(":visible")) {
-                    $("#spreadBtn07").toggleClass("");
-                    $("#hiddenList06").slideUp();
-                } else {
-                    $("#spreadBtn07").toggleClass("");
-                    $("#hiddenList06").slideDown();
-                }
-            });
-        });
+			$('#spreadBtn07').click(function() {
+				if ($("#hiddenList06").is(":visible")) {
+					$("#spreadBtn07").toggleClass("");
+					$("#hiddenList06").slideUp();
+				} else {
+					$("#spreadBtn07").toggleClass("");
+					$("#hiddenList06").slideDown();
+				}
+			});
+		});
 		$(document).ready(function() {
-            $('#spreadBtn08').click(function() {
-                if ($("#hiddenList07").is(":visible")) {
-                    $("#spreadBtn08").toggleClass("");
-                    $("#hiddenList07").slideUp();
-                } else {
-                    $("#spreadBtn08").toggleClass("");
-                    $("#hiddenList07").slideDown();
-                }
-            });
-        });
+			$('#spreadBtn08').click(function() {
+				if ($("#hiddenList07").is(":visible")) {
+					$("#spreadBtn08").toggleClass("");
+					$("#hiddenList07").slideUp();
+				} else {
+					$("#spreadBtn08").toggleClass("");
+					$("#hiddenList07").slideDown();
+				}
+			});
+		});
 		$(document).ready(function() {
-            $('#spreadBtn09').click(function() {
-                if ($("#hiddenList08").is(":visible")) {
-                    $("#spreadBtn09").toggleClass("");
-                    $("#hiddenList08").slideUp();
-                } else {
-                    $("#spreadBtn09").toggleClass("");
-                    $("#hiddenList08").slideDown();
-                }
-            });
-        });
+			$('#spreadBtn09').click(function() {
+				if ($("#hiddenList08").is(":visible")) {
+					$("#spreadBtn09").toggleClass("");
+					$("#hiddenList08").slideUp();
+				} else {
+					$("#spreadBtn09").toggleClass("");
+					$("#hiddenList08").slideDown();
+				}
+			});
+		});
 		$(document).ready(function() {
-            $('#spreadBtn10').click(function() {
-                if ($("#hiddenList09").is(":visible")) {
-                    $("#spreadBtn10").toggleClass("");
-                    $("#hiddenList09").slideUp();
-                } else {
-                    $("#spreadBtn10").toggleClass("");
-                    $("#hiddenList09").slideDown();
-                }
-            });
-        });
+			$('#spreadBtn10').click(function() {
+				if ($("#hiddenList09").is(":visible")) {
+					$("#spreadBtn10").toggleClass("");
+					$("#hiddenList09").slideUp();
+				} else {
+					$("#spreadBtn10").toggleClass("");
+					$("#hiddenList09").slideDown();
+				}
+			});
+		});
 	</script>
 </body>
 </html>

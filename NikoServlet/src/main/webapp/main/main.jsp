@@ -8,20 +8,24 @@
    <link rel="stylesheet" href="../css/header.css">
    <link rel="stylesheet" href="../css/mainpage.css">
    <link rel="stylesheet" href="../css/footer.css">
+   <script>
+	    document.querySelectorAll('.region').forEach(region => {
+	        region.addEventListener('mouseover', function() {
+	            alert(this.id + '에 호버하셨습니다.');
+	        });
+	    });
+	</script>
 </head>
 <body>
 <div style="z-index: 999"><%@ include file="../common/header.jsp"%></div>
-
     <main>
     <div class="allmap">
         <div class="map">
             <img src="../map/지도 전체.png" alt="map">
         </div>   
     </div>
-        
         <div class="section-first">
         <section>
-       
             <!-- 콘텐츠 블록 1 -->
             <div class="userec">
                 <table>
@@ -34,7 +38,6 @@
                     <p style="font-size: 23px; color: slategrey;" ><a href="#"><img src="../img/placeholder.png" width="23px" height="23px"> 위치 4</a></p>
                 </table>
             </div>
-        
         </section>
         <section>
             <!-- 콘텐츠 블록 2 -->
@@ -73,7 +76,6 @@
                                 <img src="../img/slide03.jpg">
                             </a>
                         </li>
-            
                         <!-- 좌,우 슬라이드 버튼 -->
                         <div class="slide-control">
                             <div>
@@ -89,16 +91,12 @@
                                 <label for="slide01" class="right"></label>
                             </div>
                         </div>
-            
                     </ul>
-
                 </div>
             </div>        
         </section>
         </div>
-    </main>
-    
-    
+    </main> 
 <%@ include file="../common/footer.jsp" %>
 </body>
 </html>
