@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>축제 상세보기</title>
+<title>키부네 마츠리</title>
 <link rel="stylesheet" href="../../../css/header.css">
 <link rel="stylesheet" href="../../../css/content_main.css">
 <link rel="stylesheet" href="../../../css/content.css">
@@ -17,7 +17,7 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_fesmain.jpg">
+				src="http://localhost:9090/contents/kanto/festival/img/kanto_fesmain.jpg">
 			<div class="text-block">
 				<h4>키부네 마츠리</h4>
 				<br>
@@ -49,19 +49,19 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_kibu1.jpg"
+							src="http://localhost:9090/contents/kanto/festival/img/kanto_kibu1.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_kibu2.jpg"
+							src="http://localhost:9090/contents/kanto/festival/img/kanto_kibu2.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_kibu3.jpg"
+							src="http://localhost:9090/contents/kanto/festival/img/kanto_kibu3.jpg"
 							style="width: 900px">
 					</div>
 
@@ -112,7 +112,7 @@
 				<div id="con_box02" class="con_box">
 					<div id="con_img">
 						<img alt="place2" onclick="location.href='fes_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_fes2.jpg">
+							src="http://localhost:9090/contents/kanto/festival/img/kanto_fes2.jpg">
 						<div id="con_name">카츠우라 빅 히나마츠리</div>
 					</div>
 
@@ -120,7 +120,7 @@
 				<div id="con_box03" class="con_box">
 					<div id="con_img">
 						<img alt="place3" onclick="location.href='fes_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_fes3.jpg">
+							src="http://localhost:9090/contents/kanto/festival/img/kanto_fes3.jpg">
 						<div id="con_name">사와라 대제 여름축제</div>
 					</div>
 				</div>
@@ -128,7 +128,7 @@
 				<div id="con_box04" class="con_box">
 					<div id="con_img">
 						<img alt="place4" onclick="location.href='fes_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kanto/festival/img/kanto_fes4.png">
+							src="http://localhost:9090/contents/kanto/festival/img/kanto_fes4.png">
 						<div id="con_name">마츠리 츠쿠바</div>
 					</div>
 				</div>

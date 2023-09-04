@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>큐슈의 축제</title>
+<title>주부의 축제</title>
 <link rel="stylesheet" href="../../../css/header.css">
 <link rel="stylesheet" href="../../../css/content_main.css">
 <link rel="stylesheet" href="../../../css/content.css">
@@ -18,7 +18,7 @@
 	<main>
 		<div id="img_block">
 			<img id="main_img" alt="people"
-				src="http://localhost:9090/NikoServlet/img/contentmain.png">
+				src="http://localhost:9090/img/contentmain.png">
 		</div>
 
 		<div id="con_sidebar">

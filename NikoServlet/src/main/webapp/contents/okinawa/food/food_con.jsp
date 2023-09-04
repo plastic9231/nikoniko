@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>음식 상세보기</title>
+<title>오키나와 소바</title>
 <link rel="stylesheet" href="../../../css/header.css">
 <link rel="stylesheet" href="../../../css/content_main.css">
 <link rel="stylesheet" href="../../../css/content.css">
@@ -17,7 +17,7 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/okinawa/food/img/okinawa_foodmain.jpg">
+				src="http://localhost:9090/contents/okinawa/food/img/okinawa_foodmain.jpg">
 			<div class="text-block">
 				<h4>오키나와 소바</h4>
 				<br>
@@ -53,25 +53,25 @@
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/okinawa/food/img/okinawa1.jpg"
+							src="http://localhost:9090/contents/okinawa/food/img/okinawa1.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/okinawa/food/img/okinawa2.jpg"
+							src="http://localhost:9090/contents/okinawa/food/img/okinawa2.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/okinawa/food/img/okinawa3.jpg"
+							src="http://localhost:9090/contents/okinawa/food/img/okinawa3.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/okinawa/food/img/okinawa4.jpg"
+							src="http://localhost:9090/contents/okinawa/food/img/okinawa4.jpg"
 							style="width: 900px">
 					</div>
 
@@ -123,7 +123,7 @@
 				<div id="con_box01" class="con_box">
 					<div id="con_img">
 						<img alt="place1" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/okinawa/food/img/okinawa_food1.jpg">
+							src="http://localhost:9090/contents/okinawa/food/img/okinawa_food1.jpg">
 						<div id="con_name">글루콘 튀김</div>
 					</div>
 				</div>
@@ -131,7 +131,7 @@
 				<div id="con_box02" class="con_box">
 					<div id="con_img">
 						<img alt="place2" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/okinawa/food/img/okinawa_food2.PNG">
+							src="http://localhost:9090/contents/okinawa/food/img/okinawa_food2.PNG">
 						<div id="con_name">친스코</div>
 					</div>
 
@@ -139,7 +139,7 @@
 				<div id="con_box03" class="con_box">
 					<div id="con_img">
 						<img alt="place3" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/okinawa/food/img/okinawa_food3.PNG">
+							src="http://localhost:9090/contents/okinawa/food/img/okinawa_food3.PNG">
 						<div id="con_name">칠라거</div>
 					</div>
 				</div>

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>명소 상세보기</title>
+<title>하나미야마 공원</title>
 <link rel="stylesheet" href="../../../css/header.css">
 <link rel="stylesheet" href="../../../css/content_main.css">
 <link rel="stylesheet" href="../../../css/content.css">
@@ -17,7 +17,7 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/hana_main1.jpg">
+				src="http://localhost:9090/contents/tohoku/landmark/img/hana_main1.jpg">
 			<div class="text-block">
 				<h4>하나미야마 공원</h4>
 				<br>
@@ -54,19 +54,19 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/hana3.png"
+							src="http://localhost:9090/contents/tohoku/landmark/img/hana3.png"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/hana2.png"
+							src="http://localhost:9090/contents/tohoku/landmark/img/hana2.png"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/hana1.png"
+							src="http://localhost:9090/contents/tohoku/landmark/img/hana1.png"
 							style="width: 900px">
 					</div>
 
@@ -117,7 +117,7 @@
 				<div id="con_box02" class="con_box">
 					<div id="con_img">
 						<img alt="place2" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/tohoku_land2.png">
+							src="http://localhost:9090/contents/tohoku/landmark/img/tohoku_land2.png">
 						<div id="con_name">오우치 쥬쿠</div>
 					</div>
 
@@ -125,7 +125,7 @@
 				<div id="con_box03" class="con_box">
 					<div id="con_img">
 						<img alt="place3" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/tohoku_land3.png">
+							src="http://localhost:9090/contents/tohoku/landmark/img/tohoku_land3.png">
 						<div id="con_name">엔쓰인 사원</div>
 					</div>
 				</div>
@@ -133,7 +133,7 @@
 				<div id="con_box05" class="con_box">
 					<div id="con_img">
 						<img alt="place5" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/tohoku/landmark/img/tohoku_land5.png">
+							src="http://localhost:9090/contents/tohoku/landmark/img/tohoku_land5.png">
 						<div id="con_name">혼야 미술관</div>
 					</div>
 				</div>

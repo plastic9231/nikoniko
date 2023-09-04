@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>축제 상세보기</title>
+<title>류큐 불꽃 축제</title>
 <link rel="stylesheet" href="../../../css/header.css">
 <link rel="stylesheet" href="../../../css/content_main.css">
 <link rel="stylesheet" href="../../../css/content.css">
@@ -17,7 +17,7 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/okinawa/festival/img/okinawa_fesmain.PNG">
+				src="http://localhost:9090/contents/okinawa/festival/img/okinawa_fesmain.PNG">
 			<div class="text-block">
 				<h4>류큐 불꽃 축제</h4>
 				<br>
@@ -48,25 +48,25 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/okinawa/festival/img/oki1.PNG"
+							src="http://localhost:9090/contents/okinawa/festival/img/oki1.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/okinawa/festival/img/oki2.PNG"
+							src="http://localhost:9090/contents/okinawa/festival/img/oki2.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/okinawa/festival/img/oki3.PNG"
+							src="http://localhost:9090/contents/okinawa/festival/img/oki3.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/okinawa/festival/img/oki4.PNG"
+							src="http://localhost:9090/contents/okinawa/festival/img/oki4.PNG"
 							style="width: 900px">
 					</div>
 
@@ -117,7 +117,7 @@
 				<div id="con_box05" class="con_box">
 					<div id="con_img">
 						<img alt="place1" onclick="location.href='fes_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/okinawa/festival/img/okinawa_fes5.PNG">
+							src="http://localhost:9090/contents/okinawa/festival/img/okinawa_fes5.PNG">
 						<div id="con_name">이에 섬 백합 축제</div>
 					</div>
 				</div>
@@ -125,7 +125,7 @@
 				<div id="con_box06" class="con_box">
 					<div id="con_img">
 						<img alt="place2" onclick="location.href='fes_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/okinawa/festival/img/okinawa_fes6.PNG">
+							src="http://localhost:9090/contents/okinawa/festival/img/okinawa_fes6.PNG">
 						<div id="con_name">나하 하리</div>
 					</div>
 
@@ -133,7 +133,7 @@
 				<div id="con_box07" class="con_box">
 					<div id="con_img">
 						<img alt="place3" onclick="location.href='fes_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/okinawa/festival/img/okinawa_fes7.PNG">
+							src="http://localhost:9090/contents/okinawa/festival/img/okinawa_fes7.PNG">
 						<div id="con_name">오키나와 전도 에이사 축제</div>
 					</div>
 				</div>

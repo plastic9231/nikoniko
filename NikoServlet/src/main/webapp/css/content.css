@@ -67,18 +67,19 @@
 
 #con_subject> #subject_li > ul > li {
 	padding-bottom: 15px;
-	font-size: 1.1em;
+	font-size: 1em;
 	line-height: 1.5;
 }
 
 #con_subject> #subject_li > p{
     
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.5;
 }
 
 #con_subject> #subject_li {
     margin-right: 50px;
+    transform:translate(-100px, 0);
 }
 
 #con_map {

@@ -17,7 +17,7 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/chubu/landmark/img/chubu_landmain.PNG">
+				src="http://localhost:9090/contents/chubu/landmark/img/chubu_landmain.PNG">
 			<div class="text-block">
 				<h4>게로 온천</h4>
 				<br>
@@ -54,19 +54,19 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/chubu/landmark/img/chubu_gero1.PNG"
+							src="http://localhost:9090/contents/chubu/landmark/img/chubu_gero1.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/chubu/landmark/img/chubu_gero2.PNG"
+							src="http://localhost:9090/contents/chubu/landmark/img/chubu_gero2.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/chubu/landmark/img/chubu_gero3.PNG"
+							src="http://localhost:9090/contents/chubu/landmark/img/chubu_gero3.PNG"
 							style="width: 900px">
 					</div>
 
@@ -117,7 +117,7 @@
 				<div id="con_box02" class="con_box">
 					<div id="con_img">
 						<img alt="place2" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/chubu/landmark/img/chubu_land2.jpg">
+							src="http://localhost:9090/contents/chubu/landmark/img/chubu_land2.jpg">
 						<div id="con_name">마츠모토 성</div>
 					</div>
 
@@ -125,7 +125,7 @@
 				<div id="con_box03" class="con_box">
 					<div id="con_img">
 						<img alt="place3" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/chubu/landmark/img/chubu_land3.jpg">
+							src="http://localhost:9090/contents/chubu/landmark/img/chubu_land3.jpg">
 						<div id="con_name">쿠로베 협곡열차</div>
 					</div>
 				</div>
@@ -133,7 +133,7 @@
 				<div id="con_box04" class="con_box">
 					<div id="con_img">
 						<img alt="place4" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/chubu/landmark/img/chubu_land4.jpg">
+							src="http://localhost:9090/contents/chubu/landmark/img/chubu_land4.jpg">
 						<div id="con_name">후지산</div>
 					</div>
 				</div>
