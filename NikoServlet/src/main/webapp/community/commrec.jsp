@@ -112,7 +112,7 @@
 			<a href="#">${article.writer}</a>
 			</td>
 			<td align="center" width="150">
-				${article.regdate}
+				<fmt:formatDate value="${article.regdate }" dateStyle="long"/>
 			</td>
 			<td align="center" width="50">
 				${article.readcount}

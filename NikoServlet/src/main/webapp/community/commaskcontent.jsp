@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>    
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>  
 <html>
 <head>
     <meta charset="UTF-8">
@@ -72,7 +73,7 @@
 				
 				<tr>
 					<td>작성일</td>
-					<td>${article.regdate}</td>
+					<td><fmt:formatDate value="${article.regdate }" dateStyle="long"/></td>
 				</tr>
 				
 				<tr>
@@ -129,7 +130,7 @@
                 </tr>
                 <tr>
                     <td>작성시간</td>
-                    <td>${comment.createdAt}</td>
+                    <td><fmt:formatDate value="${comment.createdAt}" dateStyle="long"/></td>    
                 </tr>
                 <tr>
                     <td>댓글 내용</td>
