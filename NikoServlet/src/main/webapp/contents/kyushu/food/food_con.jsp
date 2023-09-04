@@ -21,6 +21,7 @@
 			<div class="text-block">
 				<h4>돈코츠 라멘</h4>
 				<br>
+				<h8 class="tag">#음식 #문화체험</h8>
 				<p>
 					라멘의 한 종류로 <br> 돼지뼈를 우려 만드는 라멘
 				</p>

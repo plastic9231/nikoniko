@@ -4,150 +4,158 @@
 * { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
 
 #con_img>img {
-	width: 80%;
+   width: 80%;
 }
 
 #con_img>#con_name {
-	font-size: 1.3em;
+   font-size: 1.3em;
 }
 
 #main_box, #con_footer {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	flex-direction: row;
-	width: auto;
-	padding-top: 30px;
-	padding-left: 15px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   flex-direction: row;
+   width: auto;
+   padding-top: 30px;
+   padding-left: 15px;
 }
 
 .con_box {
-	flex-wrap: wrap;
-	justify-content: space-around;
-	width: 33%;
-	height: 40%;
-	padding-bottom: 20px;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   width: 33%;
+   height: 40%;
+   padding-bottom: 20px;
 }
 
 #conmain_img {
-	position: relative;
-	width: 100%;
+   position: relative;
+   width: 100%;
 }
 
 /* Bottom right text */
 .text-block {
-	position: absolute; 
-	bottom : 20px;
-	width: 100%;
-	background-color: #0000006b;
-	color: white;
+   position: absolute; 
+   bottom : 20px;
+   width: 100%;
+   background-color: #0000006b;
+   color: white;
 }
 
 #conmain_img>.text-block>h4 {
-	font-size: 3em;
+   font-size: 3em;
 }
 
 #conmain_img>.text-block>p {
-	font-size: 1.2em;
-	padding-bottom: 30px;
+   font-size: 1.2em;
+   padding-bottom: 30px;
 }
 
 #conmain_img>.text-block>p, #conmain_img>.text-block>h4 {
-	padding-left: 5%;
+   padding-left: 5%;
 }
 
 #con_subject {
-	width: auto;
-	padding-top: 30px;
-	padding-left: 15px; display : flex;
-	flex-wrap: wrap;
-	display: flex;
-	justify-content: space-around;
+   width: auto;
+   padding-top: 30px;
+   padding-left: 15px; display : flex;
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: space-around;
 }
 
 #con_subject> #subject_li > ul > li {
-	padding-bottom: 15px;
-	font-size: 1em;
-	line-height: 1.5;
+   padding-bottom: 15px;
+   font-size: 1.1em;
+   line-height: 1.5;
+   
 }
 
 #con_subject> #subject_li > p{
     
-    font-size: 1em;
+    font-size: 1.1em;
     line-height: 1.5;
 }
 
 #con_subject> #subject_li {
     margin-right: 50px;
-    transform:translate(-100px, 0);
+    flex: 1;
 }
 
 #con_map {
-	padding-top: 15px;
-	padding-left: 30px;
-	padding-bottom: 60px;
-	display: flex;
-	flex-wrap: wrap;
+   padding-top: 15px;
+   padding-left: 30px;
+   padding-bottom: 60px;
+   display: flex;
+   flex-wrap: wrap;
+   flex: 1;
 }
 
 #slideshow_sec {
-	padding-top: 80px;
-	padding-bottom: 80px;
+   padding-top: 80px;
+   padding-bottom: 80px;
 }
 
 #con_footer {
-	padding-bottom: 100px;
+   padding-bottom: 100px;
 }
 
 .mySlides {
-	display: none
+   display: none;
+   padding-right: 60px;
 }
 
 img {
-	vertical-align: middle;
+   vertical-align: middle;
 }
 
 .slideshow-container {
-	position: relative;
-	margin: auto;
+   position: relative;
+   margin: auto;
 }
 
 .prev, .next {
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	padding: 16px;
-	margin-top: -22px;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   padding: 16px;
+   margin-top: -22px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
 }
 
 .next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
+   right: 0;
+   border-radius: 3px 0 0 3px;
 }
 
 .prev:hover, .next:hover {
-	background-color: rgba(0, 0, 0, 0.8);
+   background-color: rgba(0, 0, 0, 0.8);
 }
 
 .active, .dot:hover {
-	background-color: #717171;
+   background-color: #717171;
 }
 
 .fade {
-	animation-name: fade;
-	animation-duration: 1.5s;
+   animation-name: fade;
+   animation-duration: 1.5s;
 }
 
 @keyframes fade {from {opacity: .4} to {opacity: 1}}
 @media only screen and (max-width: 300px) {
-	.prev, .next, .text {
-		font-size: 11px
-	}
+   .prev, .next, .text {
+      font-size: 11px
+   }
+}
+
+.tag {
+	color: rgb(253,211,211);
+	margin-left: 55px;
 }
