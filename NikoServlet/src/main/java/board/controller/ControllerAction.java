@@ -25,13 +25,6 @@ public class ControllerAction extends HttpServlet {
 	// 명렁어와 명령어 처리클래스를 쌍으로 저장
 	private HashMap<String, Object> commandMap = new HashMap<String, Object>();
 		
-		/*
-		 * 	명령어의 처리클래스가 매핑되어 있는 CommandMVC.properties 파일을 읽어와서
-		 * 	Map 객체인 commandMap객체 저장함
-		 * 
-		 *  명령어의 처리클래스 매핑되어 있는 properties 파일은
-		 *  CommandMVC.properties 파일이다.
-		 */
 
 	
 	public void init(ServletConfig config) throws ServletException {
@@ -46,10 +39,10 @@ public class ControllerAction extends HttpServlet {
 		FileInputStream f = null;
 		
 		try {
-			// CommandMVC.proprties 파일의 내용을 읽어옴
+		
 			f = new FileInputStream(new File(path, props));
 			
-			// CommandMVC.properties 파일의 정보를 properties 객체에 저장
+
 			pr.load(f);
 			
 		}catch(IOException il) {

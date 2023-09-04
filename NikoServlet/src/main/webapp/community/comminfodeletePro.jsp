@@ -16,7 +16,7 @@
 <c:if test="${check==0}">
 비밀번호가 틀렸습니다.
 <br>
-<a href="javascript:history.go(-1)">[글 수정 폼으로 돌아가기]</a>
+<a href="javascript:history.go(-1)">[글 삭제로 돌아가기]</a>
 </c:if>
 
 </body>
