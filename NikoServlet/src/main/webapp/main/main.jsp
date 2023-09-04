@@ -8,6 +8,31 @@
    <link rel="stylesheet" href="../css/header.css">
    <link rel="stylesheet" href="../css/mainpage.css">
    <link rel="stylesheet" href="../css/footer.css">
+   <script>
+       document.addEventListener('DOMContentLoaded', function() {
+           const imagesAndLinks = [
+               {img: "../contentsimg/chubu_land1.jpg", link: "http://localhost:9090/contents/chubu/landmark/land_con.jsp"},
+               {img: "../contentsimg/kanto_land1.jpg", link: "http://localhost:9090/contents/kanto/landmark/land_con.jsp"},
+               {img: "../contentsimg/kyushu2.jpg", link: "http://localhost:9090/contents/kyushu/landmark/land_con.jsp"},
+               {img: "../contentsimg/okinawa_land1.PNG", link: "http://localhost:9090/contents/okinawa/landmark/land_con.jsp"},
+               {img: "../contentsimg/tohoku_land1.png", link: "http://localhost:9090/contents/tohoku/landmark/land_con.jsp"}
+           ];
+
+           function getRandomImagesAndLinks(num) {
+               let shuffledData = [...imagesAndLinks];
+               shuffledData.sort(() => 0.5 - Math.random());
+               return shuffledData.slice(0, num);
+           }
+
+           const selectedData = getRandomImagesAndLinks(3);
+           const slideItems = document.querySelectorAll(".slideitem");
+
+           slideItems.forEach((slideItem, index) => {
+               slideItem.querySelector('img').src = selectedData[index].img;
+               slideItem.querySelector('a').href = selectedData[index].link;
+           });
+       });
+   </script>
 </head>
 <body>
 <div style="z-index: 999"><%@ include file="../common/header.jsp"%></div>
@@ -42,31 +67,24 @@
                 <input type="radio" name="slide" id="slide03">
                 <hr class="famous-search-line">
                 <div class="slidewrap">
-                  
                     <ul class="slidelist">
-                        
                         <!-- 슬라이드 영역 -->
                         <li class="slideitem">
                             <a>
-                                <div class="textbox">
-                                </div>
-                                <img src="../img/slide01.jpg">
+                                <div class="textbox"></div>
+                                <img src="" height="300px">
                             </a>
                         </li>
                         <li class="slideitem">
                             <a>
-                                
-                                <div class="textbox">
-                                </div>
-                                <img src="../img/slide02.jpg">
+                                <div class="textbox"></div>
+                                <img src="" height="300px">
                             </a>
                         </li>
                         <li class="slideitem">
                             <a>
-                                
-                                <div class="textbox">
-                                </div>
-                                <img src="../img/slide03.jpg">
+                                <div class="textbox"></div>
+                                <img src="" height="300px">
                             </a>
                         </li>
                         <!-- 좌,우 슬라이드 버튼 -->
