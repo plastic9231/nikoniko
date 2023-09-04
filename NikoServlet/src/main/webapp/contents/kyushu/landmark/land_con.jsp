@@ -19,7 +19,9 @@
 			<img id="main_img01" width="100%"
 				src="http://localhost:9090/contents/kyushu/landmark/img/kyushu_landmain.jpg">
 			<div class="text-block">
-				<h4>유후인 온천</h4><br>
+				<h4>유후인 온천</h4>
+				<br>
+				<h8 class="tag">#휴양 #문화체험</h8>
 				<p>
 					큐슈 오이타현 중앙부에 위치한 시 <br> 인구는 3만명 수준으로 우리나라의 평범한 읍정도이다. <br>
 					온천으로 유명하여 연간 4백만명이 넘는 관광객이 찾을 정도로 유명한 관광 도시이다.
