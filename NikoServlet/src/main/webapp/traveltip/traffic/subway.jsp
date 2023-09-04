@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>음식점 주문할 때</title>
+<title>지하철</title>
 	<link rel="stylesheet" href="../../css/header.css">
 	<link rel="stylesheet" href="../../css/traveltip.css">
 	<link rel="stylesheet" href="../sidebar/sidebar.css">
@@ -18,7 +18,7 @@
 				<%@ include file="../sidebar/sidebar.jsp"%>
 			</div>
 			<div class="contents_img">
-				<img class="img_tip" alt="menuorder" src="../../img/menuorder.png">
+				<img class="img_tip_traffic" alt="subway" src="../../img/subway.png">
 			</div>
 		</div>
 	</main>
