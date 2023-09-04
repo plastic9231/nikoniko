@@ -16,7 +16,7 @@
         </div>
         <div class="menu">    
             <div class="logo">
-                <span><img src="http://localhost:9090/NikoServlet/img/logo.png"></span>
+                <span><a href="http://localhost:9090/main/main.jsp"><img src="http://localhost:9090/img/logo.png"></a></span>
             </div>
             <div class="rec" align="center" style="z-index: 999;">지역별 추천
                 <div class="submenu" align="center">

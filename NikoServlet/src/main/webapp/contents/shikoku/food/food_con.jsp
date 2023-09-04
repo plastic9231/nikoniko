@@ -17,10 +17,11 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/chubu/food/img/chubu_foodmain.PNG">
+				src="http://localhost:9090/contents/chubu/food/img/chubu_foodmain.PNG">
 			<div class="text-block">
 				<h4>에치젠 오로시 소바</h4>
 				<br>
+				<h8 class="tag">#문화체험 #엑티비티</h8>
 				<p>
 					후쿠이의 옛 지명인 에치젠 <br> 400년 이상의 전통을 가진 후쿠이의 진미
 				</p>
@@ -49,25 +50,25 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/chubu/food/img/chubu_soba1.PNG"
+							src="http://localhost:9090/contents/chubu/food/img/chubu_soba1.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/chubu/food/img/chubu_soba2.PNG"
+							src="http://localhost:9090/contents/chubu/food/img/chubu_soba2.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/chubu/food/img/chubu_soba3.PNG"
+							src="http://localhost:9090/contents/chubu/food/img/chubu_soba3.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/chubu/food/img/chubu_soba4.PNG"
+							src="http://localhost:9090/contents/chubu/food/img/chubu_soba4.PNG"
 							style="width: 900px">
 					</div>
 
@@ -118,7 +119,7 @@
 				<div id="con_box05" class="con_box">
 					<div id="con_img">
 						<img alt="place5" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/chubu/food/img/chubu_food5.jpg">
+							src="http://localhost:9090/contents/chubu/food/img/chubu_food5.jpg">
 						<div id="con_name">오시즈시</div>
 					</div>
 				</div>
@@ -126,7 +127,7 @@
 				<div id="con_box06" class="con_box">
 					<div id="con_img">
 						<img alt="place6" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/chubu/food/img/chubu_food6.jpg">
+							src="http://localhost:9090/contents/chubu/food/img/chubu_food6.jpg">
 						<div id="con_name">우나쥬</div>
 					</div>
 
@@ -134,7 +135,7 @@
 				<div id="con_box07" class="con_box">
 					<div id="con_img">
 						<img alt="place7" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/chubu/food/img/chubu_food7.png">
+							src="http://localhost:9090/contents/chubu/food/img/chubu_food7.png">
 						<div id="con_name">미소니코미우동</div>
 					</div>
 				</div>

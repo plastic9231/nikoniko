@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>음식 상세보기</title>
+<title>몬자야키</title>
 <link rel="stylesheet" href="../../../css/header.css">
 <link rel="stylesheet" href="../../../css/content_main.css">
 <link rel="stylesheet" href="../../../css/content.css">
@@ -17,10 +17,11 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/kanto/food/img/kanto_foodmain.jpg">
+				src="http://localhost:9090/contents/kanto/food/img/kanto_foodmain.jpg">
 			<div class="text-block">
 				<h4>몬자야키</h4>
 				<br>
+				<h8 class="tag">#음식 #문화체험</h8>
 				<p>
 					간사이에 오코노미야키가 있다면 <br> 간토에는 몬자야키가 있다
 				</p>
@@ -48,25 +49,25 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kanto/food/img/kanto_mon1.jpg"
+							src="http://localhost:9090/contents/kanto/food/img/kanto_mon1.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kanto/food/img/kanto_mon2.jpg"
+							src="http://localhost:9090/contents/kanto/food/img/kanto_mon2.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kanto/food/img/kanto_mon3.jpg"
+							src="http://localhost:9090/contents/kanto/food/img/kanto_mon3.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kanto/food/img/kanto_mon4.jpg"
+							src="http://localhost:9090/contents/kanto/food/img/kanto_mon4.jpg"
 							style="width: 900px">
 					</div>
 
@@ -117,7 +118,7 @@
 				<div id="con_box02" class="con_box">
 					<div id="con_img">
 						<img alt="place2" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kanto/food/img/kanto_food2.jpg">
+							src="http://localhost:9090/contents/kanto/food/img/kanto_food2.jpg">
 						<div id="con_name">요코스카 해군카레</div>
 					</div>
 
@@ -125,7 +126,7 @@
 				<div id="con_box03" class="con_box">
 					<div id="con_img">
 						<img alt="place3" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kanto/food/img/kanto_food3.jpg">
+							src="http://localhost:9090/contents/kanto/food/img/kanto_food3.jpg">
 						<div id="con_name">미즈사와 우동</div>
 					</div>
 				</div>
@@ -133,7 +134,7 @@
 				<div id="con_box04" class="con_box">
 					<div id="con_img">
 						<img alt="place4" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kanto/food/img/kanto_food4.jpg">
+							src="http://localhost:9090/contents/kanto/food/img/kanto_food4.jpg">
 						<div id="con_name">우츠노미야 교자</div>
 					</div>
 				</div>

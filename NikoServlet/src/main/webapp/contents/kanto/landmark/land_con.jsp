@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>명소 상세보기</title>
+<title>미츠미네 신사</title>
 <link rel="stylesheet" href="../../../css/header.css">
 <link rel="stylesheet" href="../../../css/content_main.css">
 <link rel="stylesheet" href="../../../css/content.css">
@@ -21,6 +21,7 @@
 			<div class="text-block">
 				<h4>미츠미네 신사</h4>
 				<br>
+				<h8 class="tag">#문화체험 #자연</h8>
 				<p>
 					일본 신화 속 신인 이자나기노미코노와 이자나미노미코토가 있는 신사 <br> 사시사철 여러행사가 개최되고 있다 <br>
 					가마쿠라 막부 당시 무장이 봉현한 800년 정도 된 신목도 볼거리

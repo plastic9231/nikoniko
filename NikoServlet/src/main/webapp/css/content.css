@@ -154,3 +154,8 @@ img {
       font-size: 11px
    }
 }
+
+.tag {
+	color: rgb(253,211,211);
+	margin-left: 55px;
+}
