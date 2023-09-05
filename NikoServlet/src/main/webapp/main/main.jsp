@@ -146,50 +146,57 @@
         }
         displayRandomItems();
     </script>
-
 			<section>
 				<!-- 콘텐츠 블록 2 -->
-				<div class="section">
-					<p style="font-size: 25px;" class="famous-search">인기 검색 여행지
-						&nbsp;</p>
-
-					<input type="radio" name="slide" id="slide01" checked> <input
-						type="radio" name="slide" id="slide02"> <input
-						type="radio" name="slide" id="slide03">
-					<hr class="famous-search-line">
-					<div class="slidewrap">
-						<ul class="slidelist">
-							<!-- 슬라이드 영역 -->
-							<li class="slideitem"><a>
-									<div class="textbox"></div> <img src="" height="300px">
-							</a></li>
-							<li class="slideitem"><a>
-									<div class="textbox"></div> <img src="" height="300px">
-							</a></li>
-							<li class="slideitem"><a>
-									<div class="textbox"></div> <img src="" height="300px">
-							</a></li>
-							<!-- 좌,우 슬라이드 버튼 -->
-							<div class="slide-control">
-								<div>
-									<label for="slide03" class="left"></label> <label for="slide02"
-										class="right"></label>
-								</div>
-								<div>
-									<label for="slide01" class="left"></label> <label for="slide03"
-										class="right"></label>
-								</div>
-								<div>
-									<label for="slide02" class="left"></label> <label for="slide01"
-										class="right"></label>
-								</div>
-							</div>
-						</ul>
-					</div>
-				</div>
-			</section>
-		</div>
-	</main>
-	<%@ include file="../common/footer.jsp"%>
+            <div class="section">
+                <p style="font-size: 25px;" class="famous-search">인기 검색 여행지 &nbsp; </p>
+               
+                <input type="radio" name="slide" id="slide01" checked>
+                <input type="radio" name="slide" id="slide02">
+                <input type="radio" name="slide" id="slide03">
+                <hr class="famous-search-line">
+                <div class="slidewrap">
+                    <ul class="slidelist">
+                        <!-- 슬라이드 영역 -->
+                        <li class="slideitem">
+                            <a>
+                                <div class="textbox"></div>
+                                <img src="" height="300px">
+                            </a>
+                        </li>
+                        <li class="slideitem">
+                            <a>
+                                <div class="textbox"></div>
+                                <img src="" height="300px">
+                            </a>
+                        </li>
+                        <li class="slideitem">
+                            <a>
+                                <div class="textbox"></div>
+                                <img src="" height="300px">
+                            </a>
+                        </li>
+                        <!-- 좌,우 슬라이드 버튼 -->
+                        <div class="slide-control">
+                            <div>
+                                <label for="slide03" class="left"></label>
+                                <label for="slide02" class="right"></label>
+                            </div>
+                            <div>
+                                <label for="slide01" class="left"></label>
+                                <label for="slide03" class="right"></label>
+                            </div>
+                            <div>
+                                <label for="slide02" class="left"></label>
+                                <label for="slide01" class="right"></label>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>        
+        </section>
+        </div>
+    </main> 
+<%@ include file="../common/footer.jsp" %>
 </body>
 </html>
