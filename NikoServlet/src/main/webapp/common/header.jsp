@@ -16,14 +16,13 @@
         	%>
            <span><a href="main/main.jsp">로그아웃&nbsp;</a> |</span>
             <span><a href="/mypage/mypage.jsp">마이페이지</a></span>
-            
+            <span><a href="#"><img src="http://localhost:9090/img/markgreen.png"></a></span>
         <% }
         if (loginID == null)
         {%>
         <span><a href="/login/login.ndo">로그인&nbsp;</a> |</span>
            <span><a href="/join/join.jsp">회원가입</a></span>
-        <%} %>
-        
+        <%} %> 
 </div>
         <div class="menu">
             <div class="logo">
