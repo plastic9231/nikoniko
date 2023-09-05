@@ -2,8 +2,6 @@
     pageEncoding="UTF-8"%>
     
         <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-        
-        
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,9 +10,7 @@
 <link type = "text/css" rel = "stylesheet" href = "../css/conjoin.css">
 </head>
 <body>
-
 <c:set var="flag" value="${flag }" />
-
 	<div class="conbox">
 		<div class="conheader">
 			<div class="con"> ${name } 님 가입을 환영합니다. </div>
