@@ -12,7 +12,7 @@
 	<div id="main_box">
 
 		<div id="con_headline">
-			<div id="headline"><strong>큐슈의 축제</strong></div>
+			<div id="headline"><strong>도호쿠의 축제</strong></div>
 			<hr id="con_hr">
 		</div>
 
