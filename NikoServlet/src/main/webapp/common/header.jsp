@@ -9,11 +9,22 @@
 </head>	
 <body>
 <header>
-        <div class="user">
-           	<span><a href="#">로그인&nbsp;</a> |</span>
-            <span><a href="#">회원가입</a></span>
-            <span><a href="#"><!-- <img src="http://localhost:9090/NikoServlet/img/markgreen.png"> --> <img src="../img/markgreen.png"></a></span>
-        </div>
+
+		 <div class="user">
+        <%
+        String loginID = (String)session.getAttribute("loginID");
+        if (loginID == null) {
+        %>
+           <span><a href="login/login.ndo">로그인&nbsp;</a> |</span>
+           <span><a href="/join/join.jsp">회원가입</a></span>
+            
+        <% }else { %>
+        
+            <span><a href="main/main.jsp">로그아웃&nbsp;</a> |</span>
+            <span><a href="/mypage/mypage.jsp">마이페이지</a></span>
+            
+        <% } %>        
+
         <div class="menu">
             <div class="logo">
                 <span><a href="http://localhost:9090/NikoServlet/main/main.jsp"><img src="../img/logo.png"></a></span>
