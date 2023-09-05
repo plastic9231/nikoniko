@@ -18,13 +18,13 @@
 			</div>
 			<ul id="hiddenList01" class="ul_list">
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/kanto/landmark/landmain.jsp"
+					href="http://localhost:9090/contents/kanto/landmark/landmain.jsp"
 					class="list_a">명소</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/kanto/festival/fesmain.jsp"
+					href="http://localhost:9090/contents/kanto/festival/fesmain.jsp"
 					class="list_a">축제</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/kanto/food/foodmain.jsp"
+					href="http://localhost:9090/contents/kanto/food/foodmain.jsp"
 					class="list_a">음식</a></li>
 			</ul>
 		</div>
@@ -35,13 +35,13 @@
 			</div>
 			<ul id="hiddenList02" class="ul_list">
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/chubu/landmark/landmain.jsp"
+					href="http://localhost:9090/contents/chubu/landmark/landmain.jsp"
 					class="list_a">명소</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/chubu/festival/fesmain.jsp"
+					href="http://localhost:9090/contents/chubu/festival/fesmain.jsp"
 					class="list_a">축제</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/chubu/food/foodmain.jsp"
+					href="http://localhost:9090/contents/chubu/food/foodmain.jsp"
 					class="list_a">음식</a></li>
 			</ul>
 		</div>
@@ -53,13 +53,13 @@
 			</div>
 			<ul id="hiddenList03" class="ul_list">
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/tohoku/landmark/landmain.jsp"
+					href="http://localhost:9090/contents/tohoku/landmark/landmain.jsp"
 					class="list_a">명소</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/tohoku/festival/fesmain.jsp"
+					href="http://localhost:9090/contents/tohoku/festival/fesmain.jsp"
 					class="list_a">축제</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/tohoku/food/foodmain.jsp"
+					href="http://localhost:9090/contents/tohoku/food/foodmain.jsp"
 					class="list_a">음식</a></li>
 			</ul>
 		</div>
@@ -71,13 +71,13 @@
 			</div>
 			<ul id="hiddenList04" class="ul_list">
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/kyushu/landmark/landmain.jsp"
+					href="http://localhost:9090/contents/kyushu/landmark/landmain.jsp"
 					class="list_a">명소</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/kyushu/festival/fesmain.jsp"
+					href="http://localhost:9090/contents/kyushu/festival/fesmain.jsp"
 					class="list_a">축제</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/kyushu/food/foodmain.jsp"
+					href="http://localhost:9090/contents/kyushu/food/foodmain.jsp"
 					class="list_a">음식</a></li>
 			</ul>
 		</div>
@@ -88,13 +88,13 @@
 			</div>
 			<ul id="hiddenList05" class="ul_list">
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/okinawa/landmark/landmain.jsp"
+					href="http://localhost:9090/contents/okinawa/landmark/landmain.jsp"
 					class="list_a">명소</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/okinawa/festival/fesmain.jsp"
+					href="http://localhost:9090/contents/okinawa/festival/fesmain.jsp"
 					class="list_a">축제</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/okinawa/food/foodmain.jsp"
+					href="http://localhost:9090/contents/okinawa/food/foodmain.jsp"
 					class="list_a">음식</a></li>
 			</ul>
 		</div>
@@ -106,13 +106,13 @@
 			</div>
 			<ul id="hiddenList06" class="ul_list">
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/kansai/landmark/landmain.jsp"
+					href="http://localhost:9090/contents/kansai/landmark/landmain.jsp"
 					class="list_a">명소</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/kansai/festival/fesmain.jsp"
+					href="http://localhost:9090/contents/kansai/festival/fesmain.jsp"
 					class="list_a">축제</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/kansai/food/foodmain.jsp"
+					href="http://localhost:9090/contents/kansai/food/foodmain.jsp"
 					class="list_a">음식</a></li>
 			</ul>
 		</div>
@@ -123,13 +123,13 @@
 			</div>
 			<ul id="hiddenList07" class="ul_list">
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/chugoku/landmark/landmain.jsp"
+					href="http://localhost:9090/contents/chugoku/landmark/landmain.jsp"
 					class="list_a">명소</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/chugoku/festival/fesmain.jsp"
+					href="http://localhost:9090/contents/chugoku/festival/fesmain.jsp"
 					class="list_a">축제</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/chugoku/food/foodmain.jsp"
+					href="http://localhost:9090/contents/chugoku/food/foodmain.jsp"
 					class="list_a">음식</a></li>
 			</ul>
 		</div>
@@ -140,13 +140,13 @@
 			</div>
 			<ul id="hiddenList08" class="ul_list">
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/hokkaido/landmark/landmain.jsp"
+					href="http://localhost:9090/contents/hokkaido/landmark/landmain.jsp"
 					class="list_a">명소</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/hokkaido/festival/fesmain.jsp"
+					href="http://localhost:9090/contents/hokkaido/festival/fesmain.jsp"
 					class="list_a">축제</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/hokkaido/food/foodmain.jsp"
+					href="http://localhost:9090/contents/hokkaido/food/foodmain.jsp"
 					class="list_a">음식</a></li>
 			</ul>
 		</div>
@@ -158,13 +158,13 @@
 			</div>
 			<ul id="hiddenList09" class="ul_list">
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/shikoku/landmark/landmain.jsp"
+					href="http://localhost:9090/contents/shikoku/landmark/landmain.jsp"
 					class="list_a">명소</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/shikoku/festival/fesmain.jsp"
+					href="http://localhost:9090/contents/shikoku/festival/fesmain.jsp"
 					class="list_a">축제</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a
-					href="http://localhost:9090/NikoServlet/contents/shikoku/food/foodmain.jsp"
+					href="http://localhost:9090/contents/shikoku/food/foodmain.jsp"
 					class="list_a">음식</a></li>
 			</ul>
 		</div>

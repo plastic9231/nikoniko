@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>명소 상세보기</title>
+<title>유후인 온천</title>
 <link rel="stylesheet" href="../../../css/header.css">
 <link rel="stylesheet" href="../../../css/content_main.css">
 <link rel="stylesheet" href="../../../css/content.css">
@@ -17,9 +17,11 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/kyushu_landmain.jpg">
+				src="http://localhost:9090/contents/kyushu/landmark/img/kyushu_landmain.jpg">
 			<div class="text-block">
-				<h4>유후인 온천</h4><br>
+				<h4>유후인 온천</h4>
+				<br>
+				<h8 class="tag">#휴양 #문화체험</h8>
 				<p>
 					큐슈 오이타현 중앙부에 위치한 시 <br> 인구는 3만명 수준으로 우리나라의 평범한 읍정도이다. <br>
 					온천으로 유명하여 연간 4백만명이 넘는 관광객이 찾을 정도로 유명한 관광 도시이다.
@@ -52,25 +54,25 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufu3.jpg"
+							src="http://localhost:9090/contents/kyushu/landmark/img/yufu3.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufu2.jpg"
+							src="http://localhost:9090/contents/kyushu/landmark/img/yufu2.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufu1.jpg"
+							src="http://localhost:9090/contents/kyushu/landmark/img/yufu1.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufu4.jpg"
+							src="http://localhost:9090/contents/kyushu/landmark/img/yufu4.jpg"
 							style="width: 900px">
 					</div>
 
@@ -121,7 +123,7 @@
 				<div id="con_box01" class="con_box">
 					<div id="con_img">
 						<img alt="place1" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/fukutower.PNG">
+							src="http://localhost:9090/contents/kyushu/landmark/img/fukutower.PNG">
 						<div id="con_name">후쿠오카 타워</div>
 					</div>
 				</div>
@@ -129,7 +131,7 @@
 				<div id="con_box02" class="con_box">
 					<div id="con_img">
 						<img alt="place2" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufuin.jpg">
+							src="http://localhost:9090/contents/kyushu/landmark/img/yufuin.jpg">
 						<div id="con_name">유후인 온천</div>
 					</div>
 
@@ -137,7 +139,7 @@
 				<div id="con_box03" class="con_box">
 					<div id="con_img">
 						<img alt="place3" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/sumiyoshi.PNG">
+							src="http://localhost:9090/contents/kyushu/landmark/img/sumiyoshi.PNG">
 						<div id="con_name">스미요시 신사</div>
 					</div>
 				</div>

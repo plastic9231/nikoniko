@@ -15,7 +15,7 @@
 			<span class="material-symbols-outlined">expand_more</span></button>
 			<ul id="hiddenList01" class="ul_list">
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#" class="list_a">버스</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#" class="list_a">지하철</a></li>
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="http://localhost:9090/traveltip/traffic/subway.jsp#" class="list_a">지하철</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#" class="list_a">택시</a></li>
 				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="#" class="list_a">교통패스</a></li>
 			</ul>
@@ -41,12 +41,12 @@
 			<button id="spreadBtn05" class="btn01">여행회화
 			<span class="material-symbols-outlined">expand_more</span></button>
 			<ul id="hiddenList04" class="ul_list">
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="http://localhost:9090/NikoServlet/traveltip/conversation/conv_checkin.jsp" class="list_a">숙소 체크인할 때</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="http://localhost:9090/NikoServlet/traveltip/conversation/conv_menuorder.jsp" class="list_a">음식점 주문할 때</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="http://localhost:9090/NikoServlet/traveltip/conversation/conv_askway.jsp" class="list_a">길 물어볼 때</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="http://localhost:9090/NikoServlet/traveltip/conversation/conv_toilet.jsp" class="list_a">편의점 화장실 이용</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="http://localhost:9090/NikoServlet/traveltip/conversation/conv_taxi.jsp" class="list_a">택시 탈 때</a></li>
-				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="http://localhost:9090/NikoServlet/traveltip/conversation/conv_shopping.jsp" class="list_a">쇼핑할 때</a></li>
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="http://localhost:9090/traveltip/conversation/conv_checkin.jsp" class="list_a">숙소 체크인할 때</a></li>
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="http://localhost:9090/traveltip/conversation/conv_menuorder.jsp" class="list_a">음식점 주문할 때</a></li>
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="http://localhost:9090/traveltip/conversation/conv_askway.jsp" class="list_a">길 물어볼 때</a></li>
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="http://localhost:9090/traveltip/conversation/conv_toilet.jsp" class="list_a">편의점 화장실 이용</a></li>
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="http://localhost:9090/traveltip/conversation/conv_taxi.jsp" class="list_a">택시 탈 때</a></li>
+				<li class="list_li">⦁&nbsp;&nbsp;&nbsp;<a href="http://localhost:9090/traveltip/conversation/conv_shopping.jsp" class="list_a">쇼핑할 때</a></li>
 			</ul>
 		</div>
 	</div>

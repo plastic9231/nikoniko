@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>    
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>  
 <html>
 <head>
     <meta charset="UTF-8">
@@ -7,6 +10,47 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/commaskcontent.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <script type="text/javascript" src=commscript.js></script>
+	<style>
+	/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+	
+	</style>
 </head>
 
 <body>
@@ -15,130 +59,160 @@
 	<main>
 		<div align="center">
 			
-			<div class="reccontent-title" align="center">첫번째 문의입니다.</div>
+			<div class="reccontent-title" align="center">${article.subject}</div>
 			<table class="reccontent-table">
 				<tr>
 					<td>글번호</td>
-					<td>001</td>
+					<td>${article.num}</td>
 				</tr>
 			
 				<tr>
 					<td>작성자</td>
-					<td>홍길동</td>
+					<td>${article.writer}</td>
 				</tr>
 				
 				<tr>
 					<td>작성일</td>
-					<td>2023-08-15</td>
+					<td><fmt:formatDate value="${article.regdate }" dateStyle="long"/></td>
 				</tr>
 				
 				<tr>
 					<td>조회수</td>
-					<td>33</td>
+					<td>${article.readcount}</td>
 				</tr>
 			
 			</table>
 			<hr class="reccontent-hr">
 			
 			<div class="reccontent-content" align="left">
-			こんにちは！私はChatGPT、OpenAIによって訓練された大きな言語モデルです。
-			<br>
-			私は多くの情報や知識を持っており、さまざまなトピックについて質問に答えることができます。
-			<br>
-			文学から科学、技術から日常の質問まで、あらゆる質問に対応します。
-			<br>
-			私との会話を楽しんでください！
-			<br>
-			このようなテクノロジーは、人々が知識を得る方法を革命的に変えています。
-			<br>	
-			言語の壁を越え、情報を効果的に伝える手助けをするために、私はここにいます。あなたの質問や興味をお待ちしています！
-			<br>
-			私は数百万の文章と情報を学習してきましたので、多岐にわたるトピックに対応することができます。
-			<br>
-			日常のちょっとした疑問から、専門的な内容まで、お気軽に質問してください。
-			<br>
-			また、私は数学の問題を解いたり、プログラムのコードを解析したりする能力も持っています。
-			<br>
-			新しい技術や情報を学ぶことは、私たちの生活を豊かにする一つの方法です。
-			<br>
-			私はそのプロセスをサポートするためにここにいます。
-			<br>
-			一緒に学び、成長していきましょう！
+					${article.content}
 			</div>
-			
 			<hr class="reccontent-hr">
-			<div class="commrec-write-comment" align="left">
-				<h3>댓글 작성</h3>
 			
-   				<form action="#" method="post">
-   				<table class="commrec-write-comment-table">	 
-   					<tr>
-						<td>댓글 번호</td>
-						<td>002</td>
-					</tr>
-   				
-					<tr>
-						<td>작성자</td>
-						<td>홍길동</td>
-					</tr>
-				
-					<tr>
-						<td>작성시간</td>
-						<td>2023-08-15</td>
-					</tr>
-				
-					<tr>
-						<td>댓글 내용</td>
-						<td><p><textarea cols="35" rows="5" class="commrec-write-comment-textarea"></textarea></p></td>    					
-					</tr>
-					<tr>
-						<td><p>비밀번호</p></td>
-						<td><input type="password" class="commrec-password-input"></td>
-						<td><p><input type="submit" value="댓글 등록" class="commrec-register-btn" align="right"></p></td>
-					</tr>
-				</table>
-    			</form>
-			</div>
-			
+<div class="commrec-write-comment" align="left">
+    <h3>댓글 작성</h3>
 
-			<div class="commreccomment" align="left">
-				<h3>댓글 목록</h3>
-				<table class="commreccomment-table">
-				   	<tr>
-						<td>댓글 번호</td>
-						<td>001</td>
-					</tr>
-					<tr>
-						<td>작성자</td>
-						<td>홍길동</td>
-					</tr>
-				
-					<tr>
-						<td>작성시간</td>
-						<td>2023-08-15</td>
-					</tr>
-				
-					<tr>
-						<td>댓글 내용</td>
-						<td>とても明るくていい内容だと思います！</td>
-						<td>
-						<button class="commrec-comment-btn edit">댓글 수정</button>
-                		<button class="commrec-comment-btn delete">댓글 삭제</button>
-                		</td>
-						
-					</tr>
-				</table>
-			</div>
+
+    <!-- 댓글 작성 폼 -->
+    <form action="/community/commaskcommentAdd.ndo?num=${article.num}&pageNum=${pageNum}" method="post" onsubmit="return commentSave()"  name="commentForm">
+        <input type="hidden" name="post_num" value="${article.num}">
+        <table class="commrec-write-comment-table">	 
+            <tr>
+                <td>작성자</td>
+                <td><input type="text" name="nickname" class="commrec-writer-comment-table" required></td>
+            </tr>
+            <tr>
+                <td>댓글 내용</td>
+                <td><textarea name="content" cols="35" rows="5" class="commrec-write-comment-textarea" required></textarea></td>    					
+            </tr>
+            <tr>
+                <td>비밀번호</td>
+                <td><input type="password" name="password" class="commrec-password-input" required></td>
+                <td><input type="submit" value="댓글 등록" class="commrec-register-btn"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<!-- 댓글 목록 -->
+<div class="commreccomment" align="left">
+    <h3>댓글 목록</h3>
+    <c:if test="${not empty commentList}">
+        <c:forEach var="comment" items="${commentList}">
+            <table class="commreccomment-table">
+                <tr>
+                    <td>댓글 번호</td>
+                    <td>${comment.commentId}</td>
+                </tr>
+                <tr>
+                    <td>작성자</td>
+                    <td>${comment.nickname}</td>
+                </tr>
+                <tr>
+                    <td>작성시간</td>
+                    <td><fmt:formatDate value="${comment.createdAt}" dateStyle="long"/></td>    
+                </tr>
+                <tr>
+                    <td>댓글 내용</td>
+                    <td>${comment.content}</td>
+                    <td>
+                        <button class="commrec-comment-btn edit">댓글 수정</button>
+                        <button class="commrec-comment-btn delete" onclick="openDeleteModal(${comment.commentId}, ${comment.postNum}, ${pageNum})">댓글 삭제</button>
+                    </td>
+                </tr>
+            </table>
+        </c:forEach>
+    </c:if>
+    <c:if test="${empty commentList}">
+        <p>No comments yet!</p>
+    </c:if>
+</div>
+
+
+			
 			
 			<div align="center" style="margin-top: 20px;" class="commrec-post-btn">
     			<button class="commrec-post-btn list" onclick="document.location.href='/community/commask.ndo?pageNum=${pageNum}'">글 목록으로</button>
-    			<button class="commrec-post-btn edit">글 수정</button>
-    			<button class="commrec-post-btn delete">글 삭제</button>
+    			<button class="commrec-post-btn edit" onclick="document.location.href='/community/commaskupdateForm.ndo?num=${article.num}&pageNum=${pageNum}'">글 수정</button>
+    			<button class="commrec-post-btn delete" onclick="document.location.href='/community/commaskdeleteForm.ndo?num=${article.num}&pageNum=${pageNum}'">글 삭제</button>
 			</div>
 
 		</div>
 	</main>
 
 <%@ include file="../common/footer.jsp" %>
+
+<!-- Delete Comment Modal -->
+<div id="deleteModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeDeleteModal()">&times;</span>
+        <h4>댓글을 삭제하시겠습니까?</h4>
+        <form id="deleteCommentForm" action="/community/commaskcommentDelete.ndo" method="post">
+            <label for="deletePassword">비밀번호:</label>
+            <input type="password" id="deletePassword" name="password" required>
+            <input type="hidden" id="deleteCommentId" name="commentId">
+            <input type="hidden" id="deletePostNum" name="num">
+            <input type="hidden" id="deletePageNum" name="pageNum">
+            <input type="submit" value="삭제">
+        </form>
+    </div>
+</div>
+
+<!-- Add this to your existing script to close the modal -->
+<script>
+function closeDeleteModal() {
+    var modal = document.getElementById("deleteModal");
+    modal.style.display = "none";
+}
+</script>
+
+
+
+
+
+
+<form id="deleteCommentForm" action="/community/commaskcommentDelete.ndo" method="post">
+    <label for="deletePassword">비밀번호:</label>
+    <input type="password" id="deletePassword" name="password">
+    <input type="hidden" id="deleteCommentId" name="commentId">
+    <input type="hidden" id="deletePostNum" name="postNum">
+    <input type="hidden" id="deletePageNum" name="pageNum">
+    <input type="submit" value="삭제">
+</form>
+    <script>
+    function openDeleteModal(commentId, postNum, pageNum) {
+    // 모달에 commentId, postNum, pageNum 설정
+    document.getElementById("deleteCommentId").value = commentId;
+    document.getElementById("deletePostNum").value = postNum;
+    document.getElementById("deletePageNum").value = pageNum;
+
+    // 모달 창을 띄운다.
+    var modal = document.getElementById("deleteModal");
+    modal.style.display = "block";
+	}
+    </script>
+    
+    
 </body>
 </html>
+ 

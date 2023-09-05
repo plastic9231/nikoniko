@@ -17,10 +17,11 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/kansai/food/img/kansai_foodmain.png">
+				src="http://localhost:9090/contents/kansai/food/img/kansai_foodmain.png">
 			<div class="text-block">
 				<h4>오미 소고기</h4>
 				<br>
+				<h8 class="tag">#문화체험 #엑티비티</h8>
 				<p>
 					3대 와규 중 하나인 오미 소고기 <br> 400년 이상의 역사를 지닌 일본에서 가장 오래된 브랜드 소
 				</p>
@@ -49,25 +50,25 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kansai/food/img/kansai_soba1.png"
+							src="http://localhost:9090/contents/kansai/food/img/kansai_soba1.png"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kansai/food/img/kansai_soba2.png"
+							src="http://localhost:9090/contents/kansai/food/img/kansai_soba2.png"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kansai/food/img/kansai_soba3.png"
+							src="http://localhost:9090/contents/kansai/food/img/kansai_soba3.png"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kansai/food/img/kansai_soba4.png"
+							src="http://localhost:9090/contents/kansai/food/img/kansai_soba4.png"
 							style="width: 900px">
 					</div>
 
@@ -118,7 +119,7 @@
 				<div id="con_box01" class="con_box">
 					<div id="con_img">
 						<img alt="place1" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kansai/food/img/kansai_food1.png">
+							src="http://localhost:9090/contents/kansai/food/img/kansai_food1.png">
 						<div id="con_name">오미 소고기</div>
 					</div>
 				</div>
@@ -126,7 +127,7 @@
 				<div id="con_box02" class="con_box">
 					<div id="con_img">
 						<img alt="place2" onclick="location.href='food_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kansai/food/img/kansai_food2.png">
+							src="http://localhost:9090/contents/kansai/food/img/kansai_food2.png">
 						<div id="con_name">오코노미야키</div>
 					</div>
 
@@ -134,7 +135,7 @@
 				<div id="con_box03" class="con_box">
 					<div id="con_img">
 						<img alt="place3" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kansai/food/img/kansai_food3.png">
+							src="http://localhost:9090/contents/kansai/food/img/kansai_food3.png">
 						<div id="con_name">와카야마 라멘</div>
 					</div>
 				</div>

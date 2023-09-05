@@ -20,6 +20,11 @@
   	height: auto !important;
 }
 
+.img_tip_traffic {
+	text-align: right;
+  	transform:translate(-50px, 50px);
+}
+
 .footer {
 	
 }

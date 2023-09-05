@@ -9,19 +9,48 @@
    <link rel="stylesheet" href="../css/mainpage.css">
    <link rel="stylesheet" href="../css/footer.css">
    <script>
-	    document.querySelectorAll('.region').forEach(region => {
-	        region.addEventListener('mouseover', function() {
-	            alert(this.id + '에 호버하셨습니다.');
-	        });
-	    });
-	</script>
+       document.addEventListener('DOMContentLoaded', function() {
+           const imagesAndLinks = [
+               {img: "../contentsimg/chubu_land1.jpg", link: "http://localhost:9090/contents/chubu/landmark/land_con.jsp"},
+               {img: "../contentsimg/kanto_land1.jpg", link: "http://localhost:9090/contents/kanto/landmark/land_con.jsp"},
+               {img: "../contentsimg/kyushu2.jpg", link: "http://localhost:9090/contents/kyushu/landmark/land_con.jsp"},
+               {img: "../contentsimg/okinawa_land1.PNG", link: "http://localhost:9090/contents/okinawa/landmark/land_con.jsp"},
+               {img: "../contentsimg/tohoku_land1.png", link: "http://localhost:9090/contents/tohoku/landmark/land_con.jsp"}
+           ];
+
+           function getRandomImagesAndLinks(num) {
+               let shuffledData = [...imagesAndLinks];
+               shuffledData.sort(() => 0.5 - Math.random());
+               return shuffledData.slice(0, num);
+           }
+
+           const selectedData = getRandomImagesAndLinks(3);
+           const slideItems = document.querySelectorAll(".slideitem");
+
+           slideItems.forEach((slideItem, index) => {
+               slideItem.querySelector('img').src = selectedData[index].img;
+               slideItem.querySelector('a').href = selectedData[index].link;
+           });
+       });
+   </script>
 </head>
 <body>
 <div style="z-index: 999"><%@ include file="../common/header.jsp"%></div>
     <main>
     <div class="allmap">
         <div class="map">
-            <img src="../map/지도 전체.png" alt="map">
+            <img src="../map/japan_map.png" alt="map" usemap="#japan_map">
+            	<map name="japan_map">
+            		<area shape="rect" id="hokkaido" coords="690,140,815,195" href="http://localhost:9090/contents/hokkaido/landmark/landmain.jsp" target="_top">
+            		<area shape="rect" id="tohoku" coords="564,395,688,446" href="http://localhost:9090/contents/tohoku/landmark/landmain.jsp" target="_top">
+            		<area shape="rect" id="kanto" coords="520,559,602,607" href="http://localhost:9090/contents/kanto/landmark/landmain.jsp" target="_top">
+            		<area shape="rect" id="chubu" coords="403,552,491,600" href="http://localhost:9090/contents/chubu/landmark/landmain.jsp" target="_top">
+            		<area shape="rect" id="kansai" coords="311,613,399,658" href="http://localhost:9090/contents/kansai/landmark/landmain.jsp" target="_top">
+            		<area shape="rect" id="chugoku" coords="159,580,286,627" href="http://localhost:9090/contents/chugoku/landmark/landmain.jsp" target="_top">
+            		<area shape="rect" id="shigoku" coords="169,652,284,697" href="http://localhost:9090/contents/shikoku/landmark/landmain.jsp" target="_top">
+            		<area shape="rect" id="kyushu" coords="60,668,149,734" href="http://localhost:9090/contents/kyushu/landmark/landmain.jsp" target="_top">
+            		<area shape="rect" id="okinawa" coords="54,103,188,150" href="http://localhost:9090/contents/okinawa/landmark/landmain.jsp" target="_top">
+            	</map>
         </div>   
     </div>
         <div class="section-first">
@@ -49,31 +78,24 @@
                 <input type="radio" name="slide" id="slide03">
                 <hr class="famous-search-line">
                 <div class="slidewrap">
-                  
                     <ul class="slidelist">
-                        
                         <!-- 슬라이드 영역 -->
                         <li class="slideitem">
                             <a>
-                                <div class="textbox">
-                                </div>
-                                <img src="../img/slide01.jpg">
+                                <div class="textbox"></div>
+                                <img src="" height="300px">
                             </a>
                         </li>
                         <li class="slideitem">
                             <a>
-                                
-                                <div class="textbox">
-                                </div>
-                                <img src="../img/slide02.jpg">
+                                <div class="textbox"></div>
+                                <img src="" height="300px">
                             </a>
                         </li>
                         <li class="slideitem">
                             <a>
-                                
-                                <div class="textbox">
-                                </div>
-                                <img src="../img/slide03.jpg">
+                                <div class="textbox"></div>
+                                <img src="" height="300px">
                             </a>
                         </li>
                         <!-- 좌,우 슬라이드 버튼 -->

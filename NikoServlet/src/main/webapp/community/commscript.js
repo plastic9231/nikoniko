@@ -23,7 +23,6 @@ function writeSave() {
 		document.writeForm.pass.focus();
 		return false;
 	}
-	
 }	
 	
 function check() {
@@ -46,5 +45,54 @@ function frm_sub(pageNum, find, find_box) {
     form.find.value = find;
     form.find_box.value = find_box;
     form.submit();
+}
+
+function fra_sub(pageNum, find, find_box) {
+    var form = document.i_frm;
+    form.action = "/community/commask.ndo?pageNum=" + pageNum;
+    form.find.value = find;
+    form.find_box.value = find_box;
+    form.submit();
+}
+
+function frr_sub(pageNum, find, find_box) {
+    var form = document.i_frm;
+    form.action = "/community/commrec.ndo?pageNum=" + pageNum;
+    form.find.value = find;
+    form.find_box.value = find_box;
+    form.submit();
+}
+
+function commentSave(){
+	
+	if(document.commentForm.nickname.value=="") {
+		alert("닉네임을 입력해 주세요.");
+		document.writeForm.nickname.focus();
+		return false;
+	}
+	
+	if(document.commentForm.content.value=="") {
+		alert("내용을 입력해 주세요.");
+		document.writeForm.content.focus();	
+		return false;
+	}
+	
+	if(document.commentForm.password.value=="") {
+		alert("비밀번호를 입력해 주세요.");
+		document.writeForm.password.focus();
+		return false;
+	}
+}
+
+function checkFileExtension(event) {
+    var fileInput = event.target;
+    var filePath = fileInput.value;
+    var allowedExtensions = /(\.png)$/i; // 정규식으로 허용되는 확장자 설정
+
+    if (!allowedExtensions.exec(filePath)) {
+        alert('Invalid file type. Only .png files are allowed.');
+        fileInput.value = ''; // input 값을 초기화
+        return false;
+    }
 }
 

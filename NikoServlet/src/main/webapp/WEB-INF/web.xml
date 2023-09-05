@@ -61,6 +61,8 @@
 		<url-pattern>*.mdo</url-pattern>
 	</servlet-mapping>
 	
+
+<!--  
 	<servlet>
 		<servlet-name>Controller</servlet-name>
 		<servlet-class>board.controller.ControllerAction</servlet-class>
@@ -73,8 +75,26 @@
 		<servlet-name>Controller</servlet-name>
 		<url-pattern>*.ndo</url-pattern>
 	</servlet-mapping>
-	
-	
+-->
+
+<servlet>
+    <servlet-name>Controller</servlet-name>
+    <servlet-class>board.controller.ControllerAction</servlet-class>
+    <init-param>
+        <param-name>proConfig</param-name>
+        <param-value>CommandPro.properties</param-value>
+    </init-param>
+    <multipart-config>
+        <location>C:/Users/SEYOUNG/git/nikoniko/NikoServlet/src/main/webapp/uploadimg</location>
+        <max-file-size>20848820</max-file-size>
+        <max-request-size>418018841</max-request-size>
+        <file-size-threshold>1048576</file-size-threshold>
+    </multipart-config>
+</servlet>
+<servlet-mapping>
+    <servlet-name>Controller</servlet-name>
+    <url-pattern>*.ndo</url-pattern>
+</servlet-mapping>
   	
 <session-config>
 <session-timeout>

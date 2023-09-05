@@ -23,7 +23,7 @@
 .rev-slide-track{
   	display:flex;
   	width: calc(300px * 12);
-  	animation: scroll 40s linear infinite;
+  	animation: scroll 30s linear infinite;
 }
 
 .rev-slide-track:hover{
@@ -137,7 +137,7 @@
 }
 
 /* 검색창 스타일 */
-input[name="searchText"] {
+input[name="find_box"] {
     padding: 10px 15px;  /* 내부 패딩 */
     border: none;  /* 테두리 제거 */
     border-radius: 20px;  /* 둥근 모서리 */
@@ -147,7 +147,7 @@ input[name="searchText"] {
 }
 
 /* 드롭다운 스타일 */
-select[name="searchField"] {
+select[name="find"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;

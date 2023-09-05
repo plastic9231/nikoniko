@@ -6,6 +6,7 @@
     color: #2c3e50;
     padding-top: 5px;     /* 이 값을 조절하여 상단 간격을 조절할 수 있습니다 */
     padding-bottom: 5px;  /* 이 값을 조절하여 하단 간격을 조절할 수 있습니다 */
+  
     
     
 }
@@ -15,7 +16,7 @@
 	margin-right: 58%;
     border-collapse: separate;
     border-spacing: 10px 10px;  /* (가로 간격) (세로 간격) */
-   
+    transform: translateX(10%);
 }
 
 .reccontent-table td {

@@ -17,10 +17,11 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/chubu/festival/img/chubu_fesmain.png">
+				src="http://localhost:9090/contents/chubu/festival/img/chubu_fesmain.png">
 			<div class="text-block">
 				<h4>타카야마 마츠리</h4>
 				<br>
+				<h8 class="tag">#문화체험 #엑티비티</h8>
 				<p>
 					봄의 산노마츠리 : 4월 14~15일 <br> 가을의 하치만마츠리 : 10월 9~10일
 				</p>
@@ -49,25 +50,25 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/chubu/festival/img/chubu_taka1.PNG"
+							src="http://localhost:9090/contents/chubu/festival/img/chubu_taka1.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/chubu/festival/img/chubu_taka2.PNG"
+							src="http://localhost:9090/contents/chubu/festival/img/chubu_taka2.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/chubu/festival/img/chubu_taka3.PNG"
+							src="http://localhost:9090/contents/chubu/festival/img/chubu_taka3.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/chubu/festival/img/chubu_taka4.PNG"
+							src="http://localhost:9090/contents/chubu/festival/img/chubu_taka4.PNG"
 							style="width: 900px">
 					</div>
 
@@ -118,7 +119,7 @@
 				<div id="con_box06" class="con_box">
 					<div id="con_img">
 						<img alt="place2" onclick="location.href='fes_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/chubu/festival/img/chubu_fes6.jpg">
+							src="http://localhost:9090/contents/chubu/festival/img/chubu_fes6.jpg">
 						<div id="con_name">아타미 마츠리</div>
 					</div>
 				</div>
@@ -126,7 +127,7 @@
 				<div id="con_box07" class="con_box">
 					<div id="con_img">
 						<img alt="place3" onclick="location.href='fes_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/chubu/festival/img/chubu_fes7.jpg">
+							src="http://localhost:9090/contents/chubu/festival/img/chubu_fes7.jpg">
 						<div id="con_name">시미즈 미나토 마츠리</div>
 					</div>
 				</div>
@@ -134,7 +135,7 @@
 				<div id="con_box08" class="con_box">
 					<div id="con_img">
 						<img alt="place3" onclick="location.href='fes_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/chubu/festival/img/chubu_fes8.jpg">
+							src="http://localhost:9090/contents/chubu/festival/img/chubu_fes8.jpg">
 						<div id="con_name">카타카이 마츠리</div>
 					</div>
 				</div>

@@ -13,6 +13,7 @@
 	margin-right: 58%;
     border-collapse: separate;
     border-spacing: 10px 10px;  /* (가로 간격) (세로 간격) */
+    transform: translateX(10%);
    
 }
 
@@ -28,11 +29,6 @@
     border-top: 5px solid #FFC0CB; /* 핑크색으로 설정 */
     border-radius: 5px; /* 둥글게 처리 */
     height: 5px; /* 굵기 조절 */
-}
-
-.commrecimg {
-	width: 30%;
-	height: 30%;
 }
 
 .reccontent-content{
@@ -101,6 +97,18 @@
 }
 
 /* Textarea 스타일 */
+.commrec-writer-comment-table{
+	width: 20%;       /* 전체 너비를 차지하도록 설정 */
+    height: 50px;     /* 높이 설정 */
+    border: 2px solid #FFC0CB;  /* 핑크색 테두리 */
+    border-radius: 5px;   /* 둥근 모서리 */ 
+    font-size: 16px;   /* 폰트 크기 */
+    font-family: 'Arial', sans-serif; /* 폰트 스타일 */
+    box-sizing: border-box; /* 패딩과 테두리를 포함한 전체 크기를 조절 */
+    margin-bottom: 1%;
+	
+}
+
 .commrec-write-comment-textarea {
     width: 40%;       /* 전체 너비를 차지하도록 설정 */
     height: 100px;     /* 높이 설정 */

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>축제 상세보기</title>
+<title>하카타 기온 야마카사</title>
 <link rel="stylesheet" href="../../../css/header.css">
 <link rel="stylesheet" href="../../../css/content_main.css">
 <link rel="stylesheet" href="../../../css/content.css">
@@ -17,10 +17,11 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu_fesmain.jpg">
+				src="http://localhost:9090/contents/kyushu/festival/img/kyushu_fesmain.jpg">
 			<div class="text-block">
 				<h4>하카타 기온 야마카사</h4>
 				<br>
+				<h8 class="tag">#문화체험 #엑티비티</h8>
 				<p>
 					후쿠오카현의 여름 축제 <br> 개최시기 : 매년 7월 1일, 9~15일
 				</p>
@@ -49,19 +50,19 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu1.jpg"
+							src="http://localhost:9090/contents/kyushu/festival/img/kyushu1.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu2.jpg"
+							src="http://localhost:9090/contents/kyushu/festival/img/kyushu2.jpg"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kyushu/festival/img/kyushu3.jpg"
+							src="http://localhost:9090/contents/kyushu/festival/img/kyushu3.jpg"
 							style="width: 900px">
 					</div>
 
@@ -112,7 +113,7 @@
 				<div id="con_box01" class="con_box">
 					<div id="con_img">
 						<img alt="place1" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/fukutower.PNG">
+							src="http://localhost:9090/contents/kyushu/landmark/img/fukutower.PNG">
 						<div id="con_name">후쿠오카 타워</div>
 					</div>
 				</div>
@@ -120,7 +121,7 @@
 				<div id="con_box02" class="con_box">
 					<div id="con_img">
 						<img alt="place2" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/yufuin.jpg">
+							src="http://localhost:9090/contents/kyushu/landmark/img/yufuin.jpg">
 						<div id="con_name">유후인 온천</div>
 					</div>
 
@@ -128,7 +129,7 @@
 				<div id="con_box03" class="con_box">
 					<div id="con_img">
 						<img alt="place3" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kyushu/landmark/img/sumiyoshi.PNG">
+							src="http://localhost:9090/contents/kyushu/landmark/img/sumiyoshi.PNG">
 						<div id="con_name">스미요시 신사</div>
 					</div>
 				</div>

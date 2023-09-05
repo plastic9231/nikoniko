@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>명소 상세보기</title>
+<title>미츠미네 신사</title>
 <link rel="stylesheet" href="../../../css/header.css">
 <link rel="stylesheet" href="../../../css/content_main.css">
 <link rel="stylesheet" href="../../../css/content.css">
@@ -17,10 +17,11 @@
 	<main>
 		<div id="conmain_img">
 			<img id="main_img01" width="100%"
-				src="http://localhost:9090/NikoServlet/contents/kanto/landmark/img/kanto_landmain.PNG">
+				src="http://localhost:9090/contents/kanto/landmark/img/kanto_landmain.PNG">
 			<div class="text-block">
 				<h4>미츠미네 신사</h4>
 				<br>
+				<h8 class="tag">#문화체험 #자연</h8>
 				<p>
 					일본 신화 속 신인 이자나기노미코노와 이자나미노미코토가 있는 신사 <br> 사시사철 여러행사가 개최되고 있다 <br>
 					가마쿠라 막부 당시 무장이 봉현한 800년 정도 된 신목도 볼거리
@@ -55,25 +56,25 @@
 				<div class="slideshow-container">
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kanto/landmark/img/kanto_mitu3.PNG"
+							src="http://localhost:9090/contents/kanto/landmark/img/kanto_mitu3.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kanto/landmark/img/kanto_mitu2.PNG"
+							src="http://localhost:9090/contents/kanto/landmark/img/kanto_mitu2.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kanto/landmark/img/kanto_mitu1.PNG"
+							src="http://localhost:9090/contents/kanto/landmark/img/kanto_mitu1.PNG"
 							style="width: 900px">
 					</div>
 
 					<div class="mySlides fade">
 						<img
-							src="http://localhost:9090/NikoServlet/contents/kanto/landmark/img/kanto_mitu4.PNG"
+							src="http://localhost:9090/contents/kanto/landmark/img/kanto_mitu4.PNG"
 							style="width: 900px">
 					</div>
 
@@ -124,7 +125,7 @@
 				<div id="con_box05" class="con_box">
 					<div id="con_img">
 						<img alt="place1" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kanto/landmark/img/kanto_land5.jpg">
+							src="http://localhost:9090/contents/kanto/landmark/img/kanto_land5.jpg">
 						<div id="con_name">스카이트리</div>
 					</div>
 				</div>
@@ -132,7 +133,7 @@
 				<div id="con_box06" class="con_box">
 					<div id="con_img">
 						<img alt="place2" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kanto/landmark/img/kanto_land6.jpg">
+							src="http://localhost:9090/contents/kanto/landmark/img/kanto_land6.jpg">
 						<div id="con_name">국영 히타치해변공원</div>
 					</div>
 				</div>
@@ -140,7 +141,7 @@
 				<div id="con_box07" class="con_box">
 					<div id="con_img">
 						<img alt="place7" onclick="location.href='land_con.jsp'"
-							src="http://localhost:9090/NikoServlet/contents/kanto/landmark/img/kanto_land7.jpg">
+							src="http://localhost:9090/contents/kanto/landmark/img/kanto_land7.jpg">
 						<div id="con_name">디즈니랜드</div>
 					</div>
 				</div>

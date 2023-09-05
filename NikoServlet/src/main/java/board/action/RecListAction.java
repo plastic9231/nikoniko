@@ -1,6 +1,7 @@
 package board.action;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -44,6 +45,10 @@ public class RecListAction implements CommandAction {
 		RecBoardDAO dbPro = RecBoardDAO.getInstance();
 		count = dbPro.getArticleCount(find, find_box); // 전체 글의 수
 		
+        // 상위 3개의 게시글을 가져옵니다. 
+        List<RecBoardVO> topArticles = dbPro.getTopArticles(6);
+        request.setAttribute("topArticles", topArticles);
+		
 		if(count>0) {
 			articleList = dbPro.getArticles(find, find_box, startRow, endRow);
 		}else {
@@ -66,7 +71,6 @@ public class RecListAction implements CommandAction {
 		
 		
 		return "/community/commrec.jsp";
-		
 	}
 
 }
