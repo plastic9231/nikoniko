@@ -14,8 +14,8 @@ public class LoginProcAction implements CommandAction {
 		
 		memberDAO dao = memberDAO.getInstance();
 		
-		String id = request.getParameter("id");
-		String Password = request.getParameter("Password");
+		String id = request.getParameter("username");
+		String Password = request.getParameter("password");
 		
 		int check = dao.loginCheck(id, Password);
 		
@@ -30,7 +30,7 @@ public class LoginProcAction implements CommandAction {
 			
 		}
 		
-		return "login.ndo?cmd=login";
+		return "/main/main.jsp";
 		
 	}
 	
