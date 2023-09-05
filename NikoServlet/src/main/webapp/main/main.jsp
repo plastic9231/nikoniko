@@ -41,15 +41,15 @@
         <div class="map">
             <img src="../map/japan_map.png" alt="map" usemap="#japan_map">
             	<map name="japan_map">
-            		<area shape="rect" id="hokkaido" coords="690,140,815,195" href="http://localhost:9090/contents/hokkaido/landmark/landmain.jsp" target="_blank">
-            		<area shape="rect" id="tohoku" coords="564,395,688,446" href="http://localhost:9090/contents/tohoku/landmark/landmain.jsp" target="_blank">
-            		<area shape="rect" id="kanto" coords="520,559,602,607" href="http://localhost:9090/contents/kanto/landmark/landmain.jsp" target="_blank">
-            		<area shape="rect" id="chubu" coords="403,552,491,600" href="http://localhost:9090/contents/chubu/landmark/landmain.jsp" target="_blank">
-            		<area shape="rect" id="kansai" coords="311,613,399,658" href="http://localhost:9090/contents/kansai/landmark/landmain.jsp" target="_blank">
-            		<area shape="rect" id="chugoku" coords="159,580,286,627" href="http://localhost:9090/contents/chugoku/landmark/landmain.jsp" target="_blank">
-            		<area shape="rect" id="shigoku" coords="169,652,284,697" href="http://localhost:9090/contents/shikoku/landmark/landmain.jsp" target="_blank">
-            		<area shape="rect" id="kyushu" coords="60,668,149,734" href="http://localhost:9090/contents/kyushu/landmark/landmain.jsp" target="_blank">
-            		<area shape="rect" id="okinawa" coords="54,103,188,150" href="http://localhost:9090/contents/okinawa/landmark/landmain.jsp" target="_blank">
+            		<area shape="rect" id="hokkaido" coords="690,140,815,195" href="http://localhost:9090/contents/hokkaido/landmark/landmain.jsp" target="_top">
+            		<area shape="rect" id="tohoku" coords="564,395,688,446" href="http://localhost:9090/contents/tohoku/landmark/landmain.jsp" target="_top">
+            		<area shape="rect" id="kanto" coords="520,559,602,607" href="http://localhost:9090/contents/kanto/landmark/landmain.jsp" target="_top">
+            		<area shape="rect" id="chubu" coords="403,552,491,600" href="http://localhost:9090/contents/chubu/landmark/landmain.jsp" target="_top">
+            		<area shape="rect" id="kansai" coords="311,613,399,658" href="http://localhost:9090/contents/kansai/landmark/landmain.jsp" target="_top">
+            		<area shape="rect" id="chugoku" coords="159,580,286,627" href="http://localhost:9090/contents/chugoku/landmark/landmain.jsp" target="_top">
+            		<area shape="rect" id="shigoku" coords="169,652,284,697" href="http://localhost:9090/contents/shikoku/landmark/landmain.jsp" target="_top">
+            		<area shape="rect" id="kyushu" coords="60,668,149,734" href="http://localhost:9090/contents/kyushu/landmark/landmain.jsp" target="_top">
+            		<area shape="rect" id="okinawa" coords="54,103,188,150" href="http://localhost:9090/contents/okinawa/landmark/landmain.jsp" target="_top">
             	</map>
         </div>   
     </div>
