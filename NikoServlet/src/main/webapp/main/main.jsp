@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>메인 페이지</title>
+<title>일본여행 초심자에게는 니코니코니!</title>
 <link rel="stylesheet" href="../css/header.css">
 <link rel="stylesheet" href="../css/mainpage.css">
 <link rel="stylesheet" href="../css/footer.css">
