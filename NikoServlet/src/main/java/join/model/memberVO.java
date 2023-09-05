@@ -17,7 +17,7 @@ public class memberVO {
 		
 	}
 	
-	public memberVO (String name, String id, String passwd, String e_mail, String phone, String gender, String birth, String tag) {
+	public memberVO (String name, String id, String Password, String email, String phone1, String gender, String cal, String tag) {
 		
 		this.name = name;
 		this.id = id;

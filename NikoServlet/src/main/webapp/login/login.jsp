@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
+<form method="post" action="/login/loginProc.ndo">
 <div style="z-index: 999"><%@ include file="../common/header.jsp"%></div>
 	<div id="login-header">
 		
@@ -37,7 +38,7 @@
 			</div>
 			
 				<div>
-					<input type="button" value="Enter" id="login-Enter" onclick="location.href='../main/main.jsp'" >
+					<input type="submit" value="Enter" id="login-Enter"  >
 				</div>
 			
 
@@ -52,6 +53,7 @@
 			</div>
 			
 			</div>
+			</form>
 <%@ include file="../common/footer.jsp" %>
 </body>
 

@@ -1,12 +1,10 @@
 package join.action;
 
 import java.io.IOException;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import board.action.CommandAction;
-import join.controller.ActionForward;
 import join.model.memberDAO;
 import join.model.memberVO;
 
@@ -19,15 +17,16 @@ public class JoinProcAction implements CommandAction {
 request.setCharacterEncoding("utf-8");
 
 
-	System.out.println(request.getParameter("name"));
-	System.out.println(request.getParameter("id"));
-	System.out.println(request.getParameter("Password"));
-	System.out.println(request.getParameter("email"));
-	System.out.println(request.getParameter("phone1"));
-	System.out.println(request.getParameter("gender"));
-	System.out.println(request.getParameter("cal"));
-	System.out.println(request.getParameter("tag"));
 
+  System.out.println(request.getParameter("name"));
+  System.out.println(request.getParameter("id"));
+  System.out.println(request.getParameter("Password"));
+  System.out.println(request.getParameter("email"));
+  System.out.println(request.getParameter("phone1"));
+  System.out.println(request.getParameter("gender"));
+  System.out.println(request.getParameter("cal"));
+  System.out.println(request.getParameter("tag"));
+ 
 
 		memberDAO dao = memberDAO.getInstance();
 		memberVO vo = new memberVO 

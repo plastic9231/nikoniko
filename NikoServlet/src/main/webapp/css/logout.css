@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.box1{
+	display:flex; /* 기본값 가로 배열 */
+	justify-content:center;
+	align-content: center;
+	align-items:center;
+	height: 500px; 
+	width: 500px;	
+	margin: auto;
+}
+
+.box2{
+	display:flex; /* 기본값 가로 배열 */
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	border: 5px solid #FCD0D0;
+	border-radius: 5px;
+	height: 300px; 
+	width: 450px;	
+}
+
+.logout {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size: 24px;
+	color: #333333;
+	box-sizing: content-box;
+	margin-bottom: 10px;
+}
+
+.gotomain{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	box-sizing: content-box;
+	color: #333333;
+}
