@@ -10,7 +10,7 @@
 <title> ID 중복체크 </title>
 
 <link type="text/css" rel="stylesheet" href="/css/checkid.css">
-<script type="text/javascript" src="script.js"></script>
+<!-- <script type="text/javascript" src="script.js"></script> -->
 
 </head>
 <body>
