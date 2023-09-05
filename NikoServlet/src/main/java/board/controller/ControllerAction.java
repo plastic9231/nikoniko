@@ -111,8 +111,10 @@ public class ControllerAction extends HttpServlet {
 		
 		try {
 			String command = request.getRequestURI();
-			if(command.indexOf(request.getContextPath())==0) {
+			
+			if(command!=null) {
 				command = command.substring(request.getContextPath().length());
+
 			}
 			com = (CommandAction)commandMap.get(command);
 			view = com.requestPro(request, response);
