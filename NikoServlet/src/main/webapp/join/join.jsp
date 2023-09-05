@@ -90,7 +90,6 @@
 					<input type="checkbox" name="tag" value="c"> 문화체험
 					<input type="checkbox" name="tag" value="a"> 액티비티
 					<input type="checkbox" name="tag" value="f"> 음식
-					<input type="checkbox" name="tag" value="s"> 쇼핑
 				</div>
 			</div>
 		</div>
