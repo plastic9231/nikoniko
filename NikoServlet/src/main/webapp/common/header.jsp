@@ -14,7 +14,7 @@
         String loginID = (String)session.getAttribute("loginID");
         if (loginID != null) {
         	%>
-           <span><a href="main/main.jsp">로그아웃&nbsp;</a> |</span>
+           <span><a href="/main/main.ndo">로그아웃&nbsp;</a> |</span>
             <span><a href="/mypage/mypage.jsp">마이페이지</a></span>
             <span><a href="#"><img src="http://localhost:9090/img/markgreen.png"></a></span>
         <% }
@@ -26,7 +26,7 @@
 </div>
         <div class="menu">
             <div class="logo">
-                <span><a href="http://localhost:9090/main/main.jsp"><img src="http://localhost:9090/img/logo.png"></a></span>
+                <span><a href="/main/main.ndo"><img src="http://localhost:9090/img/logo.png"></a></span>
             </div>
             <div class="rec" align="center" style="z-index: 999;">지역별 추천
                 <div class="submenu" align="center">
