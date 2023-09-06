@@ -14,7 +14,7 @@
         String loginID = (String)session.getAttribute("loginID");
         if (loginID != null) {
         	%>
-           <span><a href="/main/main.ndo">로그아웃&nbsp;</a> |</span>
+           <span><a href="/login/logout.jsp">로그아웃&nbsp;</a> |</span>
             <span><a href="/mypage/mypage.jsp">마이페이지</a></span>
             <span><a href="/bookmark/bookmark_main.ndo"><img src="http://localhost:9090/img/markgreen.png"></a></span>
         <% }
@@ -22,7 +22,9 @@
         {%>
         <span><a href="/login/login.ndo">로그인&nbsp;</a> |</span>
            <span><a href="/join/join.jsp">회원가입</a></span>
-        <%} %> 
+           
+           <%} %>
+       
 </div>
         <div class="menu">
             <div class="logo">

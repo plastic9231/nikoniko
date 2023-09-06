@@ -22,7 +22,7 @@ public class LoginProcAction implements CommandAction {
 		if (check == 1) {
 			
 			HttpSession session = request.getSession();
-			session.setAttribute("loginID", id);
+		    session.setAttribute("loginID", id);
 			
 		} else if (id != null && Password != null) {
 			

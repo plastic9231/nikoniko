@@ -20,7 +20,7 @@
 
 		<div id="login-form">
 			<div class="idpass">
-				<input type="text" name="username" id="username" class="usernameform" placeholder="Username"> 
+				<input type="text" name="username" id="username" class="usernameform" placeholder="UserID"> 
 				<input type="password" name="password" id="password" class="passwordform" placeholder="Password">
 			
 				<div class="findkeep">
