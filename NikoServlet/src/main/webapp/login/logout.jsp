@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8" http-equiv="Refresh" content="5;url=/main/main.jsp">
+<meta charset="UTF-8" http-equiv="Refresh" content="5;url=/login/logout.ndo">
 <title>logout</title>
 
 <link rel="stylesheet" href="../css/header.css">

@@ -14,7 +14,7 @@ public class LogOutAction implements CommandAction{
 		HttpSession session = request.getSession();
 		session.invalidate();
 		
-		return "/login/logout.jsp";
+		return "/main/main.ndo";
 		
 	}
 	
