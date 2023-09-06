@@ -161,19 +161,19 @@
                         <li class="slideitem">
                             <a>
                                 <div class="textbox"></div>
-                                <img src="" height="300px">
+                                <img src="">
                             </a>
                         </li>
                         <li class="slideitem">
                             <a>
                                 <div class="textbox"></div>
-                                <img src="" height="300px">
+                                <img src="">
                             </a>
                         </li>
                         <li class="slideitem">
                             <a>
                                 <div class="textbox"></div>
-                                <img src="" height="300px">
+                                <img src="">
                             </a>
                         </li>
                         <!-- 좌,우 슬라이드 버튼 -->

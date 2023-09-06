@@ -4,6 +4,10 @@
 	font-family: 'Spoqa Han Sans Neo', 'sans-serif';
 }
 
+body {
+	height: 1600px;
+}
+
 .allmap {
 	position: relative;
 	width: 800px;

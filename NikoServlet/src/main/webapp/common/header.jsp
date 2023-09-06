@@ -16,10 +16,11 @@
         	%>
            <span><a href="/login/logout.jsp">로그아웃&nbsp;</a> |</span>
             <span><a href="/mypage/mypage.jsp">마이페이지</a></span>
-            <span><a href="#"><img src="http://localhost:9090/img/markgreen.png"></a></span>
-        <% } else { %>
-        
-         <span><a href="/login/login.ndo">로그인&nbsp;</a> |</span>
+            <span><a href="/bookmark/bookmark_main.ndo"><img src="http://localhost:9090/img/markgreen.png"></a></span>
+        <% }
+        if (loginID == null)
+        {%>
+        <span><a href="/login/login.ndo">로그인&nbsp;</a> |</span>
            <span><a href="/join/join.jsp">회원가입</a></span>
            
            <%} %>
@@ -123,7 +124,7 @@
                        <li><a href="#">대중 교통</a></li>
                        <li><a href="#">환율 정보</a></li>
                        <li><a href="#">지역 쿠폰</a></li>
-                       <li><a href="http://localhost:9090/NikoServlet/traveltip/conversation/conv_checkin.jsp">여행 필수회화</a></li>
+                       <li><a href="http://localhost:9090/traveltip/conversation/conv_checkin.jsp">여행 필수회화</a></li>
                     </ul>
 
                 </div>
