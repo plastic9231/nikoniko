@@ -18,6 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 import board.action.CommandAction;
 
 
+
 // @WebServlet("/ControllerAction")
 public class ControllerAction extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -101,16 +102,21 @@ public class ControllerAction extends HttpServlet {
 		
 		String view = null;
 		CommandAction com = null;
+
 		
 		try {
 			String command = request.getRequestURI();
 			
 			if(command!=null) {
 				command = command.substring(request.getContextPath().length());
-
+				System.out.println(command);
 			}
+			
 			com = (CommandAction)commandMap.get(command);
+			
 			view = com.requestPro(request, response);
+	           
+	   
 		}catch(Throwable e) {
 			throw new ServletException(e);
 		}
