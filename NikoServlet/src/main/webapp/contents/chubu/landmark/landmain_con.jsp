@@ -86,7 +86,7 @@
 			<div id="con_img">
 				<img alt="place9" onclick="location.href='land_con.jsp'"
 					src="http://localhost:9090/contents/chubu/landmark/img/chubu_land9.jpg">
-				<div id="con_name">카나자와 21세기 박물관</div>
+				<div id="con_name">카나자와 21세기 박물관</div><img id="book" src="../../mark/markblack.png">
 			</div>
 		</div>
 	</div>
