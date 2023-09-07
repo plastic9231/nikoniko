@@ -46,11 +46,20 @@
 	position : relative;
 }
 
-
 #con_img > #book {
 	z-index: 30;
     position: absolute;
     left : 65%;
     top: 5px;
     width : 15%;
+}
+
+#con_img > .mark_button {
+	z-index: 30;
+    position: absolute;
+    left : 65%;
+    top: 5px;
+    width : 15%;
+    border: none;
+    cursor: pointer;
 }
