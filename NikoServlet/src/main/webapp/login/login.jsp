@@ -4,15 +4,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Login-page</title>
+<title>로그인</title>
 <link type = "text/css" rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
 <form method="post" action="/login/loginProc.ndo">
-<div style="z-index: 999"><%@ include file="../common/header.jsp"%></div>
-	<div id="login-header">
+<div style="position: relative; z-index: 999;"><%@ include file="../common/header.jsp"%></div>
+	<div id="login-header" style="position: relative; z-index: 1">
 		
 		<div class="Login-page">
 			로그인 - Login page
