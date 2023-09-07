@@ -140,7 +140,6 @@
                     <td>댓글 내용</td>
                     <td>${comment.content}</td>
                     <td>
-                        <button class="commrec-comment-btn edit">댓글 수정</button>
                         <button class="commrec-comment-btn delete" onclick="openDeleteModal(${comment.commentId}, ${comment.postNum}, ${pageNum})">댓글 삭제</button>
                     </td>
                 </tr>
