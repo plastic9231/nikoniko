@@ -8,7 +8,7 @@
 <link type = "text/css" rel = "stylesheet" href = "../css/passcheck.css">
 </head>
 <body>
-
+<form action="/mypage/remypage.ndo" method="post">
 	<div class="box">
 	
 		<div class="checkbox">
@@ -16,18 +16,18 @@
 		</div>
 		
 		<div class="passbox">
-			<div class="pass"><input type="password" id="Passcheck" class="passcheck" placeholder="비밀번호"></div>
+			<div class="pass"><input type="password" id="Passcheck" class="passcheck" placeholder="비밀번호" name="pass"></div>
 		</div>
 		
 		<div class="buttonbox">
 			<div class="button">
 				<input type="button" value="취소" class="cancel" onclick="location.href='/mypage/mypage.ndo'">
-				<input type="submit" value="확인" class="ok" onclick="location.href='../mypage/remypage'">
+				<input type="submit" value="확인" class="ok">
 			</div>
 		</div>
 		
 	
 	</div>
-
+</form>
 </body>
 </html>

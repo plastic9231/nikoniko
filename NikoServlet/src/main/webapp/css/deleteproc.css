@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.box{
+	height: 400px;
+	width: 400px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	align-content: center;
+	margin: auto;
+}
+
+.bye {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	align-content: center;
+}
