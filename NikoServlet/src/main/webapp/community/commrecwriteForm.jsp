@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>추천 글쓰기</title>
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/commrecwriteForm.css">
     <link rel="stylesheet" href="../css/footer.css">

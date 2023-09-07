@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title>추천 게시판</title>
    <link rel="stylesheet" href="../css/header.css">
    <link rel="stylesheet" href="../css/commrec.css">
    <link rel="stylesheet" href="../css/footer.css">

@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>공지사항 글 수정</title>
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/commaskupdateForm.css">
     <link rel="stylesheet" href="../css/footer.css">
