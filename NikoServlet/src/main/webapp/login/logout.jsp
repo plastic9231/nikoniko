@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8" http-equiv="Refresh" content="5;url=/login/logout.ndo">
-<title>logout</title>
+<title>안녕히 계세요 여러분</title>
 
 <link rel="stylesheet" href="../css/header.css">
 <link rel="stylesheet" href="../css/footer.css">
