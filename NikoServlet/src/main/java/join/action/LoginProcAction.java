@@ -1,6 +1,7 @@
 package join.action;
 
 import javax.servlet.http.HttpServletRequest;
+
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
@@ -23,6 +24,7 @@ public class LoginProcAction implements CommandAction {
 			
 			HttpSession session = request.getSession();
 		    session.setAttribute("loginID", id);
+		    session.setAttribute("loginPass", Password);
 			
 		} else if (id != null && Password != null) {
 			

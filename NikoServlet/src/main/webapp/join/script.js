@@ -88,33 +88,33 @@ function inputCheck(){
 
 function updateCheck(){
 
-	if(document.joinForm.Password.value==""){
+	if(document.regForm.Password.value==""){
 		alert("비밀번호를 입력해 주세요.");
-		document.joinForm.Password.focus();
+		document.regForm.Password.focus();
 		return; //중지
 	}
-	if(document.joinForm.passwordcheck.value==""){
+	if(document.regForm.passwordcheck.value==""){
 		alert("비밀번호를 확인해 주세요.");
-		document.joinForm.passwordcheck.focus();
+		document.regForm.passwordcheck.focus();
 		return; //중지
 	}
-	if(document.joinForm.passwordcheck.value !=document.regForm.repass.value){
+	if(document.regForm.passwordcheck.value !=document.regForm.Password.value){
 		alert("비밀번호가 일치하지 않습니다.");
-		document.joinForm.passwordcheck.focus();
+		document.regForm.passwordcheck.focus();
 		return; //중지
 	}
-	if(document.joinForm.phone1.value==""){
+	if(document.regForm.phone1.value==""){
 		alert("전화번호를 입력해 주세요.");
-		document.joinForm.phone1.focus();
+		document.regForm.phone1.focus();
 		return; //중지
 	}
-	if(document.joinForm.email.value==""){
+	if(document.regForm.email.value==""){
 		alert("이메일을 입력해 주세요.");
-		document.joinForm.email.focus();
+		document.regForm.email.focus();
 		return; //중지
 	}
 	
-	var str=document.joinForm.email.value;
+	var str=document.regForm.email.value;
 	var atPos=str.indexOf('@');
 	var atLastPos=str.lastIndexOf('@');
 	var dotPos=str.indexOf('.');
@@ -126,16 +126,16 @@ function updateCheck(){
 	}
 	else{
 		alert('E-mail 주소 형식이 잘못되었습니다.\n\r 다시 입력해 주세요.');
-		document.joinForm.email.focus();
+		document.regForm.email.focus();
 	
 		return;
 	}
 
-	document.joinForm.submit();
+	document.regForm.submit();
 	
 	}
 function begin(){
-	document.joinForm.Password.focus();
+	document.mypage.Password.focus();
 }
 	
 function checkIt(){
