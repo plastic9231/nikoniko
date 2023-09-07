@@ -60,7 +60,11 @@
 				<div class="tra">
 					<div class="tra1"> 여행 스타일 </div>
 					<div class="tra2">
-						${tag }
+						<c:if test="${tag eq 'r'}">휴양</c:if>
+						<c:if test="${tag eq 'n'}">자연</c:if>
+						<c:if test="${tag eq 'c'}">문화체험</c:if>
+						<c:if test="${tag eq 'a'}">엑티비티</c:if>
+						<c:if test="${tag eq 'f'}">음식</c:if>
 					</div>
 				</div>
 				
