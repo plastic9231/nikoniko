@@ -7,6 +7,15 @@
 <title></title>
 <link rel="stylesheet" href="../../../css/content.css">
 <link rel="stylesheet" href="../../../css/content_main.css">
+<script>
+	function clicked(what) {
+	    if (what.src.endsWith('markblack2.png')) {
+	        what.src = '../../mark/markblack.png';
+	    } else {
+	        what.src = '../../mark/markblack2.png';
+	    }
+	}
+</script>
 </head>
 <body>
 	<div id="main_box">
@@ -20,7 +29,7 @@
 			<div id="con_img">
 				<img alt="place1" onclick="location.href='food_con.jsp'"
 					src="http://localhost:9090/contents/kyushu/food/img/kyushu_food1.PNG">
-				<div id="con_name">돈코츠 라멘</div><img id="book" src="../../mark/markblack.png">
+				<div id="con_name">돈코츠 라멘</div><input type="image" class="mark_button" onclick="clicked(this)" src="../../mark/markblack2.png">
 			</div>
 		</div>
 
@@ -28,7 +37,7 @@
 			<div id="con_img">
 				<img alt="place2" onclick="location.href='food_con.jsp'"
 					src="http://localhost:9090/contents/kyushu/food/img/kyushu_food2.png">
-				<div id="con_name">모츠나베</div><img id="book" src="../../mark/markblack.png">
+				<div id="con_name">모츠나베</div><input type="image" class="mark_button" onclick="clicked(this)" src="../../mark/markblack2.png">
 			</div>
 
 		</div>
@@ -36,7 +45,7 @@
 			<div id="con_img">
 				<img alt="place3" onclick="location.href='land_con.jsp'"
 					src="http://localhost:9090/contents/kyushu/food/img/kyushu_food3.png">
-				<div id="con_name">멘타이코</div><img id="book" src="../../mark/markblack.png">
+				<div id="con_name">멘타이코</div><input type="image" class="mark_button" onclick="clicked(this)" src="../../mark/markblack2.png">
 			</div>
 		</div>
 
@@ -44,7 +53,7 @@
 			<div id="con_img">
 				<img alt="place4" onclick="location.href='food_con.jsp'"
 					src="http://localhost:9090/contents/kyushu/food/img/kyushu_food4.PNG">
-				<div id="con_name">야와타 교자</div><img id="book" src="../../mark/markblack.png">
+				<div id="con_name">야와타 교자</div><input type="image" class="mark_button" onclick="clicked(this)" src="../../mark/markblack2.png">
 			</div>
 		</div>
 
@@ -52,7 +61,7 @@
 			<div id="con_img">
 				<img alt="place5" onclick="location.href='food_con.jsp'"
 					src="http://localhost:9090/contents/kyushu/food/img/kyushu_food5.jpg">
-				<div id="con_name">야키토리</div><img id="book" src="../../mark/markblack.png">
+				<div id="con_name">야키토리</div><input type="image" class="mark_button" onclick="clicked(this)" src="../../mark/markblack2.png">
 			</div>
 		</div>
 
@@ -60,7 +69,7 @@
 			<div id="con_img">
 				<img alt="place6" onclick="location.href='food_con.jsp'"
 					src="http://localhost:9090/contents/kyushu/food/img/kyushu_food6.jpg">
-				<div id="con_name">우나기동</div><img id="book" src="../../mark/markblack.png">
+				<div id="con_name">우나기동</div><input type="image" class="mark_button" onclick="clicked(this)" src="../../mark/markblack2.png">
 			</div>
 
 		</div>
@@ -68,7 +77,7 @@
 			<div id="con_img">
 				<img alt="place7" onclick="location.href='food_con.jsp'"
 					src="http://localhost:9090/contents/kyushu/food/img/kyushu_food7.PNG">
-				<div id="con_name">우메가에모치</div><img id="book" src="../../mark/markblack.png">
+				<div id="con_name">우메가에모치</div><input type="image" class="mark_button" onclick="clicked(this)" src="../../mark/markblack2.png">
 			</div>
 		</div>
 
@@ -76,14 +85,14 @@
 			<div id="con_img">
 				<img alt="place8" onclick="location.href='food_con.jsp'"
 					src="http://localhost:9090/contents/kyushu/food/img/kyushu_food8.PNG">
-				<div id="con_name">하카타 와규</div><img id="book" src="../../mark/markblack.png">
+				<div id="con_name">하카타 와규</div><input type="image" class="mark_button" onclick="clicked(this)" src="../../mark/markblack2.png">
 			</div>
 		</div>
 		<div id="con_box08" class="con_box">
             <div id="con_img">
                 <img alt="place9" onclick="location.href='food_con.jsp'"
                     src="http://localhost:9090/contents/kyushu/food/img/kyushu_food9.jpg">
-                <div id="con_name">부젠 게</div><img id="book" src="../../mark/markblack.png">
+                <div id="con_name">부젠 게</div><input type="image" class="mark_button" onclick="clicked(this)" src="../../mark/markblack2.png">
             </div>
         </div>
 	</div>
