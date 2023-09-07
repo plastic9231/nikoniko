@@ -5,7 +5,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>공지사항 내용</title>
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/comminfocontent.css">
     <link rel="stylesheet" href="../css/footer.css">

@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>공지사항 글 삭제</title>
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/comminfodeleteForm.css">
     <link rel="stylesheet" href="../css/footer.css">

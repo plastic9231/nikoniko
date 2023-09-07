@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title>문의 게시판</title>
    <link rel="stylesheet" href="../css/header.css">
    <link rel="stylesheet" href="../css/commask.css">
    <link rel="stylesheet" href="../css/footer.css">
