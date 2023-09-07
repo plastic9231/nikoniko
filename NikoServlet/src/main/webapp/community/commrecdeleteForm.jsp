@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>추천 게시판 글 삭제</title>
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/commrecdeleteForm.css">
     <link rel="stylesheet" href="../css/footer.css">
@@ -24,7 +24,7 @@ function deleteSave() {
 
 	<main>
 		<div align="center">
-		<b>문의 글 삭제</b>
+		<b>추천 글 삭제</b>
 		<br><br>
 		<form action="/community/commrecdeletePro.ndo?pageNum=${pageNum}" method="post" name="delForm" onsubmit="return deleteSave()">
 			<table border="1" align="center" cellpadding="0" cellspacing="0" width="360" class="commrecdelete">

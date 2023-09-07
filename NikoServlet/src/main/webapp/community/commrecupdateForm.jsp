@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>추천 게시판 글 수정</title>
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/commrecupdateForm.css">
     <link rel="stylesheet" href="../css/footer.css">

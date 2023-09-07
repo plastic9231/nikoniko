@@ -13,7 +13,7 @@
 <!-- <script type="text/javascript" src="script.js"></script> -->
 
 </head>
-<body>
+<body onresize="parent.resizeTo(700,600)" onload="parent.resizeTo(700,600)">
 
 	<div class="box1">
 		

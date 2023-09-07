@@ -6,7 +6,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>추천 게시판 내용</title>
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/commreccontent.css">
     <link rel="stylesheet" href="../css/footer.css">
@@ -140,7 +140,6 @@
                     <td>댓글 내용</td>
                     <td>${comment.content}</td>
                     <td>
-                        <button class="commrec-comment-btn edit">댓글 수정</button>
                         <button class="commrec-comment-btn delete" onclick="openDeleteModal(${comment.commentId}, ${comment.postNum}, ${pageNum})">댓글 삭제</button>
                     </td>
                 </tr>

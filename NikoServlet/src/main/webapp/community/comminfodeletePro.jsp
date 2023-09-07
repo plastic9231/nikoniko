@@ -10,7 +10,7 @@
 <html>
 <head>
 
-<title></title>
+<title>공시사항 글 삭제 비밀번호 틀림</title>
 </head>
 <body>
 <c:if test="${check==0}">

@@ -53,7 +53,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>문의 게시판 글 삭제</title>
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/commaskdeleteForm.css">
     <link rel="stylesheet" href="../css/footer.css">

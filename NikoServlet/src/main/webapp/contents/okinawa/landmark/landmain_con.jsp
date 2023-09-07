@@ -7,6 +7,15 @@
 <title></title>
 <link rel="stylesheet" href="../../../css/content.css">
 <link rel="stylesheet" href="../../../css/content_main.css">
+<script>
+	function clicked(what) {
+	    if (what.src.endsWith('markblack2.png')) {
+	        what.src = '../../mark/markblack.png';
+	    } else {
+	        what.src = '../../mark/markblack2.png';
+	    }
+	}
+</script>
 </head>
 <body>
 	<div id="main_box">
@@ -20,7 +29,7 @@
 			<div id="con_img">
 				<img alt="place1" onclick="location.href='land_con.jsp'"
 					src="http://localhost:9090/contents/okinawa/landmark/img/okinawa_land1.PNG">
-				<div id="con_name">추라우미 수족관</div><img id="book" src="../../mark/markblack.png">
+				<div id="con_name">추라우미 수족관</div><input type="image" class="mark_button" onclick="clicked(this)" src="../../mark/markblack2.png">
 			</div>
 		</div>
 
@@ -28,7 +37,7 @@
 			<div id="con_img">
 				<img alt="place2" onclick="location.href='land_con.jsp'"
 					src="http://localhost:9090/contents/okinawa/landmark/img/okinawa_land2.PNG">
-				<div id="con_name">슈리성</div><img id="book" src="../../mark/markblack.png">
+				<div id="con_name">슈리성</div><input type="image" class="mark_button" onclick="clicked(this)" src="../../mark/markblack2.png">
 			</div>
 
 		</div>
@@ -36,7 +45,7 @@
 			<div id="con_img">
 				<img alt="place3" onclick="location.href='land_con.jsp'"
 					src="http://localhost:9090/contents/okinawa/landmark/img/okinawa_land3.PNG">
-				<div id="con_name">나고 파인애플 파크</div><img id="book" src="../../mark/markblack.png">
+				<div id="con_name">나고 파인애플 파크</div><input type="image" class="mark_button" onclick="clicked(this)" src="../../mark/markblack2.png">
 			</div>
 		</div>
 
@@ -44,7 +53,7 @@
 			<div id="con_img">
 				<img alt="place4" onclick="location.href='land_con.jsp'"
 					src="http://localhost:9090/contents/okinawa/landmark/img/okinawa_land4.PNG">
-				<div id="con_name">푸른동굴</div><img id="book" src="../../mark/markblack.png">
+				<div id="con_name">푸른동굴</div><input type="image" class="mark_button" onclick="clicked(this)" src="../../mark/markblack2.png">
 			</div>
 		</div>
 
@@ -52,7 +61,7 @@
 			<div id="con_img">
 				<img alt="place5" onclick="location.href='land_con.jsp'"
 					src="http://localhost:9090/contents/okinawa/landmark/img/okinawa_land5.PNG">
-				<div id="con_name">국제거리</div><img id="book" src="../../mark/markblack.png">
+				<div id="con_name">국제거리</div><input type="image" class="mark_button" onclick="clicked(this)" src="../../mark/markblack2.png">
 			</div>
 		</div>
 
@@ -60,7 +69,7 @@
 			<div id="con_img">
 				<img alt="place6" onclick="location.href='land_con.jsp'"
 					src="http://localhost:9090/contents/okinawa/landmark/img/okinawa_land6.PNG">
-				<div id="con_name">아메리칸 빌리지</div><img id="book" src="../../mark/markblack.png">
+				<div id="con_name">아메리칸 빌리지</div><input type="image" class="mark_button" onclick="clicked(this)" src="../../mark/markblack2.png">
 			</div>
 		</div>
 	</div>
