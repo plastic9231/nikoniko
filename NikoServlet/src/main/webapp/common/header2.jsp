@@ -42,7 +42,7 @@
                         </div>
 
                         <div class="region">
-                            <h4>긴토</h4>  
+                            <h4>간토</h4>  
                             <ul>
                                 <li><a href="http://localhost:9090/contents/kanto/landmark/landmain.jsp">명소</a></li>
                                 <li><a href="http://localhost:9090/contents/kanto/festival/fesmain.jsp">축제</a></li>
@@ -123,7 +123,7 @@
                        <li><a href="http://localhost:9090/traveltip/traffic/subway.jsp">대중 교통</a></li>
                        <li><a href="#">환율 정보</a></li>
                        <li><a href="#">지역 쿠폰</a></li>
-                       <li><a href="http://localhost:9090/traveltip/conversation/conv_checkin.jsp">여행 필수회화</a></li>
+                       <li><a href="http://localhost:9090/traveltip/conversation/conv_checkin.jsp">여행 회화</a></li>
                     </ul>
 
                 </div>
