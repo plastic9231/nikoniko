@@ -82,7 +82,7 @@
 		</div>
 		
 		<div class="RecommForm">
-			<div class="rec1">선호하는 여행 스타일 (중복가능)</div>
+			<div class="rec1">선호하는 여행 스타일</div>
 			<div class="rec2">
 				<div class="recbox">
 					<input type="checkbox" name="tag" value="r"> 휴양
